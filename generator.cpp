@@ -161,19 +161,19 @@ std::map<std::string, std::string> loadYamlTranslations(const fs::path &yamlPath
 }
 
 // ==========================================================
-// Step 1: If file is NOT Markdown → copy directly to dist
+// Step 1: If file is NOT Markdown → copy directly to public
 // ==========================================================
-void copyFileToDist(const fs::path &srcFile, const fs::path &distFile) {
-    std::cout << "[LOG] Copying file: " << srcFile << " to " << distFile << std::endl;
-    fs::create_directories(distFile.parent_path());
-    fs::copy_file(srcFile, distFile, fs::copy_options::overwrite_existing);
+void copyFileTopublic(const fs::path &srcFile, const fs::path &publicFile) {
+    std::cout << "[LOG] Copying file: " << srcFile << " to " << publicFile << std::endl;
+    fs::create_directories(publicFile.parent_path());
+    fs::copy_file(srcFile, publicFile, fs::copy_options::overwrite_existing);
     std::cout << "[LOG] File copied." << std::endl;
 }
 
 // ==========================================================
 // Step 2: If file IS Markdown → process as described
 // ==========================================================
-void processMarkdownFile(const fs::path &mdPath, const fs::path &srcRoot, const fs::path &distRoot) {
+void processMarkdownFile(const fs::path &mdPath, const fs::path &srcRoot, const fs::path &publicRoot) {
     // --- Read source Markdown file ---
     std::cout << "[LOG] Processing Markdown file: " << mdPath << std::endl;
     std::ifstream inFile(mdPath);
@@ -185,7 +185,7 @@ void processMarkdownFile(const fs::path &mdPath, const fs::path &srcRoot, const 
     buffer << inFile.rdbuf();
     std::string mdContent = buffer.str();
 
-    // Get relative path from src to maintain folder structure in dist
+    // Get relative path from src to maintain folder structure in public
     fs::path relPath = fs::relative(mdPath, srcRoot);
 
     // --- (1) Create default English HTML ---
@@ -194,13 +194,13 @@ void processMarkdownFile(const fs::path &mdPath, const fs::path &srcRoot, const 
     englishContent = std::regex_replace(englishContent, std::regex(R"(\"\}\})"), "");
     std::string html_en = compileMarkdownToHtml(englishContent);
 
-    // Save as original_name_en.html in dist (same relative location as src)
-    fs::path distEnPath = distRoot / relPath.parent_path() / (mdPath.stem().string() + "_en.html");
-    fs::create_directories(distEnPath.parent_path());
-    std::ofstream outEn(distEnPath);
+    // Save as original_name_en.html in public (same relative location as src)
+    fs::path publicEnPath = publicRoot / relPath.parent_path() / (mdPath.stem().string() + "_en.html");
+    fs::create_directories(publicEnPath.parent_path());
+    std::ofstream outEn(publicEnPath);
     outEn << html_en;
     outEn.close();
-    std::cout << "[LOG] Saved English HTML: " << distEnPath << std::endl;
+    std::cout << "[LOG] Saved English HTML: " << publicEnPath << std::endl;
 
     // --- (2) Go up and find "i18n" folder ---
     fs::path i18nFolder = mdPath.parent_path() / "i18n";
@@ -230,12 +230,12 @@ void processMarkdownFile(const fs::path &mdPath, const fs::path &srcRoot, const 
                 std::string html_lang = compileMarkdownToHtml(replaced);
 
                 // Save as original_name_langcode.html
-                fs::path distLangPath = distRoot / relPath.parent_path() / (mdPath.stem().string() + "_" + langCode + ".html");
-                fs::create_directories(distLangPath.parent_path());
-                std::ofstream outLang(distLangPath);
+                fs::path publicLangPath = publicRoot / relPath.parent_path() / (mdPath.stem().string() + "_" + langCode + ".html");
+                fs::create_directories(publicLangPath.parent_path());
+                std::ofstream outLang(publicLangPath);
                 outLang << html_lang;
                 outLang.close();
-                std::cout << "[LOG] Saved translated HTML: " << distLangPath << std::endl;
+                std::cout << "[LOG] Saved translated HTML: " << publicLangPath << std::endl;
             }
         }
     }
@@ -244,16 +244,16 @@ void processMarkdownFile(const fs::path &mdPath, const fs::path &srcRoot, const 
 // ==========================================================
 // Recursive: Walk through src folder and process all files
 // ==========================================================
-void processSrcFolder(const fs::path &srcRoot, const fs::path &distRoot) {
+void processSrcFolder(const fs::path &srcRoot, const fs::path &publicRoot) {
     std::cout << "[LOG] Starting to process src folder: " << srcRoot << std::endl;
     for (auto &entry : fs::recursive_directory_iterator(srcRoot)) {
         if (entry.is_regular_file()) {
             fs::path relPath = fs::relative(entry.path(), srcRoot);
-            fs::path distPath = distRoot / relPath;
+            fs::path publicPath = publicRoot / relPath;
             if (entry.path().extension() == ".md") {
-                processMarkdownFile(entry.path(), srcRoot, distRoot);
+                processMarkdownFile(entry.path(), srcRoot, publicRoot);
             } else {
-                copyFileToDist(entry.path(), distPath);
+                copyFileTopublic(entry.path(), publicPath);
             }
         }
     }
@@ -267,14 +267,14 @@ int main() {
     std::cout << "[LOG] Site generator started." << std::endl;
     fs::path site_root = fs::current_path(); // You can set absolute path here if needed
     fs::path srcDir = site_root / "src";
-    fs::path distDir = site_root / "dist";
+    fs::path publicDir = site_root / "public";
 
     if (!fs::exists(srcDir)) {
         std::cerr << "[ERROR] src directory not found." << std::endl;
         return 1;
     }
 
-    processSrcFolder(srcDir, distDir);
+    processSrcFolder(srcDir, publicDir);
 
     std::cout << "[LOG] Site generation complete." << std::endl;
     return 0;
