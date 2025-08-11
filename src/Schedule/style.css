@@ -1,0 +1,24 @@
+/* Base polish */
+body { -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+button { transition: background-color .15s ease, color .15s ease, border-color .15s ease; }
+
+/* Calendar container */
+#calendar { box-shadow: 0 1px 2px rgba(0,0,0,.04); }
+
+/* Timeline visuals */
+.timeline { border-left: 2px solid #e5e7eb; padding-left: 1rem; }
+.timeline-slot { position: relative; margin-bottom: .75rem; padding-left: 2.25rem; cursor: pointer; }
+.timeline-slot::before { content: attr(data-time); position: absolute; left: -2.75rem; top: 0; font-size: .8rem; color: #6b7280; }
+.task { background: #e0f7fa; border-left: 4px solid #06b6d4; padding: .5rem .75rem; border-radius: .5rem; }
+.task.completed { background: #dcfce7; border-left-color: #22c55e; text-decoration: line-through; }
+
+/* Table */
+#task-table tr:hover { background: #f8fafc; }
+#task-table td, #task-table th { border-bottom: 1px solid #e5e7eb; }
+
+/* Form */
+input[type="text"], input[type="datetime-local"], textarea { outline: none; }
+input[type="text"]:focus, input[type="datetime-local"]:focus, textarea:focus {
+  box-shadow: 0 0 0 3px rgba(59,130,246,.15);
+  border-color: #93c5fd !important;
+}

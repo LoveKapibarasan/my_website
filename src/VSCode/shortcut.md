@@ -3,7 +3,7 @@
 * `Ctrl` + `\``
 
 ### {{"Tags"}}
-* {{"Select"}} &rArr; {{"Enter like"}} `"` or `{`, `(`.
+* {{"Select"}} &rArr; `Shift` && {{"Enter like"}} `"` or `{`, `(`.
 
 ### {{"Select"}}
 

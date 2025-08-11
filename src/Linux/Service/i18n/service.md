@@ -28,7 +28,7 @@
 ### 2. [Service] — {{"How the service runs"}}
 
 * `Type` 
-    * `simple` - Default
+    * `simple` - {{"default"}}
 
 * `ExecStart`= — {{"Command to start"}}
 
@@ -38,14 +38,32 @@
 
 * `Restart`= — {{"Restart policy"}}
     * `always` - 
-    * 
+    * `on-failure` if exit code is not `0`
+    * `on-abnormal` when process is killed.
 * `RestartSec`= — {{"Delay before restart"}}
 
 * `User= / Group`= — {{"Run as specific user/group"}}
+    * `root` - {{"default"}}
+    * `group` - {{"root"}}
 
 * `WorkingDirectory`= — {{"Directory for execution"}}
 
 * `Environment`= — {{"Set environment variables"}}
+
+### 3. [Install] - {{"How the unit should be enabled"}}
+
+* `WantedBy=` {{"List of targets this unit should be started with. "}}
+    * `multi-user.target` - {{"reached after the system is up and ready for logins"}}
+
+## {{"Basic Commands"}}
+
+* {{"Start"}} - `sudo systemctl start <service_name>`
+* {{"creates symlinks according to your [Install] section"}} - `sudo systemctl enable <service_name>`
+
+* {{"Stop"}} - {{"sudo systemctl stop <service_name>"}}
+* {{"Disable"}} - `sudo systemctl disable <service_name>`
+
+* {{"Realtime Log"}} - `journalctl -u <service_name> -f`
 
 ## {{"Notes"}}
 
