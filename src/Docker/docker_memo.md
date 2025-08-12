@@ -2,7 +2,7 @@
 
 * Docker is a platform that lets you package applications and their dependencies into lightweight, portable **containers** so they can run consistently across different environments. It simplifies development, testing, and deployment by isolating software from the host system.
 
-* `-it`   “run this command inside the container interactively as if I were in a terminal”.
+
 * `-E`  “Extended Regular Expressions” 
 
 
@@ -23,12 +23,13 @@
     
     * `-f` = real time log
 
-
+### `docker compose rm -f <container_name>`
+    * `-f` = force
 
 ### `docker exec`
 
     * Run commands inside a container.
-
+    * `-it`   {{"“run this command inside the container interactively as if I were in a terminal”."}}
 #### Stop commands
 
 * `docker stop $(docker ps -q)`

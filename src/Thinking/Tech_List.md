@@ -6,6 +6,7 @@
     * Search
         * GPT
         * Chrome
+        * Books, Paper 
     * Procedure
         * Uni
         * Home

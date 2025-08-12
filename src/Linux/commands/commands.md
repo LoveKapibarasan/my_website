@@ -24,4 +24,5 @@
 
 * `grep [OPTIONS] PATTERN [FILE...]`
     * {{"for finding text patterns in output or files."}}
+    
 * `find /path/to/search -exec grep -l "search_text" {} +`
