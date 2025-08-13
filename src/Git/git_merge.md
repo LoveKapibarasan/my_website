@@ -4,7 +4,15 @@
 ```bash
 git merge main
 ```
-
+```bash
+git rebase
+```
+```bash
+git pull
+```
+```bash
+git fetch
+```
 ## Check which files are unmerged
 ```
 git status

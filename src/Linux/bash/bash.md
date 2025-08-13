@@ -1,3 +1,5 @@
+bash = Bourne-Again Shell <--bone again
+
 ## {{"Syntax"}}
 
 ### {{"header"}}
