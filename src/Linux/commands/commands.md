@@ -24,5 +24,18 @@
 
 * `grep [OPTIONS] PATTERN [FILE...]`
     * {{"for finding text patterns in output or files."}}
-    
+    * `a | grep` -- pass output of a to grep.
+    * `-i` -- does not care capital or non-capital letter.
+
 * `find /path/to/search -exec grep -l "search_text" {} +`
+
+
+* Package
+```bash
+sudo apt update
+sudo apt install p_name
+sudo apt purge p_name
+sudo apt autoremove
+```
+
+* dmesg -- kernel message

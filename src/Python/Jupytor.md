@@ -1,0 +1,3 @@
+```bash
+jupytor notebook
+```
