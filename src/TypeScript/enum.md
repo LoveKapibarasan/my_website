@@ -1,0 +1,6 @@
+
+```ts
+export? enum EnumName {
+  ...
+}
+```

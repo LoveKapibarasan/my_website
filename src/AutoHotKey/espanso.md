@@ -1,8 +1,16 @@
 ## Espanso(snap)
+```bash
+~/.config/espanso/match/match_custom.yml
+```
 
-(`mkdir -p ~/.config/espanso`)
-`~/.config/espanso/match.yml`
-
+```txt
+~/.config/espanso/
+├── config.yml        # Main settings
+├── match             # Trigger → replacement definitions
+│   ├── base.yml
+│   └── my_custom.yml
+└── scripts           # For dynamic/script expansions (optional)
+```
 
 ```yaml
 matches:
@@ -13,4 +21,11 @@ matches:
 ```bash
 espanso service register
 espanso start
+espanso path # Path check
+```
+
+### Default
+
+```txt
+:date
 ```

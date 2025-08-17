@@ -12,6 +12,21 @@ sudo raspi-config
 
 ### Notes
 
+* Chronium does not support Japanese input.
+
+* Use fcitx for Japanese input.
+
+* No suspend exist.
+
+* Use USB that consists of 4 lines for display.
+
+* RasberryPi do not have ear phone jack.
+
+* http access for internet connection.
+
+* raspi - config
+    * System Options → S5 Boot / Auto Login
+
 #### Dangerous
 
 * "Exposing it to static electricity" 
