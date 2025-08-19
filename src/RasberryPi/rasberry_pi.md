@@ -10,6 +10,8 @@ sudo raspi-config
 
 * Should be in the same network.
 
+* mozc `Ctrl`+ `<Space>`
+
 ### Notes
 
 * Chronium does not support Japanese input.
