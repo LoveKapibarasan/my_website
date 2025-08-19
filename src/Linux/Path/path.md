@@ -3,5 +3,6 @@
 
 * It can be written as an **absolute** path (full location, e.g.,`C:\Users\Name\Documents\file.txt`) or a **relative** path (location relative to the current working directory).
 
-`..` = go up
-`\*`  = all
+* `.` = current dir
+* `..` = go up
+* `*`  = all

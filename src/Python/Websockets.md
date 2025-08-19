@@ -1,3 +1,19 @@
+
+# async
+```python
+import asyncio
+
+async def main():
+    print("Hello")
+    await asyncio.sleep(1)  # wait a second
+    print("World")
+
+asyncio.run(main())
+
+```
+
+
+
 | Method / Property                             | Type             | Description                                                            |
 | --------------------------------------------- | ---------------- | ---------------------------------------------------------------------- |
 | `await websocket.recv()`                      | coroutine        | Receive the next message (returns `str` for text, `bytes` for binary). |
@@ -15,3 +31,27 @@
 | `await websocket.wait_closed()`               | coroutine        | Wait until the connection is fully closed.                             |
 | `websocket.close_code`                        | property (int)   | Close code received from the peer.                                     |
 | `websocket.close_reason`                      | property (str)   | Close reason text received from the peer.                              |
+
+```python
+websockets.connect(
+    uri,
+    *,
+    create_protocol=None,
+    timeout=10,
+    max_size=2**20,
+    max_queue=32,
+    read_limit=2**16,
+    write_limit=2**16,
+    loop=None,
+    legacy_recv=False,
+    compression="deflate",
+    origin=None,
+    extensions=None,
+    subprotocols=None,
+    extra_headers=None,
+    user_agent=None,
+    ping_interval=20,
+    ping_timeout=20,
+    close_timeout=10
+)
+```

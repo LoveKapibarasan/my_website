@@ -13,7 +13,7 @@ git config --global.pull.rebase false
 
 ```bash
 git pull origin main
-# --no-rebase
+# Default: `--no-rebase` <-> `-rebase`
 git config --global.pull.rebase true
 ```
 
@@ -29,3 +29,5 @@ git status
 ```
 
 * Merge conflict
+If changes overlap on the same lines, Git can’t choose automatically → it marks a merge conflict, and you have to resolve it manually.
+Else changes are saved.

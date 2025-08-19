@@ -7,6 +7,13 @@
 ヘビ（Python）は偶然にも同じ単語ですが、命名の直接の理由はコメディ番組です。
 ```
 
+### Script vs. Module
+
+```python
+if __name__ == "__main__":
+```
+
+
 ```python
 assert condition,b
 ```
@@ -18,15 +25,4 @@ if len(sys.argv) < 3:
 ```
 
 
-# async
-```python
-import asyncio
 
-async def main():
-    print("Hello")
-    await asyncio.sleep(1)  # wait a second
-    print("World")
-
-asyncio.run(main())
-
-```

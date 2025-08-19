@@ -21,9 +21,11 @@
 
 * 1 / 1 week -- Cleaning, Washing (Saturday)
 
-* 1 / 1 Month -- Knife sharpening, Cleaning
+* 1 / 1 month -- Knife sharpening, Cleaning
 
-* 1 / 1.5 Month -- Hair cut
+* 1 / 1.5 month -- Hair cut
 
-* 2 / Year -- Donation ( Jan and Jul)
+* 1 / 6 months -- 片付け
+
+* 1 / 6 months -- Donation ( Jan and Jul)
 

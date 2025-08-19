@@ -466,3 +466,17 @@ toggle
 umschalten, wechseln
 
 ```
+@
+
+```jp
+御託（ごたく）を並べる
+
+意味：
+聞き手にとってはどうでもよいような理屈や、もっともらしい言い訳・意見などを、長々と並べ立てること。
+```
+```en
+to spout off useless rhetoric
+```
+```de
+leeres Gerede von sich geben
+```

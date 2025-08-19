@@ -1,4 +1,12 @@
+## Dropbox * Git
 
+* Use Dropbox as the storage location for your Git repository, so that you get:
+
+    * Version control via Git history
+
+    * Automatic backup via Dropbox synchronization
+
+— both at once.
 
 
 ```bash
@@ -12,7 +20,8 @@ git push origin main
 ```
 
 
-### Gitignore
 
-* \*
-* \*\*
+
+## 
+* Everythig up to date.
+* non-fast-forward push -> pull or merge

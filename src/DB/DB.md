@@ -1,3 +1,9 @@
+## 
+
+* Foreign Key
+
+* Primary key
+
 ## ORM（Object-Relational Mapping）
 * a mechanism for connecting  object-oriented programming (classes and objects) with  relational databases (tables, rows, and columns) without SQL.
 
