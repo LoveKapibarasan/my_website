@@ -10,6 +10,8 @@ sudo raspi-config
 
 * Should be in the same network.
 
+* mozc `Ctrl`+ `<Space>`
+
 ### Notes
 
 #### Dangerous

@@ -44,6 +44,27 @@ It is too hot.
 Es ist sehr heiß.
 ```
 
+@
+```de
+leisten
+```
 
+``jp
+（成果や仕事を）行う、成し遂げる、果たす；（再帰形で）〜する余裕がある 
+```
 
+@
 
+```de 
+veranstalten
+```jp
+行事・催しを開催する
+
+```
+
+@
+```de
+
+```
+
+```jp
