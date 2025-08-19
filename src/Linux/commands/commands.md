@@ -2,6 +2,7 @@
 * `cd`
 * `rm`
     * `-r` - {{"recursive option for directly"}}
+    * `-f` - {{"force"}}
 * `cat [OPTIONS] [FILE]` - {{"reads files and writes their contents to standard output "}}
     * cat > file - {{"Create a file"}}
     * cat content > file - {{"Overwrite"}}
@@ -26,16 +27,20 @@
     * {{"for finding text patterns in output or files."}}
     * `a | grep` -- pass output of a to grep.
     * `-i` -- does not care capital or non-capital letter.
+    * `-l` -- output only file name not matched line.
 
 * `find /path/to/search -exec grep -l "search_text" {} +`
-
+    * `{}` = place folder for `find`
+    * `-l`
+    * `;` <->`+` -- execute per one or batch file(s)
 
 * Package
 ```bash
 sudo apt update
 sudo apt install p_name
 sudo apt purge p_name
-sudo apt autoremove
+sudo apt autoremove --purge
+apt search p_name
 ```
 
 * dmesg -- kernel message

@@ -4,12 +4,22 @@
 ```bash
 git merge main
 ```
+
+## 乗せる
 ```bash
 git rebase
+git config --global.pull.rebase false
 ```
+
 ```bash
-git pull
+git pull origin main
+# --no-rebase
+git config --global.pull.rebase true
 ```
+
+* `-m` -- merge comment might be also required.
+
+
 ```bash
 git fetch
 ```

@@ -1,7 +1,9 @@
 * Netlify
+* AWS
 * TTS
 * GPT
 * Shogi Wars
-* Chess.com
+* やねうら王支援
 * Deutsch Bahn
+* Kindle
 
