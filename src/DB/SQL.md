@@ -1,4 +1,14 @@
 
+```sql
+SELECT a,b,c
+FROM <table_name>
+WHERE condition;
+```
+
+| Notation | Meaning                                                                      |
+| -------- | ---------------------------------------------------------------------------- |
+| `id`     | Interpreted as an identifier in **all lowercase**.                           |
+| `"id"`   | Treated as a **case-sensitive identifier** — known as a *quoted identifier*. |
 
 
 ## Insert

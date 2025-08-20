@@ -16,6 +16,8 @@ Gnome (default Ubuntu desktop):
 
 * `Ctrl` + `<Space>` to switch.
 
+fcitx -> newer
+
 ```bash
 echo $XMODIFIERS
 echo $GTK_IM_MODULE

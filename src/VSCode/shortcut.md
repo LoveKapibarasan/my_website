@@ -8,12 +8,9 @@
 
 * `Ctrl` + `\``
 
-
 * `Ctrl` + `K` + `Ctrl` + `O` 
 
 * `Ctrl` + `Shift` + `l` or  `Ctrl` + `K` + `Ctrl` + `l` 
-
-
 
 * `Ctrl` + `Alt` + `C` 
 

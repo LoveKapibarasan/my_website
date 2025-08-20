@@ -4,6 +4,11 @@ sender -> RabbitMQ -> Receiever
 
 ```bash
 npm install amqplib
+sudo rabbitmq-server # foreground
+sudo systemctl start rabbitmq-server
+
+sudo systemctl enable rabbitmq-server # systemmd
+
 ```
 ## Producer.ts
 ```ts

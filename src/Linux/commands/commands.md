@@ -22,33 +22,50 @@
 
 * `command_1 && command_2`
 
+* `\` = `\n`
+
+### find
+
 * `find /path/to/search -name "filename"`
     *  Find goes recursively into all child folders by default.
+    * `-type f`
+
+### grep
 
 * `grep [OPTIONS] PATTERN [FILE...]`
     * {{"for finding text patterns in output or files."}}
     * `a | grep` -- pass output of a to grep.
     * `-i` -- does not care capital or non-capital letter.
     * `-I` -- ignore binary files
-    * `-R` -- recursively
+    * `-R` -- recursively(ignore directlies)
     * `-n` -- show line number
     * `-l` -- output only file name, not matched line.
 
 * `find /path/to/search -exec grep -l "search_text" {} +`
     * `{}` = place folder for `find`
     * `;` <->`+` -- execute per one or batch file(s)
-    * `-type f` -- ignore directlies
 
 * \( \) Grouping conditions
 * -o = or \( *.ts -o  * .tsx \) 
 
+*  --:exclude-dir
+```bash
+grep -Rin "word" . \
+    --exclude-dir=dist \
+    --exclude-dir=node_modules
+``` 
+
+## Process
+
+* `sudo lsof -i:<port_number>`
+    * lsof = list open files
 
 * `ps` = process status
     * a = including another user's process.
     * u = detail information like username or memory
     * x = also show daemon
 
-* Package
+### Package
 ```bash
 sudo apt update
 sudo apt install p_name
@@ -59,3 +76,6 @@ apt list --installed
 ```
 
 * dmesg -- kernel message
+
+* recognized strage
+* lsusb -- usb device
