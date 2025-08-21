@@ -72,10 +72,19 @@ sudo apt install p_name
 sudo apt purge p_name
 sudo apt autoremove --purge
 apt search p_name
-apt list --installed
+apt list --installed # packages
+apt-mark showmanual # sudo apt install xxx
 ```
 
 * dmesg -- kernel message
 
 * recognized strage
 * lsusb -- usb device
+
+### PID = process id
+
+```bash
+pkill <name>
+kill <pid>
+killall <name>
+```

@@ -29,3 +29,12 @@ espanso path # Path check
 ```txt
 :date
 ```
+
+### Global Settings
+
+```yaml
+# --- Notifications
+show_notifications: false
+
+```
+

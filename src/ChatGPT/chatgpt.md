@@ -1,5 +1,11 @@
 ### ハルシネーション
 
+### Token
+
+* Canvas, code block, web search
+
+* gmail, google drive api.
+
 ### API
 
 ### Shortcut keys

@@ -1,6 +1,7 @@
-**IP address** = address in a network
+## IP address
+ = address in a network
 
-**TCP** = Transmission Control Protocol
+## TCP = Transmission Control Protocol
 
 * a communication protocol used on the internet to send data reliably between devices.
 * Works together with IP ⇒ “TCP/IP”
@@ -14,3 +15,47 @@
 
 IPv4 is older and still used the most for example in a local network.
 IPv6 is newer and solves the problem of running out of IPv4 addresses.
+
+
+## NetworkManager
+
+* A Linux service/daemon that manages network connections.
+
+* CLI: `nmcli`
+
+* TUI: `nmtui`
+
+* GUI (used in desktop environments like GNOME, KDE)
+
+```bash
+# Show connections
+nmcli connection show
+
+# Connect to a Wi-Fi
+nmcli dev wifi connect MySSID password "secretpass"
+```
+
+
+## 📌 iptables
+
+* A firewall utility in Linux (part of the Netfilter framework).
+
+* Purpose: control packet filtering, NAT, and routing rules.
+
+* Works at the kernel level.
+
+```bash
+# Allow SSH (port 22)
+sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+
+# Block all incoming traffic by default
+sudo iptables -P INPUT DROP
+```
+
+## lighttpd (pronounced lighty) 
+
+* an open-source, lightweight web server. 
+
+## Captive portal authentication
+
+* http access

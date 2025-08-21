@@ -17,6 +17,8 @@
 
 * 1 / 1~2 day -- Shower + Shaving
 
+* 1 / 3 day -- relax
+
 * 1 / 1 day -- Run
 
 * 1 / 1 week -- Cleaning, Washing (Saturday)

@@ -1,9 +1,7 @@
-* Netlify
-* AWS
-* TTS
-* GPT
-* Shogi Wars
-* やねうら王支援
-* Deutsch Bahn
-* Kindle
+* TTS -- 
+* GPT -- 
+* Shogi Wars -- Google Pay
+* やねうら王支援 -- Paypal
+* Deutsch Bahn -- 
+* Kindle -- 
 

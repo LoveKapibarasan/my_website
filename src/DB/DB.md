@@ -4,6 +4,25 @@
 
 * Primary key
 
+
+## Cloud Database
+
+```yaml
+host: mydb.abc123xyz.us-east-1.rds.amazonaws.com
+port: port_number
+user: admin
+password: xxxxx
+database: name
+```
+#### Instance ＝ A server that the cloud automatically provides for you
+
+* When you specify things like CPU, memory, and disk (SSD) performance,
+→ the cloud will provision a virtual machine behind the scenes that fits those specs.
+
+* On that machine, software like PostgreSQL / MySQL / MongoDB is pre-installed and already running.
+
+* You only need to think about “using the database” — you don’t see or manage the OS or the machine itself.
+
 ## ORM（Object-Relational Mapping）
 * a mechanism for connecting  object-oriented programming (classes and objects) with  relational databases (tables, rows, and columns) without SQL.
 

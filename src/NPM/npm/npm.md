@@ -1,4 +1,14 @@
+# npm = node.js package manager
 
+# Basic Flow
+
+```bash
+npm install # install dependencies
+npm run buil # typically build command is defined
+npm run start # 
+```
+
+## Notes
 
 ```bash
 npm run script
@@ -28,17 +38,44 @@ npm run script
 | `license`         | License information for the project                                 |
 
 
+* **"keywords"**
+
+- for searching npm package.
+
 ## Notes
 
 ## 
+**Install**
 * `npm i` = `npm install`
   * Install all dependencies and create `node_modules` folder.
+  * --verbose 「冗長な」「しゃべりすぎな」
+```txt
+📁 my-project
+ ┣ 📄 package.json        ← Dependencies
+ ┗ 📁 node_modules/       ← ← after npm install
+ |       @name
 
+```
+
+* `--prefix` = cd  
 
 * `-D` = `--save-dev` = saves it under
 
 * `@` = scope indicator
 > The package belongs to the scope (organization or namespace) e.g.@directus.
 
+* `-g` = global install. `~/.npm-global/lib/node_modules`
+
 ## npx
 * a command that comes with npm (since npm v5.2.0) and is used to run Node.js packages **without installing them globally.**
+
+## nodemon
+
+* {{"If you change your source code (like .js, .ts, .json, etc.),
+nodemon automatically restarts your Node.js process for you — so you don’t need to stop and start it manually every time you make a change."}}
+
+## SSl certification Error
+
+```bash
+npm config set strict-ssl false
+```

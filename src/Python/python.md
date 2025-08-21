@@ -1,4 +1,4 @@
-
+# "Python"
 ```txt
 1990年、オランダのプログラマー Guido van Rossum（グイド・ヴァン・ロッサム） がクリスマス休暇中に趣味で新しいスクリプト言語を作り始めました。
 
@@ -6,6 +6,17 @@
 「Python」という短くて覚えやすい名前にしよう と決めました。
 ヘビ（Python）は偶然にも同じ単語ですが、命名の直接の理由はコメディ番組です。
 ```
+
+## Components
+* Script
+* Module
+* Interpreter
+* venv
+* pip
+* toml
+* requirements
+* piinstaller 
+
 
 ### Script vs. Module
 
