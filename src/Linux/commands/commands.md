@@ -17,6 +17,9 @@
         ```
 * `ls`
 
+* `mv a b`
+    * rename=move
+
 * `mkdir`
     * `-p` - {{"create all necessary parent directories "}}
 
