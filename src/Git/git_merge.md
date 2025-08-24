@@ -31,3 +31,15 @@ git status
 * Merge conflict
 If changes overlap on the same lines, Git can’t choose automatically → it marks a merge conflict, and you have to resolve it manually.
 Else changes are saved.
+
+1. 
+```txt
+<<<
+Now
+===
+to be merged
+>>> branch_name
+```
+2. `git restore --source=HEAD or MERGE_HEAD -- <file>`
+`git add`
+`git commit`
