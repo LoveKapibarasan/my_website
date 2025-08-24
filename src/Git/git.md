@@ -17,6 +17,7 @@ git add . # . = all
 git commit -m "message"
 git push origin main
 # --force overwrite remote history
+git reset # reset command
 ```
 
 
