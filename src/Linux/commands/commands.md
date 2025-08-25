@@ -15,7 +15,6 @@
             line 3
         EOF
         ```
-   * cat ""| # pass string
 * `ls`
 
 * `mv a b`
@@ -91,10 +90,9 @@ apt-mark showmanual # sudo apt install xxx
 * touch <filename> # initially update timestamp(does not overwrite)
 * sudo tee <filename> # with sudo (get input and overwrite)
      * -a = append mode 
-* cat > <filename>
-* vim or nano <filename>
-* echo "" > <filename>
-
+* `cat > <filename>`
+* `vim or nano <filename>`
+* `echo "" > <filename>` # echo = echolocation
 ### PID = process id
 
 ```bash
