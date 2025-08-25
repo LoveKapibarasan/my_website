@@ -5,9 +5,9 @@
     * `-r` - {{"recursive option for directly"}}
     * `-f` - {{"force"}}
 * `cat [OPTIONS] [FILE]` - {{"reads files and writes their contents to standard output "}}
-    * cat > file - {{"Create a file"}}
-    * cat content > file - {{"Overwrite"}}
-    * cat content >> file - {{"Append"}}
+    * cat > file # {{"Create a file"}}
+    * cat content > file # {{"Overwrite"}}
+    * cat content >> file # {{"Append"}}
     *   ```bash
         cat > filename << 'EOF'
             line 1
@@ -26,6 +26,8 @@
 * `command_1 && command_2`
 
 * `\` = `\n`
+
+* a|b = paaa output of a to b
 
 ### find
 
@@ -84,6 +86,13 @@ apt-mark showmanual # sudo apt install xxx
 * recognized strage
 * lsusb -- usb device
 
+### Create a file
+* touch <filename> # initially update timestamp(does not overwrite)
+* sudo tee <filename> # with sudo (get input and overwrite)
+     * -a = append mode 
+* `cat > <filename>`
+* `vim or nano <filename>`
+* `echo "" > <filename>` # echo = echolocation
 ### PID = process id
 
 ```bash
@@ -91,3 +100,4 @@ pkill <name>
 kill <pid>
 killall <name>
 ```
+
