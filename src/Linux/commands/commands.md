@@ -84,6 +84,12 @@ apt-mark showmanual # sudo apt install xxx
 * recognized strage
 * lsusb -- usb device
 
+### Create a file
+* touch <filename>
+* cat > <filename>
+* vim or nano <filename>
+* echo "" > <filename>
+
 ### PID = process id
 
 ```bash
@@ -91,3 +97,4 @@ pkill <name>
 kill <pid>
 killall <name>
 ```
+
