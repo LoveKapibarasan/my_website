@@ -107,7 +107,7 @@ sudo -u postgres psql -c "SHOW log_filename;"
 # Memo
 ```
 postgres=# -- input OK
-postgres-# -- not OK
+postgres-# -- not OK. commonly you forget ;
 ```
 
 **ERROR: Unknown constraint error**
