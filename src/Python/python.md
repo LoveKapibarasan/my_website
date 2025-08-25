@@ -8,6 +8,9 @@
 ```
 
 ## Components
+* Interactive Mode -- execute per line
+        * >>
+        * exit
 * Script
 * Module
 * Interpreter
