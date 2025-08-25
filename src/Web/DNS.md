@@ -1,6 +1,10 @@
 ## DNS = Domain Name System 
-* 「人間に分かりやすい名前（google.com）を → IPアドレス（142.250.184.206）に変換する電話帳」
+* Domain → IP address
+
+* DNS must not be specified by system.
+
 * port number 53
+
 
 | Provider       | Purpose / Features                   | Primary        | Secondary       |
 | -------------- | ------------------------------------ | -------------- | --------------- |

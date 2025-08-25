@@ -1,7 +1,7 @@
-Ctrl + Shift + C
-Inspect
-    Cache clear
-Ctrl + Shift + R
+* Ctrl + Shift + C
+* Ctrl + Shift + Del
+    * Cache clear
+* Ctrl + Shift + R
 
 
 # at the end
