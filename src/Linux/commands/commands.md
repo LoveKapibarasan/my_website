@@ -16,6 +16,16 @@
         EOF
         ```
 * `ls`
+    * -a = all
+    * -l = in long format(including permision, size..)
+
+* `tr -dc 'A-Za-z0-9!@#$%^&()_+=-'
+tranlate or delete
+    * -d = delete
+    * -c = complement
+
+* /dev/null
+    * null location.
 
 * `mv a b`
     * rename=move
