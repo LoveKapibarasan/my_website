@@ -11,6 +11,11 @@ npm run start #
 ## Notes
 
 ```bash
+npm init -y # Auto setup
+```
+
+
+```bash
 npm run script
 ```
 
