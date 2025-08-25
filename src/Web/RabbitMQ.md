@@ -33,8 +33,13 @@ NODE_IP_ADDRESS=0.0.0.0
 ```bash
 sudo rabbitmqctl add_user <username> <password>
 sudo rabbitmqctl set_user_tags <username> administrator 
+rabbitmqctl add_vhost <vhost_name> # default /
+rabbitmqctl list_vhosts
+rabbitmqctl delete_vhost <vhost_name>
+rabbitmqctl set_permissions -p <vhost_name> <username> ".*" ".*" ".*"
 ```
 
+* vhost \sim venv in python
 
 * **rabbitmq_management** -- web UI.(Typically on port 15672)
 
