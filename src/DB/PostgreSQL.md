@@ -58,7 +58,7 @@ ALTER DATABASE <old_user> OWNER TO <new_user>;
 
 ## Comments
 
-* `--` -- psql/SQL
+* `--` -- psql/SQL comments
 
 
 ## Connection
@@ -109,7 +109,9 @@ sudo -u postgres psql -c "SHOW log_filename;"
 postgres=# -- input OK
 postgres-# -- not OK. commonly you forget ;
 ```
-
+* ' vs. "
+  * " = Identifier. Capital and Non-Capital letters are distinguished. 
+  * ' =  String Literals
 **ERROR: Unknown constraint error**
 * FK is created before the referencing table is created.
 
