@@ -39,6 +39,8 @@ tranlate or delete
 
 * a|b = paaa output of a to b
 
+* `which`
+
 ### find
 
 * `find /path/to/search -name "filename"`
