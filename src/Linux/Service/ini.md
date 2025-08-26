@@ -2,7 +2,7 @@
 
 ## 1. Overview
 
-The INI file format is a simple, human-readable configuration format consisting of **sections**, **keys**, and **values**. It is widely used for application settings, especially in Windows and Linux environments.
+The INI file format is a simple, human-readable configuration format consisting of **sections**, **keys**, and **values**. It is widely used for application settings(e.g. `.config`, `.service`), especially in Windows and Linux environments.
 
 ---
 

@@ -2,7 +2,8 @@ bash = Bourne-Again Shell <--bone again
 
 ## Give a permission
 ```bash
-chmod +x .sh
+chmod +x name.sh
+./name.sh # ./= current dir
 ```
 ## {{"Syntax"}}
 

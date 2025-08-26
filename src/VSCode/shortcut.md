@@ -1,3 +1,12 @@
+## Basic
+
+* package name = code
+
+```bash
+code path
+```
+
+
 * Auto save
 * Color Thema
 * Vim extension
@@ -13,6 +22,8 @@
 * `Ctrl` + `Shift` + `l` or  `Ctrl` + `K` + `Ctrl` + `l` 
 
 * `Ctrl` + `Alt` + `C` 
+
+* `Ctrl` + `Tab` or `Alt` + `number`
 
 ### {{"Tags"}}
 * {{"Select"}} &rArr; `Shift` && {{"Enter like"}} `"` or `{`, `(`.
