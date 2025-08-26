@@ -39,7 +39,11 @@ tranlate or delete
 
 * a|b = paaa output of a to b
 
+
 * `which`
+
+* $( command ) = command substitution = output of command
+
 
 ### find
 
