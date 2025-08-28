@@ -21,7 +21,15 @@ git reset # reset command
 ```
 
 
+## Branch
+* A branch in Git is basically a pointer to a commit.
+* Default branch = main or master.
 
+## Commit
+
+* A snapshot of your project at a given moment.
+
+## 1,2,3-way merge
 
 ## 
 * Everythig up to date.

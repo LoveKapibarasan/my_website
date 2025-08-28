@@ -44,6 +44,7 @@ tranlate or delete
 
 * $( command ) = command substitution = output of command
 
+* `&` = backgroung
 
 ### find
 

@@ -6,6 +6,7 @@
 ## Basic Flow
 ```bash
 npm install -g directus
+npx directus init # Automatically create .env
 npx directus start # global install = directus start
 ```
 * And enter database information and admin e-mail address and password.

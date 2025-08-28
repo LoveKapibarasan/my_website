@@ -2,7 +2,4 @@
 
 * Separate keys for each device.
 
-```bash
-git remote set-url origin <URL>
-```
 `

@@ -14,3 +14,9 @@ pacman <operation> [option] [target]
 #-n=purge
 #-s=recursive(dependencies)
 ```
+
+### AUR (Arch User Repository)
+* Non offitial repo to install.
+
+#### `yay, peru`
+* helper to install from AUR. 
