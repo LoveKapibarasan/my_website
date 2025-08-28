@@ -12,7 +12,7 @@
 listners.tcp.default = 5672
 
 management.tcp.port = 15672
-
+# http://localhost:15672
 # disable default user
 loopback_users.guest = false
 ```
@@ -25,8 +25,12 @@ loopback_users.guest = false
 NODENAME=rabbit@<hostname>
 # Wait for all ip address (127.0.0.1 only for local host)
 NODE_IP_ADDRESS=0.0.0.0 
-
 ```
+
+Logs: /var/log/rabbitmq/
+
+> **No systemmd log file**
+
 
 ## Create a user
 
@@ -42,6 +46,11 @@ rabbitmqctl set_permissions -p <vhost_name> <username> ".*" ".*" ".*"
 * vhost \sim venv in python
 
 * **rabbitmq_management** -- web UI.(Typically on port 15672)
+
+
+### frame
+
+frame is the lowest-level unit of communication that flows over a connection between a client and the broker.
 
 ### Erlang
 

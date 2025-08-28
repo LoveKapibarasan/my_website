@@ -2,27 +2,39 @@
 
 * Take the commits from the branch main and integrate them into your current branch.
 ```bash
-git merge main
+git merge <main>
 ```
+> commit -> merge 
 
-## 乗せる
+### Rebase
+
+* linear
 ```bash
 git rebase
 git config --global.pull.rebase false
 ```
 
+
+### pull = fetch + merge
+
 ```bash
-git pull origin main
-# Default: `--no-rebase` <-> `-rebase`
+git pull <origin> <main>
+```
+Default: `--no-rebase` <-> `-rebase`
+```
 git config --global.pull.rebase true
 ```
 
 * `-m` -- merge comment might be also required.
 
+### fetch
 
 ```bash
-git fetch
+git fetch <origin> <main> 
+git fetch <origin> # all branch
 ```
+* Default: default remote(origin) and main or master.
+
 ## Check which files are unmerged
 ```
 git status
@@ -35,9 +47,9 @@ Else changes are saved.
 1. 
 ```txt
 <<<
-Now
+<Now>
 ===
-to be merged
+<to be merged>
 >>> branch_name
 ```
 2. `git restore --source=HEAD or MERGE_HEAD -- <file>`

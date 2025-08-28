@@ -8,3 +8,20 @@
 * `.` = current dir
 * `..` = go up
 * `*`  = all
+* `**` =  ignore intermediate dirs.
+
+### `PATH`
+```bash
+echo $PATH
+/home/user/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
+# separator is :
+```
+
+Without PATH,
+```bash
+/usr/bin/python3 script.py
+/usr/bin/git status
+```
+
+
+* /usr/bin/python3 is binary file
