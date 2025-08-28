@@ -15,9 +15,7 @@ npx husky init
 ```
 
 ```bash
-#!/bin/sh
-. "$(dirname -- "$0")/_/husky.sh"
-
+#!/bin/sh 
 # example
 bash ./example/example.sh
 
