@@ -11,3 +11,6 @@ chmod +x name.sh
 
 * `#!/bin/bash`
     * {{"Put the first line."}}
+
+
+* ❌️ `a = b` ⭕️ `a=b`
