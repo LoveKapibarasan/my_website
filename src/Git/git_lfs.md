@@ -14,6 +14,9 @@ git add .gitattributes
 
 # Then add, commit, push
 
+git lfs push --all origin main # if only pointer is pushed.
+
+
 git lfs pull # to pull
 # otherwise pointer file will be cloned.
 
