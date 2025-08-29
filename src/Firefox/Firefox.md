@@ -3,6 +3,8 @@
 
 * Setting: `about:preferences`
 
+* `about:logins`
+
 * Mozilia
     * strong privacy protection.
 
