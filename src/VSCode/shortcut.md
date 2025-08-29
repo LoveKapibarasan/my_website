@@ -27,6 +27,8 @@ code path
 
 * `Ctrl` + `B`
 
+* `Ctrl` + `Shift` + `N`
+
 ### {{"Tags"}}
 * {{"Select"}} &rArr; `Shift` && {{"Enter like"}} `"` or `{`, `(`.
 

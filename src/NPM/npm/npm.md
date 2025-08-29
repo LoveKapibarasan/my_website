@@ -71,6 +71,14 @@ npm run script
 
 * `-g` = global install. `~/.npm-global/lib/node_modules`
 
+## Version
+
+```bash
+npm show <name> version
+npm info <name> # dependencies
+```
+
+
 ## npx
 * a command that comes with npm (since npm v5.2.0) and is used to run Node.js packages **without installing them globally.**
 

@@ -86,6 +86,7 @@ grep -Rin "word" . \
     * a = including another user's process.
     * u = detail information like username or memory
     * x = also show daemon
+ps aux | grep "<process_name>"
 
 ### Package
 ```bash

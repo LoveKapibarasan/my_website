@@ -35,4 +35,8 @@
 * `docker stop $(docker ps -q)`
 * `docker rm -f $(docker ps -aq)`
     * `docker ps -q` → lists only the IDs of all running containers.
-    * `docker stop` ... → stops them, which releases any ports they had bound to the
+    * `docker stop` ... → stops them, which releases any ports they had.
+
+### Health Check
+
+A health check is a command that Docker runs inside a container to test whether the application running inside is still working as expected.
