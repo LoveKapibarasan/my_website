@@ -17,6 +17,5 @@
 read input and assign variable
 `\` = do not escape with `\`
 
-
-
+* `openssl rand -base64 <n>` = random password
 

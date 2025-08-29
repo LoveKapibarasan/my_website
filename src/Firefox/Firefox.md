@@ -20,4 +20,6 @@
 
 * `Ctrl` + `B`
 
+* `Ctrl` + `H`
+
 * `firefox --kiosk <URL>`

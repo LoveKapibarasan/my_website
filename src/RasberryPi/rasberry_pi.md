@@ -26,8 +26,9 @@ sudo raspi-config
 
 * http access for internet connection.
 
-* raspi - config
-    * System Options → S5 Boot / Auto Login
+* `sudo raspi-config`
+
+* Noise from the HDMI cable or the monitor’s circuitry can interfere with **the 2.4 GHz Wi-Fi band**.
 
 #### Dangerous
 
