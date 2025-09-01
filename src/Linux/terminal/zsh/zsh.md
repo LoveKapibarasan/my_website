@@ -22,3 +22,11 @@ alias a='b'
 export PATH=$HOME/bin:$PATH
 
 ```
+
+
+### Glob Syntax
+
+\* = zero or more characters
+? = wild card
+[...] = character class (matches one of the characters inside)
+[!...] or [^...] = negated character class

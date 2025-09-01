@@ -31,6 +31,18 @@ jupytor notebook
 # Run menu
 ```
 
+### Notes
+
+* `.ipynb_checkpoints` = `.bak`
+
+
+* Auto reload
+```python
+%load_ext autoreload
+%autoreload 2          
+```
+
+
 ## Kernel
 
 * A kernel is the computing engine that runs your code inside a notebook.
@@ -40,3 +52,7 @@ jupytor notebook
 * The kernel is what actually executes the code you type.
 
 * Jupyter talks to the kernel using a messaging protocol (over `ZeroMQ` under the hood).
+
+
+
+[URL_1](https://udemy.benesse.co.jp/development/python-work/jupyter-notebook.html)
