@@ -40,3 +40,5 @@ if len(sys.argv) < 3:
 
 
 
+
+`%` = magic command for terminal command.
