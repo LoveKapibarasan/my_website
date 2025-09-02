@@ -4,7 +4,7 @@
 ```bash
 git merge <main>
 ```
-> commit -> merge 
+> add && commit -> merge -> edit -> add the file -> commit -> edit msg -> push
 
 ### Rebase
 
