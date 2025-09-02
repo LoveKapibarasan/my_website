@@ -2,13 +2,16 @@
 ```bash
 pip install
 
-pip install -r requirements.txt
+pip install -y -r requirements.txt
+pip uninstall -y -r requirements.txt
+# -y = yes
+# -r = requirements
 
 pip install -U package_name[extra]
 # -U = --upgrade
 # [extra]= dependencies
 
-pip install "stable-baselines3>=0.0.0,<0.0.1"
+pip install "<package>>=0.0.0,<0.0.1"
 
 # <,> = always newest version is chosen
 
