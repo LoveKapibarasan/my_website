@@ -5,6 +5,8 @@
 
 * `about:logins`
 
+* `about:downloads`
+
 * Mozilia
     * strong privacy protection.
 
