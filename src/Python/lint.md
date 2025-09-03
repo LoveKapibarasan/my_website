@@ -5,7 +5,6 @@ pip install ruff
 ruff check .
 ruff check --fix .
 ruff format .
-
 ```
 
 ```toml

@@ -15,9 +15,7 @@
             line 3
         EOF
         ```
-* `ls`
-    * -a = all
-    * -l = in long format(including permision, size..)
+
 
 * `tr -dc 'A-Za-z0-9!@#$%^&()_+=-'
 tranlate or delete
@@ -86,7 +84,8 @@ grep -Rin "word" . \
     * a = including another user's process.
     * u = detail information like username or memory
     * x = also show daemon
-ps aux | grep "<process_name>"
+**`ps aux | grep "<process_name>"`**
+> This output includes its ps aux process.
 
 ### Package
 ```bash

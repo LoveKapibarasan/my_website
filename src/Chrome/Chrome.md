@@ -4,5 +4,7 @@
 * Ctrl + Shift + R
 
 
-# at the end
-after:yyyy-mm-dd before:yyyy-mm-dd
+## Google
+**Time**
+1. after:yyyy-mm-dd before:yyyy-mm-dd
+1. tool bar 
