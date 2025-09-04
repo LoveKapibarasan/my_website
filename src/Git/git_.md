@@ -4,8 +4,11 @@
 2.IDE/editor settings(.vscode/, .idea/) 
 3. Temporary, log, local, env
 
-* Comment = #
-* \*, \*\*
+
+
+* `#` -- comment
+* `*`, `**`
+* `!` -- Negate 
 
 # gitattribute
 `.gitattributes` controls how tracked files are treated—not whether they’re tracked, but how Git should handle them.
