@@ -30,3 +30,8 @@ export PATH=$HOME/bin:$PATH
 ? = wild card
 [...] = character class (matches one of the characters inside)
 [!...] or [^...] = negated character class
+
+
+### Notes
+
+* Do not include `source ~/.zshrc` in sh script.

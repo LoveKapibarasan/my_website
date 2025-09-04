@@ -22,3 +22,7 @@ HEAD → C2
 C1 — C2 — C3   (main -> C3) 
 ```
 no branch commit
+
+
+###　Notes 
+* Settings -> Default branch, Rename branch
