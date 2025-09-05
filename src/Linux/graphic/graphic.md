@@ -1,4 +1,5 @@
-#
+## GPU Accerelation Setting
+
 0. Check GPU
 ```bash
 lspci | grep -E "VGA|3D"

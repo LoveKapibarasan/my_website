@@ -96,3 +96,13 @@
 
 
 ---
+
+
+### Notes
+
+* `Scratchpad` -- like hided storage
+
+
+```ini
+bindsym $mod+Tab fullscreen; focus next; fullscreen;
+```

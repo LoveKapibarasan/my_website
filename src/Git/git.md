@@ -34,3 +34,12 @@ git reset # reset command
 ## 
 * Everythig up to date.
 * non-fast-forward push -> pull or merge
+
+
+### Notes
+
+
+Dubious = doubtful
+```
+fatal: detected dubious ownership in repository at
+```
