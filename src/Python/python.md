@@ -42,3 +42,12 @@ if len(sys.argv) < 3:
 
 
 `%` = magic command for terminal command.
+
+## Type check
+
+```python
+def print_message(msg: str) -> None:
+    print(msg)
+```
+
+* ◯ bool ✗boolean
