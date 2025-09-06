@@ -480,3 +480,10 @@ to spout off useless rhetoric
 ```de
 leeres Gerede von sich geben
 ```
+@
+```de
+halb(vietel) acht
+```
+```jp
+7:30(45)
+```
