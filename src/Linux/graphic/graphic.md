@@ -22,7 +22,11 @@ vulkaninfo | grep "deviceName"
 
 ```
 
-2. Firefox
+## WebGL (Web Graphics Library)
+
+* WebGL is a JavaScript API for rendering 2D and 3D graphics in the
+
+**Firefox**
 
 2-1. `about:config` → 
 
