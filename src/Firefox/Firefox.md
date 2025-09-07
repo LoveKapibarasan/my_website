@@ -27,3 +27,5 @@
 * `Ctrl` + `H`
 
 * `firefox --kiosk <URL>`
+
+* `Ctrl` + `t` , `Ctrl`+ `w`

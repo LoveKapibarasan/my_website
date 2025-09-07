@@ -44,3 +44,4 @@ password = meinpasswort
   * EAP-TTLS = Creates a TLS tunnel first, then performs authentication inside
   
   * EAP-PEAP  = Very similar to EAP-TTLS
+
