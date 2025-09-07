@@ -9,8 +9,8 @@ nmcli connection add type wifi ifname wlan0 con-name OTH-Students ssid "OTH-Stud
 nmcli connection modify OTH-Students \
   wifi-sec.key-mgmt wpa-eap \
   802-1x.eap peap \
-  802-1x.phase2-auth mschapv2 \
   802-1x.identity "abc12345" \
+  802-1x.phase2-auth mschapv2 \
   802-1x.password "mypassword"
 nmcli connection up OTH-Students
 ```
