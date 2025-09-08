@@ -92,3 +92,9 @@ nodemon automatically restarts your Node.js process for you — so you don’t n
 ```bash
 npm config set strict-ssl false
 ```
+
+
+**Localhost conflict**
+```bash
+npm run dev -- --host 127.0.0.1
+```

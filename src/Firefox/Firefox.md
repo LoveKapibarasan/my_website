@@ -29,3 +29,5 @@
 * `firefox --kiosk <URL>`
 
 * `Ctrl` + `t` , `Ctrl`+ `w`
+
+* `Alt` + `number`
