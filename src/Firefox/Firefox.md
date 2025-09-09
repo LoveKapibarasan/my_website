@@ -31,3 +31,17 @@
 * `Ctrl` + `t` , `Ctrl`+ `w`
 
 * `Alt` + `number`
+
+
+
+## Embedded page
+* `security.fileuri.strict_origin_policy`
+
+* `about:preferences#privacy`
+
+
+```
+https://zoom.us
+https://*.zoom.us
+```
+
