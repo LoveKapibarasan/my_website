@@ -28,9 +28,27 @@ sudo raspi-config
 
 * `sudo raspi-config`
 
+### Display
+
+* Micro HDMI(Type-D)
+
 * Noise from the HDMI cable or the monitor’s circuitry can interfere with **the 2.4 GHz Wi-Fi band**.
+1. Change 5 GHz band
+
+
+* **DSI(Display Serial Interface)**
+for smartphone, tablet.
+
+* **HDMI(High-Definition Multimedia Interface)**
+Can transmit video and audio digitally at the same time
+
+### Raspberry 5
+
+* Intel Core i5-6300U
+* like a note pc in 2016〜2018
 
 #### Dangerous
 
 * "Exposing it to static electricity" 
 * "Refresh it by unplugging it directly." 
+
