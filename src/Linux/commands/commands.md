@@ -4,6 +4,7 @@
 * `rm`
     * `-r` - {{"recursive option for directly"}}
     * `-f` - {{"force"}}
+**Here Document**
 * `cat [OPTIONS] [FILE]` - {{"reads files and writes their contents to standard output "}}
     * cat > file # {{"Create a file"}}
     * cat content > file # {{"Overwrite"}}

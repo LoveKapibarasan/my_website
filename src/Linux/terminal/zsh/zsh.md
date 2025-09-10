@@ -31,6 +31,10 @@ export PATH=$HOME/bin:$PATH
 [...] = character class (matches one of the characters inside)
 [!...] or [^...] = negated character class
 
+**history expansion**
+`!!` = previous command
+`!$` = last argument of previous command
+`!<number>`
 
 ### Notes
 

@@ -9,7 +9,11 @@ chmod +x name.sh
 
 ### {{"header"}}
 
-* `#!/bin/bash`
+**Shebang**
+* `#!/bin/bash`= POSIX shell
+* `#!/bin/bash` = bash
+* `#!/usr/bin/env python3` = python 3
+
     * {{"Put the first line."}}
 
 
