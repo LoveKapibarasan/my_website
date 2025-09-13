@@ -1,0 +1,28 @@
+## What is a socket?
+
+* A CPU has a fixed shape for its "pins" or "contacts," and it can only be inserted into a motherboard socket that matches.
+
+That’s why the CPU generation and the motherboard generation must match; otherwise, they won’t physically work together.
+
+**AM4**
+
+Released: Mainstream from around 2017 to 2022
+
+Supported CPUs: Ryzen 1000–5000 series (Zen 1 to Zen 3)
+
+Memory: DDR4
+
+Examples: Ryzen 5 5600X, Ryzen 7 5700G, Ryzen 7 5800X
+
+
+**AM5**
+
+Released: From 2022 to present (latest socket)
+
+Supported CPUs: Ryzen 7000 series and later (Zen 4 to Zen 5, e.g., Ryzen 5 7600, 8400F, 8700G, etc.)
+
+Memory: DDR5 only
+
+
+* If the CPU has pins on the bottom, it’s AM4.
+* If the CPU has flat gold pads instead, it’s AM5
