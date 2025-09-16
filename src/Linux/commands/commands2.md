@@ -1,6 +1,4 @@
-* `sed -i 's/a/a'` # a -> b
-    * sed = Stream EDitor
-    * -i = in place, overwrite file
+
 
 
 * `sudo -E vim`

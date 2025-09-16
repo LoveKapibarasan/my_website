@@ -19,3 +19,11 @@ IM = input method
 2. Tells SDL (Simple DirectMedia Layer) apps (many games, emulators) how to handle IM.
 3. Tells legacy X11 input method environment variable.
 4. Tells Qt-based applications (KDE apps, Telegram desktop, VLC, etc.) which IM framework to use.
+
+
+## Reset
+```bash
+find ~ -type f -name "*.db"
+rm ~/.config/mozc/.history.db
+fcitx5 -r 
+```

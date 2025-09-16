@@ -26,3 +26,25 @@ Memory: DDR5 only
 
 * If the CPU has pins on the bottom, it’s AM4.
 * If the CPU has flat gold pads instead, it’s AM5
+
+
+## BOX Version
+
+* Retail package (boxed)
+
+* Longer manufacturer warranty (for AMD: usually 3 years)
+
+* Some models include a retail cooler (stock fan)
+
+* Comes with a manual, stickers, and other extras
+
+## Tray / Bulk Version
+
+* Form used for large-scale shipments by the manufacturer
+→ Called “Tray” because CPUs are shipped in bulk, lined up in trays for OEMs and shops
+
+* Shorter warranty / often shop warranty only (about 6–12 months)
+
+* No cooler or box included — only the CPU itself
+
+* Therefore, slightly cheaper in price

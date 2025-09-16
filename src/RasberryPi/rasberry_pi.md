@@ -42,6 +42,12 @@ for smartphone, tablet.
 * **HDMI(High-Definition Multimedia Interface)**
 Can transmit video and audio digitally at the same time
 
+
+* **SoC = System on a Chip**
+    * A System on a Chip (SoC) integrates the CPU, GPU, memory controller, USB, Ethernet, HDMI, and other peripheral functions into a single semiconductor chip. 
+    * The HDMI controller and the USB controller may share the same power rail or clock source. As a result, when an HDMI hot-plug detection (HPD) event occurs, the entire bus may be reinitialized.
+
+
 ### Raspberry 5
 
 CPU: ARM Cortex-A76 (ARMv8.2-A, 64bit, OoO)

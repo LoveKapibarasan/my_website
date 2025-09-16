@@ -6,7 +6,7 @@
 code path
 ```
 
-
+* Find all recurrence
 * Auto save
 * Color Thema
 * Vim extension
@@ -29,9 +29,6 @@ code path
 
 * `Ctrl` + `Shift` + `N`
 
-### {{"Tags"}}
-* {{"Select"}} &rArr; `Shift` && {{"Enter like"}} `"` or `{`, `(`.
-
-### {{"Select"}}
+* {{"Select"}} &rArr; `Shift` && {{"Enter like"}} `"` or `{`, `(`, `TAB`
 
 * `Shift` + {{"Direction keys"}}

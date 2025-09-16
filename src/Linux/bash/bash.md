@@ -17,4 +17,18 @@ chmod +x name.sh
     * {{"Put the first line."}}
 
 
-* ❌️ `a = b` ⭕️ `a=b`
+
+* NG `a = b`OK`a=b`
+
+## Variable Expansion
+
+```bash
+"$name" # not single quote
+```
+
+* No multi-line comment
+
+## Here Document
+* If you use a here-document (`<<EOF ... EOF`) in a .sh script, you can automate interactive commands like sqlite3, psql, or iwctl.
+
+* can also give instructions in a script after entering a **chroot** in the same way.
