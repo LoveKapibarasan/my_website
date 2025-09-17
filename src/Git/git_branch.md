@@ -5,7 +5,7 @@ git branch -a
 git checkout <branch>
 git checkout <commit-hash>
 git checkout -b <new-branch>
-
+# -b = create a new branch and switch
 git branch -r | grep <origin_name>/ 
 
 ```

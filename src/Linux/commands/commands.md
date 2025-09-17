@@ -106,8 +106,7 @@ apt-mark showmanual # sudo apt install xxx
 
 ### Create a file
 * touch <filename> # initially update timestamp(does not overwrite)
-* sudo tee <filename> # with sudo (get input and overwrite)
-     * -a = append mode 
+
 * `cat > <filename>`
 * `vim or nano <filename>`
 * `echo "" > <filename>` # echo = echolocation

@@ -2,9 +2,9 @@
 
 Home directory of the root user (Linux super-administrator)
 
-* /etc
+* `/etc`
 
-Contains system configuration files 
+* Contains system configuration files 
 
 * /opt
 
@@ -14,7 +14,10 @@ Contains system configuration files
 
 User home directories
 
-* /usr
+* `/usr`
 
-“User system resources”
-Contains programs or library
+* User system resources
+* Contains programs or library
+
+* `/usr/local/bin/` = executable files
+* `/usr/lib/` = libraries

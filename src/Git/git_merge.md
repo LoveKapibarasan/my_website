@@ -6,6 +6,8 @@ git merge <main>
 ```
 > add && commit -> merge -> edit -> add the file -> commit -> edit msg -> push
 
+* `--squash` = merge only changes(commit histories are ignored.)
+
 ### Rebase
 
 * linear

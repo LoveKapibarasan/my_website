@@ -1,5 +1,5 @@
 ## DNS = Domain Name System 
-* Domain → IP address
+* Domain(human readable) → IP address
 
 * DNS must not be specified by system.
 

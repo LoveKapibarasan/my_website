@@ -61,3 +61,29 @@ PS/2 (Personal System/2)
 
 ---
 
+
+
+
+## Check
+```bash
+localectl status
+# VC Keymap =  tty
+sudo localectl set-keymap xx
+# X11 Layout = GUI（X11/Wayland)
+sudo localectl set-x11-keymap xx pc105
+## debian
+cat /etc/default/keyboard # = localectl
+
+setxkbmap -query
+
+```
+**Keymap**
+```bash
+xev # x11 environment
+```
+
+### Notes
+
+* PC105 = the number of keys
+> US: 104
+> JP: 106/109 
