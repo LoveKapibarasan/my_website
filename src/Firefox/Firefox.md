@@ -1,5 +1,12 @@
 ## Firefox
 
+* GTK
+
+```bash
+firefox
+# env MOZ_ENABLE_WAYLAND=1 or 0 
+# --kiosk
+```
 
 * Setting: `about:preferences`
 
