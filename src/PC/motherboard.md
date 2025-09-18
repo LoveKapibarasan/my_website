@@ -134,10 +134,32 @@ Indicates the tier within the same chipset line:
 
 * PCIe 5.0 x4 → about 10,000MB/s
 
-## 
+
+## Port
+* TPM：Trusted Platform Module（security tip）
+
+* F_AUDIO: Front panel audio header (for case headphone/microphone jacks).
+
+* LINE_OUT: Line-out jack (to speakers or amplifier).
+
+* MIC_IN: Microphone input jack.
+
+* SPK_OUT: Speaker output
+
+## Check
+
+* CPU support
+
 * SATA or PCIe
 
 * BIOS update
 
 * RAM support
     * DDR4 or DDR5.
+
+
+* **Dead on Arrival**
+0.5% ~ 2%.
+
+* **Desktop**: +3.3V、+5V、+12V 
+* **Notebook**: 19V（≒20V）
