@@ -1,5 +1,3 @@
-
-
 ### Memo
 1. i18n openRecord
 2. openRecord, saveRecord, startAnalysis を Promise を返すように直す

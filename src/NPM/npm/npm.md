@@ -98,3 +98,8 @@ npm config set strict-ssl false
 ```bash
 npm run dev -- --host 127.0.0.1
 ```
+
+## np ci
+```bash
+npm ci（Continuous Integration ）# Strictly follow package-lock.json
+```
