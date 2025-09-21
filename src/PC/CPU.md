@@ -79,3 +79,11 @@ A new open ISA.
 * **Apple**: ARM-based + proprietary AMX
 * **RISC-V**: RVV (vector extension)
 
+### CPU Cooler
+
+* Sometimes CPU cooler does not match motherboard although CPU does.
+
+**Heat Sink**
+
+* A heat sink is a block of metal (usually aluminum or copper) attached to components that generate heat (like the CPU, GPU, or chipset).
+* Its purpose is to absorb the heat and dissipate it into the surrounding air.

@@ -161,5 +161,41 @@ Indicates the tier within the same chipset line:
 * **Dead on Arrival**
 0.5% ~ 2%.
 
+### Tabs
+* If the **DC_PWR** plug won’t fit because of the I/O shield tab, it’s okay to bend or even remove that tab only. 
+* For other ports like USB, LAN, or HDMI, it’s best to leave the tabs in place since they help with grounding/shielding.
+
+
+### PSU
+
 * **Desktop**: +3.3V、+5V、+12V 
 * **Notebook**: 19V（≒20V）
+
+
+### F_PANEL
+
+* Necessary to turn on.
+```
+Pin numbers →     1         3           5        7   9
+                ------------------------------------------
+Top row        | PWR_LED+ | PWR_LED- | PWR_BTN | NC | NC |
+
+Bottom row     | HDD_LED+ | HDD_LED- | RESET   | NC | NC |
+                ------------------------------------------
+Pin numbers →     2         4           6        8   10
+```
+
+**PWR_LED+ / PWR_LED-**
+→ Power LED on the case front panel (has polarity: + / -).
+
+**HDD_LED+ / HDD_LED-**
+→ Hard drive / SSD activity LED (has polarity: + / -).
+
+**PWR_BTN**
+→ Power button (turns system ON/OFF).
+
+**RESET**
+→ Reset button (forces reboot).
+
+**NC**
+→ Not connected (unused pins).

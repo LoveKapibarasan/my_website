@@ -48,3 +48,13 @@ Memory: DDR5 only
 * No cooler or box included — only the CPU itself
 
 * Therefore, slightly cheaper in price
+
+
+### Architecture
+
+| Architecture | Year | CPU Series                                                     | Examples                                    | Notes                   |
+| ------------ | ---- | -------------------------------------------------------------- | ------------------------------------------- | ----------------------- |
+| **Zen 1**    | 2017 | Ryzen 1000 series, Threadripper 1000 series                    | Ryzen 7 1700, Ryzen 5 1600                  |                         |
+| **Zen+**     | 2018 | Ryzen 2000 series                                              | Ryzen 7 2700                                | Often treated as `ZEN1` |
+| **Zen 2**    | 2019 | Ryzen 3000 series, Threadripper 3000 series, Ryzen 4000 Mobile | Ryzen 7 3700X, Ryzen 9 3900X, Ryzen 7 4800H |                         |
+| **Zen 3**    | 2020 | Ryzen 5000 series, Ryzen 5000 Mobile                           | Ryzen 7 5800X, Ryzen 9 5950X, Ryzen 7 5800H |                         |

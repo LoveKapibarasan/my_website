@@ -49,9 +49,11 @@
 
 * SATA (M.2 SATA) → Same speed as a standard SATA SSD (up to ~560 MB/s)
 
-* NVMe (PCIe connection) → Extremely fast. Around 3,500 MB/s with PCIe 3.0, and over 7,000 MB/s with PCIe 4.0
+* NVMe( = Non-Volatile Memory Express ) (PCIe connection) → Extremely fast. Around 3,500 MB/s with PCIe 3.0, and over 7,000 MB/s with PCIe 4.0
 
 
+### GPT = GUID Partition Table
+* a type of partitioning scheme used for storage devices such as HDDs and SSDs.
 
 ## Size
 

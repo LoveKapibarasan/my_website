@@ -4,7 +4,7 @@ lsblk
 sudo (u)mount /dev/sda<n> /mnt # /mnt is typicall mount point
 ```
 
-* Use `dev`
+* Use `dev` = device
 * Do not forget umount.
 
 ```txt
