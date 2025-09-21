@@ -6,4 +6,4 @@
 
 `<direction_key>`
 
-`ctrl` + `l` = clear
+`ctrl` + `l` = `clear`

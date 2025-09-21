@@ -1,4 +1,19 @@
-# name.service
+## Location
+System-wide (root management)
+
+* `/usr/lib/systemd/system/`
+  → Location where the OS or packages provide `.service` and `.timer` files.
+
+* `/etc/systemd/system/`
+  → Location for administrators to add or override units (takes higher priority).
+
+User-level (`--user` mode)
+
+* `~/.config/systemd/user/`
+  → Location to manage `.service` and `.timer` files within the user’s home directory.
+
+
+## name.service
 ```ini
 [Unit]
 Description=explanation

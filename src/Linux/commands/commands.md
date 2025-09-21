@@ -1,14 +1,15 @@
 # {{"Linux Commands List"}}
 * `sudo` = permission denied.
 * `cd`
+    * Default: Home directory
 * `rm`
-    * `-r` - {{"recursive option for directly"}}
-    * `-f` - {{"force"}}
+    * `-r` - recursive option for directly
+    * `-f` - force
 **Here Document**
-* `cat [OPTIONS] [FILE]` - {{"reads files and writes their contents to standard output "}}
-    * cat > file # {{"Create a file"}}
-    * cat content > file # {{"Overwrite"}}
-    * cat content >> file # {{"Append"}}
+* `cat [OPTIONS] [FILE]` -- reads files and writes their contents to standard output
+    * cat > file -- Create a file
+    * cat content > file # Overwrite
+    * cat content >> file -- Append
     *   ```bash
         cat > filename << 'EOF'
             line 1
@@ -45,11 +46,7 @@ tranlate or delete
 
 * `&` = backgroung
 
-### find
 
-* `find /path/to/search -name "filename"`
-    *  Find goes recursively into all child folders by default.
-    * `-type f`
 
 ### grep
 
@@ -62,9 +59,6 @@ tranlate or delete
     * `-n` -- show line number
     * `-l` -- output only file name, not matched line.
 
-* `find /path/to/search -exec grep -l "search_text" {} +`
-    * `{}` = place folder for `find`
-    * `;` <->`+` -- execute per one or batch file(s)
 
 * \( \) Grouping conditions
 * -o = or \( *.ts -o  * .tsx \) 
