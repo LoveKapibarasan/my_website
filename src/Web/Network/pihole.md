@@ -54,7 +54,7 @@ services:
       FTLCONF_dns_upstreams: '1.1.1.1;8.8.8.8' # upstream DNS server
       FTLCONF_dns_rateLimit_count: 0 # FTL rate limit setting.
       FTLCONF_dns_rateLimit_interval: 0
-
+      FTLCONF_dns_blockingMode: NXDOMAIN # to prevend TLS error
     volumes:
       - './etc-pihole:/etc/pihole'
     cap_add:

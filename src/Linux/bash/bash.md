@@ -5,20 +5,23 @@ bash = Bourne-Again Shell <--bone again
 chmod +x name.sh
 ./name.sh # ./= current dir
 ```
-## {{"Syntax"}}
+## Syntax
 
-### {{"header"}}
+### header
 
 **Shebang**
 * `#!/bin/bash`= POSIX shell
 * `#!/bin/bash` = bash
 * `#!/usr/bin/env python3` = python 3
 
-    * {{"Put the first line."}}
+    * Put the first line.
 
 
 
-* NG `a = b`OK`a=b`
+* NG `a = b`
+* OK`a=b`
+
+* Indend is not necessary
 
 ## Variable Expansion
 
