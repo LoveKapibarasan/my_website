@@ -1,4 +1,31 @@
 @
+```jp
+誤解を招く
+```
+```de
+ein Missverständnis sein
+```
+
+@
+```jp
+私の知る限り
+```
+
+```de
+Meines Wissens gilt 
+```
+
+@
+```jp
+そもそも
+```
+```de
+Unabhängig davon 
+```
+
+
+
+@
 ```de
 1. herausfinden
 ```

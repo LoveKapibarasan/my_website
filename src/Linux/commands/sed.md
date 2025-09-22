@@ -7,6 +7,9 @@
   * `s/^#\?` = match comment line (`#`)
   * `s/^#\?...` = match comment line (optional `#`)
 
+* `sed '/<xxx>/d'`
+
+  * Delete `<xxx>`
 ---
 
 ### Recursive Replacement

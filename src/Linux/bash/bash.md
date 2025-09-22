@@ -26,6 +26,7 @@ chmod +x name.sh
 ## Variable Expansion
 
 ```bash
+"${name}"
 "$name" # not single quote
 ```
 

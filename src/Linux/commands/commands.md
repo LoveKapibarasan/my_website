@@ -5,18 +5,7 @@
 * `rm`
     * `-r` - recursive option for directly
     * `-f` - force
-**Here Document**
-* `cat [OPTIONS] [FILE]` -- reads files and writes their contents to standard output
-    * cat > file -- Create a file
-    * cat content > file # Overwrite
-    * cat content >> file -- Append
-    *   ```bash
-        cat > filename << 'EOF'
-            line 1
-            line 2
-            line 3
-        EOF
-        ```
+
 
 
 * `tr -dc 'A-Za-z0-9!@#$%^&()_+=-'
