@@ -7,13 +7,12 @@
     * `-f` - force
 
 
-
-* `tr -dc 'A-Za-z0-9!@#$%^&()_+=-'
+* `tr -dc 'A-Za-z0-9!@#$%^&()_+=-'`
 tranlate or delete
     * -d = delete
     * -c = complement
 
-* /dev/null
+* `/dev/null`
     * null location.
 
 * `mv a b`
@@ -71,16 +70,7 @@ grep -Rin "word" . \
 **`ps aux | grep "<process_name>"`**
 > This output includes its ps aux process.
 
-### Package
-```bash
-sudo apt update
-sudo apt install p_name
-sudo apt purge p_name
-sudo apt autoremove --purge
-apt search p_name
-apt list --installed # packages
-apt-mark showmanual # sudo apt install xxx
-```
+
 
 * dmesg -- kernel message
 
@@ -101,3 +91,5 @@ kill <pid>
 killall <name>
 ```
 
+### %
+* `%u` = currently logined user

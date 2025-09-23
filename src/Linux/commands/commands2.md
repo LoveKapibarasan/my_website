@@ -11,8 +11,9 @@
 
 
 * `read -r <variable_name>`
-read input and assign variable
-`\` = do not escape with `\`
+* read input and assign variable
+    * `-p` = output prompt before
+    * `-r` = `\` = do not escape with `\`
 
 * `openssl rand -base64 <n>` = random password
 
