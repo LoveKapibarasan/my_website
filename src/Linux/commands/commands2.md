@@ -14,6 +14,7 @@
 * read input and assign variable
     * `-p` = output prompt before
     * `-r` = `\` = do not escape with `\`
+    * `-t` = waiting time
 
 * `openssl rand -base64 <n>` = random password
 
