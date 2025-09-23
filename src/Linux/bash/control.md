@@ -28,6 +28,24 @@ while [ <condition> ]; do
 done
 ```
 
+## Switch
+```bash
+case "$variable" in
+  pattern1)
+    # commands
+    ;;
+  pattern2|pattern3)
+    # commands for multiple matches
+    ;;
+  pattern4)
+    # commands
+    ;;
+  *)
+    # default commands (if no patterns matched)
+    ;;
+esac
+```
+
 ### Notes
 * Type: `for …` → press Enter
 → Bash goes into **waiting for continuation**, so the prompt changes to `>`
