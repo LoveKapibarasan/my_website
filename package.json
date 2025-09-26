@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@shd101wyy/mume": "^0.7.9",
-    "yaml": "^2.8.1"
-  }
-}
