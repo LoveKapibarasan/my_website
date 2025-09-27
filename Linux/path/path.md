@@ -10,7 +10,7 @@
 * `*`  = all
 * `**` =  ignore intermediate dirs.
 
-* `x/`= all files inside folder x 
+* `x/`= Directory 
 
 ### `PATH`
 ```bash
