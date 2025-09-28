@@ -3,6 +3,7 @@ Programing Language.
 Used for embedded system.
 
 `-- comment`
+`--[[ multi-line comment ]]` 
 `x = 10`
 
 ### Type
