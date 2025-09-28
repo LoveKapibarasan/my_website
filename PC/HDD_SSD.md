@@ -19,6 +19,12 @@
 * 2242, 2260, 22110 also exist.
 
 
+PCIe 3.0: 3,500MB/s 
+PCIe 4.0: 7,000MB/s
+PCIe 5.0: 10,000MB/s
+
+> Check motherboard and CPU comatibility.
+
 ### Add-in Card (AIC SSD)
 
 * Installed in a PCIe slot like a graphics card
