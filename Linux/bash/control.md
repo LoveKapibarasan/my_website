@@ -1,3 +1,7 @@
+## Conditions
+* `!` = negate
+* `[ <condition> ]` -- When variable expansion happens
+
 * `[ -n "$VAR" ]` = if var is empty string, true
 * `[ -z "$VAR" ]` = if var is not empty string, true
   * NG: `[ -z $(echo) ]`
@@ -7,7 +11,8 @@
   > `"$var"` Do not forget `""`
 * `[ "$a" -eq "$b" ]` = compare between numbers
 
-`[ <condition> ]` -- When variable expansion happens
+*  `[ -d "$name" ]` = is name is directory, true.
+* `[ -f "$name" ]` = file
 
 
 * need space after [ and before ].

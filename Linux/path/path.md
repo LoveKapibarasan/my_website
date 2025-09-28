@@ -9,7 +9,8 @@
 * `..` = go up
 * `*`  = all
 * `**` =  ignore intermediate dirs.
-
+* `-` = the original place(with echo) = ursprünglicher Ort. 
+        * `cd - > /dev/null || exit`
 * `x/`= Directory 
 
 ### `PATH`
@@ -24,6 +25,13 @@ Without PATH,
 /usr/bin/python3 script.py
 /usr/bin/git status
 ```
+
+
+Add
+
+```bash
+export PATH="${path}:${PATH}"
+
 
 
 * /usr/bin/python3 is binary file

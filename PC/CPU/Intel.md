@@ -6,7 +6,7 @@ nn = generation
 NNN = The performance tier (the larger the number, the higher the tier).
 The suffix letters (Z)
 * K = Unlocked for overclocking
-* F = No integrated GPU
+* F = No integrated GPU(Sometimes antonym G exists.)
 * T = Low-power model
 * H / HK / HS = High-performance laptop versions
 * U = Low-power laptop version
@@ -23,13 +23,15 @@ The suffix letters (Z)
 **Kaby Lake(7)--(カナダ・ブリティッシュコロンビア州にある実際の湖)**
 Ranking: 1.Core i7-7700K(4 core 8 threads) 2. Core i7-6700K(4 core 8 threads) 3. Core i5-7600K (4 core 4 threads) 4. Core i5-6600K(4 core 4 threads) 5. Core i3-7350K(4 core 8 threads)
 DDR4(3)
+Geek benchscore 1500, 5000
+
 2.(2017)
 
 **Coffee Lake(8)**
 **Coffee Lake Refresh(9)**
 Ranking: 1. i9-9900K
 DDR4
-
+Geek benchscore 1500, 6600 
 * LGA1200(2020)
 **Comet Lake(10)**
 **Rocket Lake(11)**
