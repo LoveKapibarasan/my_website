@@ -1,8 +1,8 @@
 
 #  `ls`
-    * -a = all
-    * -l = in long format(including permision, size..)
-
+    * `-a` = all
+    * `-l` = in long format(including permision, size..)
+    * `-R` = recursive listing
 ## Long format
 
 **Example:**
@@ -47,7 +47,9 @@ user  group others
 
 ## Symbolic Link
 
-= Short cut
+= Short cut.
+
+> Symboli Link can not be applied exsisting file.
 
 ```bash
 # Create

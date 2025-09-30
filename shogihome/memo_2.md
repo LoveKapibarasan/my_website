@@ -1,3 +1,8 @@
+### ShogiHome Config
+
+* `~/.config/electron-shogi`
+    * `usi_engine_json` -- usi engine information
+
 
 ### CLI batch analysis
 

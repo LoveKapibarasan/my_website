@@ -35,7 +35,6 @@ tranlate or delete
 
 * `&` = backgroung process
 
-* `basename` -- extract only file name
 
 
 ## Process
