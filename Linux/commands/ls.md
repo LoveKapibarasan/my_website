@@ -57,3 +57,14 @@ ln -s filename shortcut_link
 ```
 
 Insted filename, shortcut_link is always opend. 
+
+### File Operations
+
+* `basename` -- extract only file name
+
+```bash
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+```
+* `dirname "$0"` → Get the directory part of the script’s path.
+    * "$0" is the path used to invoke the script (could be like ./script.sh.)
+* `pwd` = stands for “print working directory”.
