@@ -16,10 +16,13 @@ Frame is written by DMA（Direct Memory Access）
 
 **Ethernet (eth<n>)**
 * voltage change　= Spannungsänderung
+**Eno**=en(ethernet) o(nboard)
+
 
 5. Make a MAC frame
     Wifi: IEEE 802.11
     Ethernet: Ethernet
+
 
 ### Kernel
 

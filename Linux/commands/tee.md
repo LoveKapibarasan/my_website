@@ -16,3 +16,9 @@ world
 world   # output
 Ctrl+D  # EOF(End of File)
 ```
+
+
+### Redirect Problem when using sudo
+
+1. `sh -c " xxx "` or `sudo bash -c "xxx"`  -- run xxx as a command
+2. `command | sudo tee > /dev/null`

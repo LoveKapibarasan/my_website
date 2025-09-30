@@ -9,7 +9,7 @@
     * `-n` -- show line number
     * `-l` -- output only file name, not matched line.
     * `-v` -- invert match
-
+    * `-q` -- return 1(match) or 0    
 
 * \( \) Grouping conditions
 * -o = or \( *.ts -o  * .tsx \) 

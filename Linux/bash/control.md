@@ -13,7 +13,7 @@
 
 *  `[ -d "$name" ]` = is name is directory, true.
 * `[ -f "$name" ]` = file
-
+* `[ -e "$name" ]` = name exists?
 
 * need space after [ and before ].
 

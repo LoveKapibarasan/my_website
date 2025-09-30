@@ -78,3 +78,21 @@ PCIe 5.0: 10,000MB/s
     * Modern titles typically require 50–150GB or more
 
 * A single high-resolution photo (from a smartphone) can be around 2–5MB
+
+
+### Partition
+dev = device
+/dev/sdx = SCSI/SATA/USB strage
+x = a,b,c,..
+sdx has partition sdx n
+
+nvmeXnYpZ = NVMe (Non-Volatile Memory Express)
+X = device number
+Y = name space
+Z = Partition number 
+
+
+### File System
+ext4
+Btrfs (B-tree FS) = snap shot,  compressing
+NFS = file sharing

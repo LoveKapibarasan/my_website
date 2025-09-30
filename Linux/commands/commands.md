@@ -35,13 +35,10 @@ tranlate or delete
 
 * `&` = backgroung process
 
-
+* `basename` -- extract only file name
 
 
 ## Process
-
-* `sudo lsof -i:<port_number>`
-    * lsof = list open files
 
 * `ps` = process status
     * a = including another user's process.

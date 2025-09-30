@@ -48,16 +48,39 @@
     * `LOWERLAYERDOWN`
 
 
-### Bridge Mode
+
+### Iptables
+a command/mechanism to control Linux’s packet filtering functionality.
+1. Packet filtering (firewall)
+→ Controls which communications are allowed or denied based on rules.
+
+2. NAT (Network Address Translation)
+→ Rewrites IP addresses and port numbers for forwarding.
+```bash
+sudo iptables -t nat POSTROUTING -o $interface -j MASQUERADE
+# POSTROUTING=after sending a packet.
+# -o = output
+# -j = jump
+# MASQUERADE = modify as sender as ip address of wlan 0
+```
+3. Packet mangling
+→ Performs advanced processing such as modifying communication headers.
+
+### Modify Interface
+```bash
+interface $interface
+static ip_address=192.168.42.1/24 # set a static ip address and subnet mask
+nohook wpa_supplicant # no wpa supplicant authentication
+```
+
+**Config:**
+`etc/iptables.ipv4.nat`
+
+* Output setting, rules
 
 ```bash
-# Create br0
-sudo ip link add name br0 type bridge
+iptables-save
 
-sudo ip link set dev eth0 master br0
+sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
-sudo ip link set dev br0 up
-sudo ip link set dev eth0 up
-
-sudo ip addr add 192.168.1.100/24 dev br0
 ```

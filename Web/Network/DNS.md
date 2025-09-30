@@ -54,10 +54,17 @@ The content and source of `/etc/resolv.conf` depend on which service manages DNS
 
    * Administrator manually edits `/etc/resolv.conf` to set fixed nameservers.
 
----
 
-###  Out-of-the-box behavior (fresh Arch install)
 
-* `systemd-resolved` is **disabled by default**
-* `NetworkManager` is not preinstalled
 
+
+
+### dnsmasq
+DNS forwarder and DHCP server.
+**Config**: `/etc/dnsmasq.conf` 
+
+```ini
+interface=eth0
+dhcp-range=192.168.42.10,192.168.42.100,255.255.255.0,24h
+dhcp-option=6,8.8.8.8,1.1.1.1
+```

@@ -14,3 +14,11 @@ $(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd); # get normal u
 
 * `$0` -- entire line
 * `$1, $2, ...`-- field
+
+
+## IFS
+
+IFS (Internal Field Separator)
+```bash
+while IFS=, read -r x y; do
+```
