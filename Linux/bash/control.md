@@ -1,5 +1,5 @@
 ## Conditions
-* `!` = negate
+* `!` = negate(Do not forget space after `!`)
 * `[ <condition> ]` -- When variable expansion happens
 
 * `[ -n "$VAR" ]` = if var is empty string, true

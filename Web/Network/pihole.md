@@ -8,8 +8,17 @@
 
 ### Password
 * `sudo setpassword`
+* or set with .env(docker version install.)
 
-## DNS info
+**Config:**
+```bash
+sudo pihole status
+systemctl status pihole-FTL
+```
+### DNS info
+
+Port 53: for DNS server
+Port 80: for Web UI
 
 * ArchLinux => NetworkManager, systemd-resolved
 * Raspi Lite => NetworkManager

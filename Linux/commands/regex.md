@@ -4,6 +4,7 @@
 `*` = 0 or more times
 `+` = 1 or more times
 `$` = line end
+`.*?` = non-greedy anything
 **POSIX**
 * [[:space:]]
 
