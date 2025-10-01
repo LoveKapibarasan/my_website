@@ -32,3 +32,7 @@ printf %q\n # reusable output for shell, output space or \r explicitly
 * Unix/Linux … \n (LF)
 
 * Old Mac … \r (CR)
+
+
+### Sleep
+`sleep $second`
