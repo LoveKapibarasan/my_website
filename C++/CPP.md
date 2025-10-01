@@ -1,12 +1,12 @@
-# {{" C++ basic manual"}}
+#  C++ basic manual
 
-## {{"List of compilers"}}
+## List of compilers
 
 * GCC/G++
 * Clang
 
 
-## {{"How to compile"}}
+## How to compile
 
 
 ### GCC/G++
@@ -20,8 +20,20 @@ g++ program.cpp -o program
 clang++ program.cpp -o program
 ```
 
-## {{"How to execute"}}
+## How to execute
 
 ```bash
 ./program
+```
+## Comment
+* `//`, `/**/`
+## Print
+```cpp
+#include <iostream> 
+using namespace std; // omit std
+cout << "Hello," << "World " << var << " !" << endl;
+// cout = console output
+// <<  = insert
+// endl = \n + buffer flush
+// \\n = \n
 ```
