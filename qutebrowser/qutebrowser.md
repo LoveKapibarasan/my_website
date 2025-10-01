@@ -15,6 +15,7 @@
 * Select All : `ggVG`
 
 * Switch Tabs: `Alt` + `n`
+* Reload: `r`
 
 **Sessions:**
 `.local/share/qutebrowser/`

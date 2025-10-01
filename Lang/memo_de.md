@@ -1,4 +1,6 @@
 
+
+
 * **Übrigens**: btw
 
 * **gelegentlich**：「時々」「たまに」「場合によっては」
@@ -41,8 +43,13 @@
 
 * **Abenteuer**：「冒険」「大きな挑戦」「波乱のある経験」
 
+### Brief
 
-##
+Mit freundlichen Grüßen = Hochachtungsvoll
+
+wichtig = von großer Bedeutung sein
+
+## Nummer
 
 * **zehn/ein/halb**：「10と1/2（10.5）」
 
