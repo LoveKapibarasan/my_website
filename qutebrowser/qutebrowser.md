@@ -1,4 +1,4 @@
- Open URL: `o`
+* Open URL: `o`
 * Insert: `i`
 * Copy the current page url: `yy`
 
