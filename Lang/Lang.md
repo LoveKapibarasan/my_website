@@ -1,5 +1,36 @@
 @
 ```jp
+履修する, 受講する 
+```
+```de
+belegen
+```
+
+@
+```jp
+通知する
+```
+```de
+Benachrichtig
+```
+
+@
+```de
+bestätigen
+```
+```jp
+確認する, 承認する, 肯定する
+```
+@
+```de
+Benutzerkennung
+```
+```jp
+ユーザーID
+```
+
+@
+```jp
 誤解を招く
 ```
 ```de
