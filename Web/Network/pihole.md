@@ -23,7 +23,14 @@ Port 80: for Web UI
 * ArchLinux => NetworkManager, systemd-resolved
 * Raspi Lite => NetworkManager
 
-### gravity.db 
+### Commands
+
+```bash
+sudo pihole disable xm
+sudo pihole enable
+
+```
+**gravity.db**
 * setting file for domains list.
 * can also use transporter to sync setting.
 
