@@ -96,3 +96,6 @@ Z = Partition number
 ext4
 Btrfs (B-tree FS) = snap shot,  compressing
 NFS = file sharing
+FAT32 = << 32GB Camera
+exFAT = >> 32GB Camera
+
