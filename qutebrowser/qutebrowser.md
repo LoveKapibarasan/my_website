@@ -17,5 +17,18 @@
 * Switch Tabs: `Alt` + `n`
 * Reload: `r`
 
+* Inspector: `:devtools`
+        * Clear Cache: `Application` -> `Storage` -> `Clear Site Date` 
+
+* History: `:history`
+
+
 **Sessions:**
 `.local/share/qutebrowser/`
+
+
+**WebGL**
+
+* https://get.webgl.org/ 
+* `Chrome://gpu`
+

@@ -11,13 +11,21 @@ git checkout "${origin}/${branch}" $file_path
 # Rewrite content
 
 
-git checkout <commit-hash>
+git checkout "$branch" # Go to the latest commit
+
+# Go back
+git checkout "$commit-hash"
+git reset --hard HEAD # Discard Change and align 
+
 git checkout -b <new-branch> <base_branch>
 # -b = create a new branch and switch
 git branch -r | grep <origin_name>/ 
 git branch -d <branch-name> # delete
 ```
-
+```bash
+# Get specific file from specific commit
+git show "$commit":$"path" > "$output_file"
+```
 > Checkout can not change deleted files.
 
 

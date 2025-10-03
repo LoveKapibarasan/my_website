@@ -7,7 +7,7 @@ gh auth login
 
 ### PR
 ```bash
-gh pr create --base <target_branch> --head <my_branch> --title "title" --body "body"
+gh pr create --base "$target_branch --head "$my_branch --title "$title" --body "$body"
 # my_branch = $(git branch --show-current) = current branch
 
 
