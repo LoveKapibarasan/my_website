@@ -1,4 +1,14 @@
 @
+```de
+Theaterstücke auf Deutsch aufführen
+```
+
+```jp
+ドイツ語で演劇する
+```
+
+
+@
 ```jp
 履修する, 受講する 
 ```

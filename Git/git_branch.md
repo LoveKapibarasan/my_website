@@ -6,12 +6,32 @@
 git branch -a
 # -a = all
 # -r = remote
-git checkout <branch>
-git checkout <commit-hash>
+git checkout "${origin}/${branch}" $file_path
+# Default: origin, main, all files
+# Rewrite content
+
+
+git checkout "$branch" # Go to the latest commit
+
+# Go back
+git checkout "$commit-hash"
+git reset --hard HEAD # Discard Change and align 
+
 git checkout -b <new-branch> <base_branch>
 # -b = create a new branch and switch
 git branch -r | grep <origin_name>/ 
 git branch -d <branch-name> # delete
+```
+```bash
+# Get specific file from specific commit
+git show "$commit":$"path" > "$output_file"
+```
+> Checkout can not change deleted files.
+
+
+**Diff**
+```bash
+git diff "${origin_x}/${branch_y} "${origin_z}/${branch_w}" -- "${path}
 ```
 
 ### detached head

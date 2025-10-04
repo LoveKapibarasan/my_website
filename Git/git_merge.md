@@ -57,3 +57,11 @@ Else changes are saved.
 2. `git restore --source=HEAD or MERGE_HEAD -- <file>`
 `git add`
 `git commit`
+
+
+### Create a merge conflict
+
+```bash
+# Compare and add conflict markers to file.txt
+git merge-file "$file1" "$basefile" "$file2"
+```

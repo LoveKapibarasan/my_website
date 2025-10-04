@@ -47,8 +47,3 @@ firefox
 * `about:preferences#privacy`
 
 
-```
-https://zoom.us
-https://*.zoom.us
-```
-
