@@ -88,11 +88,12 @@ image/png=gwenview.desktop
 * KDE
 * GNOME
 * LXDE(Lightweight X11 Desktop Environment)
+**GTK**
 **Main Parts**
 PCManFM     - File Manager
 LXPanel     - Task bar
 Openbox     - WM
 LXTerminal  
 LXAppearance 
-
+* LXQt
 
