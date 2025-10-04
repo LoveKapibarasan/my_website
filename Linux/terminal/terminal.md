@@ -1,4 +1,10 @@
 
+```bash
+for term in foot kitty alacritty wezterm gnome-terminal konsole xterm urxvt st terminator tilix; do
+    which $term 2>/dev/null && echo "$term: installed"
+done
+```
+
 
 1. **端末=Terminal=Terminal**
     * Originally it was hardware like keyboard or display.
@@ -32,3 +38,20 @@ tty  # to check on which terminal it is working
 # /dev/tty1
 
 ```
+
+### Kitty Protocol
+* An extended keyboard protocol developed by the Kitty terminal emulator.
+
+* Old terminals (since VT100 era) had limited keyboard information:
+
+```bash
+
+# Legacy
+Press 'h' → h
+
+# Kitty
+Press 'h' → h + \33[104;1:3u
+            ↑   ↑   ↑  ↑ ↑
+            char [keycode;mods:event_type u
+
+```            

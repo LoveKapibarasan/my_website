@@ -4,6 +4,8 @@ fcitx5 -d  -r
 # -d = back ground
 fcitx5-configtool
 fcitx5-diagnose
+watch -n "$second" 'fcitx5-remote -n'
+# fcitx5-remote -n = display active input method like `keyboard-xx`
 ```
 
 ### environment variable and modules
@@ -26,6 +28,7 @@ IM = input method
 find ~ -type f -name "*.db"
 rm ~/.config/mozc/.history.db
 fcitx5 -r 
+
 ```
 
 
