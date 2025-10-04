@@ -1,4 +1,4 @@
-
+* revoke: 取り消す
 
 * **convert into** : まったく別のものに変える
 * **convert to** : 〜に改宗する／〜に変換する

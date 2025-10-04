@@ -16,7 +16,7 @@ get_user_home() {
 ```
 
 
-* Clipboard would not be synced(`-E`)
+* Clipboard would not be synced.(Use `-E`)
 
 **Config**
 * `/etc/sudoers` 
@@ -25,3 +25,20 @@ get_user_home() {
 sudo visudo -f /etc/sudoers.d/<custom>
 username ALL=(ALL) NOPASSWD: /usr/bin/xxx <command>
 ```
+
+
+### Run as a normal user in a sudo script
+
+1. `su "$user" -c "$command"`
+
+* Meaning: Switch User - switches to the specified user and runs a command
+* Behavior: Starts a login shell and fully loads that user's environment
+* Environment: Reads the user's .bashrc, .profile, etc.
+* Login: Simulates a complete login session
+
+2. `sudo -u "$user" "$command"`
+
+* Meaning: SuperUser DO - runs command as the specified user
+* Behavior: Doesn't start a login shell, runs with minimal environment
+* Environment: Doesn't read .bashrc by default
+* Login: Not a login session

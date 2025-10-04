@@ -14,7 +14,7 @@
 *  `[ -d "$name" ]` = is name is directory, true.
 * `[ -f "$name" ]` = file
 * `[ -e "$name" ]` = name exists?
-
+* `[ -ne "$name" ]` = name not exists?
 * need space after [ and before ].
 
 ## And Or
