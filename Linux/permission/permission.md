@@ -2,6 +2,11 @@
 * rwx = (read, write, execute)
 -> Sum
 
+**User ID**
+```bash
+id -u # get user ID
+
+```
 
 ### Chmod
 

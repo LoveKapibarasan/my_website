@@ -17,7 +17,19 @@
 
 ```bash
 busctl list
-echo $DBUS_SESSION_BUS_ADDRESS # tuser session path
-unix:path=/run/user/1000/bus
-
+echo $DBUS_SESSION_BUS_ADDRESS
+echo $XDG_RUNTIME_DIR
 ```
+* **`$DBUS_SESSION_BUS_ADDRESS`** 
+Used for:
+    Displaying notifications
+    Clipboard sharing
+    Inter-application messaging
+
+
+* **`$XDG_RUNTIME_DIR`**
+`/run/user/$userID`
+Used for:
+    Socket files
+    Temporary caches
+    Session management data
