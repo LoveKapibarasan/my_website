@@ -17,5 +17,7 @@
 
 * `viw` -- select a word
 * `vip` -- select a paragraph
-* `va(`, `vi(`,  `va"`, `vi"` -- select inside or around xxx
+* `vax`, `vix`(e.g. `va(`, `vi(`,  `va"`, `vi"`) -- select inside or around xxx
+    * w = word except for simbols
+    * W = space
 * `%` -- jump corresponding brancket

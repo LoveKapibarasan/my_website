@@ -1,11 +1,13 @@
-* Open URL: `o`
 * Insert: `i`
 
-
+**URL**
 * Copy the current page url: `yy`
 * Copy the page title:`yt`
 * Paste URL and Open:`pp`
+* Open URL: `o`
+    * `-p`: private mode
 
+**Copy and Paste**
 * Copy: `Ctrl+Shift+C`
 * Cancel: `Ctrl+C`
 * Paste: `Ctrl+Shift+V`
@@ -14,6 +16,10 @@
 
 * Open a new tab: `Ctrl + t`
 * Cut: `Ctrl + x`
+
+
+**Visual/Caret Mode (Keyboard-based)**
+
 
 **Tab**
 * Close Tab: `Ctrl+W` or `d`
@@ -51,6 +57,13 @@
 
 **Zoom**
 `+`,`=`,`-`
+
+**Hint Mode**
+* `f`:
+
+* Links and clickable elements on the page get labeled with letter combinations
+* You type the letters shown on the link you want to follow
+* The link opens in the current tab
 
 **WebGL**
 

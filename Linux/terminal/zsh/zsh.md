@@ -1,6 +1,12 @@
+##
+`Ctrl` + `E`: Go to the line end
+`Ctrl` + `A`: Go to the line top
+`Ctrl` + `C`: kill
+`Ctrl` + `D`: line end
+`Alt` + `f,b`: Go one character back or forth
+`Ctrl` + `f,b`: vim `w`, `b`
 
-
-# Copy and Paste
+## Copy and Paste
 
 * depend on terminal emulator.
 
