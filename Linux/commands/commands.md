@@ -47,6 +47,8 @@ tranlate or delete
 > This output includes its ps aux process.
 
 
+* `cat /proc/"$n"/environ`: read env file of process ID(or name) "$n". 
+
 
 * `dmesg` -- kernel message(display message)
     * `-T` -- time stamp

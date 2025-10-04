@@ -22,17 +22,17 @@ git checkout -b <new-branch> <base_branch>
 git branch -r | grep <origin_name>/ 
 git branch -d <branch-name> # delete
 ```
+
 ```bash
 # Get specific file from specific commit
 git show "$commit":$"path" > "$output_file"
 ```
+
+
 > Checkout can not change deleted files.
 
 
-**Diff**
-```bash
-git diff "${origin_x}/${branch_y} "${origin_z}/${branch_w}" -- "${path}
-```
+
 
 ### detached head
 normal
@@ -52,6 +52,11 @@ no branch commit
 ### Diff
 ```bash
 git diff [object of comparison =Vergleichsobjekt] [--Option] [File_path...]
+
+git diff "${origin_x}/${branch_y}" "${origin_z}/${branch_w}" -- "$path"
+
+# --name-only = only show file name 
+
 ```
 
 ### hunk
