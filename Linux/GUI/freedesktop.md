@@ -48,15 +48,20 @@ Categories=Utility;TextEditor;
 MimeType=text/plain;text/html;
 ```
 
-* %f=file, %u=URL
+* `%f` = file, `%u` = URL
+* `~` or `$HOME` = home directory
 
 
 ### MIME (Multipurpose Internet Mail Extensions Type)
 ```
 type/subtype
+```
+**Example**
+```
 text/html
 video/mp4
-application/zip…
+application/zip
+application/pdf
 ```
 
 ```bash
@@ -67,6 +72,10 @@ xdg-mime query filetype "$example_file"
 
 ### Default Application
 
+`xdg-setting`: Desktop environment.
+`xdg-open`: Open file or URL with default application
+`xdg-mine`: Set association between MIME and application
+
 ```bash
 
 xdg-mime query default "$MINE"
@@ -74,6 +83,7 @@ xdg-mime query default "$MINE"
 ## Set default application
 xdg-mime default "$application.desktop" "$MIME"
 
+xdg-open "$filename"
 ```
 `~/.config/mimeapps.list`
 ```ini
@@ -84,7 +94,7 @@ image/png=gwenview.desktop
 ```
 
 
-### 
+### Desktop 
 * KDE
 * GNOME
 * LXDE(Lightweight X11 Desktop Environment)

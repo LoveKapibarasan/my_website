@@ -43,13 +43,13 @@ output * scale n
 exec xxx
 ```
 
+### Keyboard Configuration
 
+### Display
 
-
-**Keyboard Configuration**
-
-
-
+```bash
+swaymsg -t get_outputs
+```
 
 ---
 

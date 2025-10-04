@@ -19,11 +19,14 @@
 
 
 **Visual/Caret Mode (Keyboard-based)**
-
+Calet=Cursor=挿入記号=Einfügemarke
+* `f` and `v`
 
 **Tab**
 * Close Tab: `Ctrl+W` or `d`
-* Reopen Tab:`u`
+* Reopen Tab: `u`
+* restore closed window: `U`
+
 
 * Select All : `ggVG`
 

@@ -3,7 +3,7 @@
 * `v`
 * `V`
 * `Ctrl` + `v`
-
+* `gv` = reselect
 
 * `i` = inner / inside
 * `a` = around / all
