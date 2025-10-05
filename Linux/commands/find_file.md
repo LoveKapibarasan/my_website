@@ -9,3 +9,7 @@
     * `{}` = place folder for `find`
     * `;` <->`+` -- execute per one or batch file(s)
     * sarch text can be regex.
+
+### File
+
+* determines the type of a file by examining its contents 

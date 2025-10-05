@@ -19,7 +19,7 @@
 
 
 **Visual/Caret Mode (Keyboard-based)**
-
+* `v`
 
 **Tab**
 * Close Tab: `Ctrl+W` or `d`
@@ -64,6 +64,12 @@
 * Links and clickable elements on the page get labeled with letter combinations
 * You type the letters shown on the link you want to follow
 * The link opens in the current tab
+
+
+**Quick Mark**
+* `m[char]`: Mark
+* `'[char]` or `b[jump]`: jump
+
 
 **WebGL**
 

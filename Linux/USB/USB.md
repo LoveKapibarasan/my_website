@@ -1,7 +1,10 @@
 
 ```bash
 lsblk
-sudo (u)mount /dev/sda<n> /mnt # /mnt is typicall mount point
+sudo (u)mount /dev/sd"$partition" /mnt # /mnt is typicall mount point
+
+udisksctl mount -b /dev/sd"$partition" # Without sudo
+
 ```
 
 * Use `dev` = device
