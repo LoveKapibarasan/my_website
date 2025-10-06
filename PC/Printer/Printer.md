@@ -40,3 +40,32 @@
 
 * Pages per minute (PPM)
 * Resolution (DPI)
+
+
+### Web Server
+
+1. Connect a printer with a rooter
+
+### Wi-Fi Direct
+
+* Connect printer with pc without a router
+
+```bash
+nmcli device wifi list
+nmcli device wifi connect "$DIRECT_xxx" password "$pass"
+# or
+nmcli connection add type wifi con-name "$name" ifname wlan0 ssid "$DIRECT-xxx" wifi-sec.key-mgmt wpa-psk wifi-sec.psk "$password"
+
+# HTTP not HTTPS
+"http://$ip" # normally ip is 192.168.223.1
+```
+
+**AWC = Auto Wireless Connect**
+* Turn off when WIFI direct mode.
+
+
+### Ink
+No unified standard.
+**Razor and Blade" model =  Klingen-und-Rasierer-Modell**
+* Sell the razor cheap, make profit on the blades
+* Sell the printer cheap, make profit on the ink cartridges

@@ -1,7 +1,7 @@
 # grep
 
 * `grep [OPTIONS] PATTERN [FILE...]`
-    * {{"for finding text patterns in output or files."}}
+    * for finding text(linne) patterns in output or files.
     * `a | grep` -- pass output of a to grep.
     * `-i` -- does not care capital or non-capital letter.
     * `-I` -- ignore binary files

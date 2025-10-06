@@ -28,6 +28,18 @@ env = GTK_IM_MODULE, fcitx
 env = SDL_IM_MODULE, fcitx
 ```
 
+### Screen Information
+
+```bash
+hyprctl monitors
+hyprctl monitors all
+```
+
+* 1920x1080@60.00000 = Full HD, 60Hz
+* at 0x0 = left top
+* make = maker = hersteller
+* special workspace = like scratch pad
+
 ### Notes
 
 * dwindle -- spiral layout

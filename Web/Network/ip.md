@@ -84,3 +84,16 @@ iptables-save
 sudo sh -c "iptables-save > /etc/iptables.ipv4.nat"
 
 ```
+
+### `ip neigh`
+Show ARP（Address Resolution Protocol）table
+```bash
+192.168.223.1 dev wlan0 lladdr 3a:22:e2:b9:92:98 REACHABLE
+192.168.1.1 dev eth0 lladdr xx:xx:xx:xx:xx:xx STALE
+# Show ip address and MAC address in the same network
+```
+
+
+
+
+
