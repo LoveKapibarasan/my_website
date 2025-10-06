@@ -35,3 +35,9 @@ DNSStubListener=no
 **DNSStubListener**
 Yes -> 127.0.0.53
 No -> Use `/etc/resolv.conf`
+
+
+**Socket Activation**
+
+`sudo systemctl mask systemd-resolved-varlink.socket`
+`sudo systemctl mask systemd-resolved-monitor.socket`

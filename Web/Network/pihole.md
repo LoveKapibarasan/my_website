@@ -38,6 +38,8 @@ sudo pihole enable
 
 ### FTL = Faster Than Light
 
+**pihole-FTL** Service
+
 * Processes DNS queries (forwarder, caching server)
 
 * Internally, it is built on top of **`dnsmasq`** with extensions.
@@ -65,6 +67,9 @@ sudo pihole enable
   netmask = "255.255.255.0"    # Subnet Mask
   leaseTime = "24h"            # Lease Time
 ```
+
+### lighttpd (pronounced lighty) 
+* an open-source, lightweight web server. 
 
 ### TLS Certification
 

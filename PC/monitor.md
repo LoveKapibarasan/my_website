@@ -55,3 +55,28 @@ DP, 2.0, 16K, 60Hz
 
 4. DVI (Digital Visual Interface)
 * Old
+
+
+### E-Paper(E-Ink)
+
+* Paper like
+* Low refresh rate
+
+**Microcapsules**
+
+* Countless tiny capsules about the width of a human hair are arranged in the display
+* Each capsule contains a clear fluid with white and black particles suspended inside
+
+
+**Particle Properties**
+
+* White particles: Positively charged
+* Black particles: Negatively charged
+
+
+
+**Display Mechanism**
+* The particles are moved by applying voltage:
+
+* To display white: When a negative voltage is applied, the positively charged white particles rise to the surface, making it appear white
+* To display black: When a positive voltage is applied, the negatively charged black particles rise to the surface, making it appear black

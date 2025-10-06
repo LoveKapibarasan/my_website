@@ -50,9 +50,6 @@ tranlate or delete
 * `cat /proc/"$n"/environ`: read env file of process ID(or name) "$n". 
 
 
-* `dmesg` -- kernel message(display message)
-    * `-T` -- time stamp
-    * `-w` -- real time
 
 * `lsblk` -- list block devices
     * GiB

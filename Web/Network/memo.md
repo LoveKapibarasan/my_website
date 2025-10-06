@@ -6,6 +6,16 @@
 * a communication protocol used on the internet to send data reliably between devices.
 * Works together with IP ⇒ “TCP/IP”
 
+## UDP =  User Datagram Protocol
+Connectionless
+```
+Client → Send packet → Server
+        (no handshake)
+```
+* No connection setup required
+* Fire and forget
+
+### IPV4 vs. IPV6
 | Feature       | IPv4                           | IPv6                                            |
 | ------------- | ------------------------------ | ----------------------------------------------- |
 | Address size  | 32-bit (4 bytes)               | 128-bit (16 bytes)                              |
@@ -15,6 +25,7 @@
 
 IPv4 is older and still used the most for example in a local network.
 IPv6 is newer and solves the problem of running out of IPv4 addresses.
+
 
 
 ## NetworkManager
@@ -56,28 +67,6 @@ sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
 sudo iptables -P INPUT DROP
 ```
 
-## lighttpd (pronounced lighty) 
-
-* an open-source, lightweight web server. 
-
-
-
-
-
-## DHCP (Dynamic Host Configuration Protocol)
-
-1. The PC (client) broadcasts “I need an IP address.”
-→ “DHCP Discover”
-
-2. The router (DHCP server) replies with an offer of an address and settings.
-→ “DHCP Offer”
-(e.g. IP=192.168.189.20, DNS=192.168.189.1, Gateway=192.168.189.1, subnetmask=255.255.255.0)
-
-3. The PC says “I’ll use those settings.”
-→ “DHCP Request”
-
-4. The router confirms and finalizes the assignment.
-→ “DHCP Acknowledge”
 
 
 

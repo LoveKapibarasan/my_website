@@ -62,10 +62,23 @@ opacity / transparency = Durchsichtigkeit
 
 * `Cairo or Skia` (used by Chrome): 2D rendering libraries.
 
-* `OpenGL / Vulkan`: 3D graphics APIs, directly leveraging the GPU for high-performance rendering.
+* `OpenGL / Vulkan`: 3D graphics APIs, directly leveraging the GPU for high-performance rendering. Vulkan is newer.
 
-* `EGL`: Bridges OpenGL ES and window systems (X11, Wayland, DRM, etc.).
+* `EGL (Embedded-System Graphics Library)`: Bridges OpenGL ES and window systems(WM) (X11, Wayland, DRM, etc.).
 
+* `mesa`
+```
+Applition（WebGL、Game）
+      ↓
+OpenGL/Vulkan API（Instrution）
+      ↓
+Mesa（Translate）# in Windows need to download offitial library from NVIDA or AMD 
+      ↓
+GPU Hardware（Render）
+```
+
+**Texture**
+* An image or pattern that is mapped/wrapped onto 3D objects
 
 ### Commands
 

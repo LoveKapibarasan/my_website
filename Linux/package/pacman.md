@@ -55,7 +55,7 @@ sudo pacman -Sy archlinux-keyring
 ```
 
 ### 404 Errors
-
+`sudo pacman -Syu`
 The package database on your system is out of sync with the mirrors. 
 Pacman is trying to download, but the mirrors have already moved on to a newer version, so you're getting 404 errors.
 
