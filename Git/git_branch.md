@@ -4,6 +4,7 @@
 
 ```bash
 git branch -a
+# -vv = with remote track
 # -a = all
 # -r = remote
 git checkout "${origin}/${branch}" $file_path

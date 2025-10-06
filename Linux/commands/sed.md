@@ -17,6 +17,9 @@
 
     * Shows only line `n`.
 
+* `sed -E`: Enable extended regular expression.
+            Messy backslashs can be removed.
+
 ---
 
 ### Recursive Replacement

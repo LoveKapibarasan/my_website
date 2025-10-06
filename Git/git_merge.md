@@ -65,3 +65,16 @@ Else changes are saved.
 # Compare and add conflict markers to file.txt
 git merge-file "$file1" "$basefile" "$file2"
 ```
+
+
+###
+```bash
+git checkout "${origin}/${branch}" -- "$file"
+
+# Staging step by step
+git add -p complete_pipeline.ipynb
+# y = apply change
+# n = Skip
+# s = split
+# q = quit
+```

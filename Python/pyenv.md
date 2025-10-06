@@ -14,3 +14,5 @@ pyenv uninstall x.xx.x
 cd ~/.pyenv
 git pull
 ```
+
+

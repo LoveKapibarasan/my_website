@@ -1,7 +1,7 @@
 
 ```bash
-python<version> -m venv venv
-source venv/bin/activate
+python<version> -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 deactivate
 ```

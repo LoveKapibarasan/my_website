@@ -10,8 +10,14 @@
 ```
 lpstat -p -d # Printer List
 lp -d "$printer_name" "$file"
+# -d option needs the printer name immediately after it 
 # -o sides=two-sided-long-edge
 # -o sides=two-sided-short-edge
+# Job List
+lpstat -o
+# Cancel Jobs
+# Check Printer State
+lpstat -p HP_ENVY_6000_series -l
 ```
 
 

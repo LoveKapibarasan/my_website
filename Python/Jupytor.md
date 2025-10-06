@@ -31,6 +31,17 @@ jupytor notebook
 # Run menu
 ```
 
+### Shortcut Keys
+
+
+* Code
+    * Change like Python, Markdown.
+
+* `Shift` + `Enter`
+
+* `B`: insert cell
+
+
 ### Notes
 
 * `.ipynb_checkpoints` = `.bak`
@@ -55,4 +66,25 @@ jupytor notebook
 
 
 
-[URL_1](https://udemy.benesse.co.jp/development/python-work/jupyter-notebook.html)
+
+
+### Memo
+
+
+**Unnecessary**
+
+Cell is opend??
+```json
+-   ],
+-   "metadata": {
+-    "collapsed": false    
+-   }
++   ] 
+```
+
+```json
++    "jupyter": {
++     "outputs_hidden": false
++    }
++   },
+```
