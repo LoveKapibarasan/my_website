@@ -64,6 +64,8 @@ sudo apt install <package>
 sudo apt update # update package list index
 sudo apt upgrade # upgrade package
 sudo apt autoremove 
+sudo apt purge "$package" # including setting files
+sudo apt remove "$package"
 
 sudo apt dist-upgrade
 sudo do-release-upgrade # OS distribution will be updated 

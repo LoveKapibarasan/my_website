@@ -1,17 +1,21 @@
 ## SED (Stream EDitor)
 
-* `sed -i 's/<xxx>/<yyy>/' <file_path>` # replace `<xxx>` with `<yyy>`
+* **`sed -i 's/<xxx>/<yyy>/' "$file_path"`** # replace `<xxx>` with `<yyy>`
 
   * `sed` = Stream EDitor
   * `-i` = in place, overwrite file
   * `s/^#\?` = match comment line (`#`)
   * `s/^#\?...` = match comment line (optional `#`)
 
-* `sed '/<xxx>/d'`
+* **`sed '/<xxx>/d'`**
 
   * Delete `<xxx>`
 
 * `"` is escaped with `\"`
+
+* **`sed -n '"${n}"p' "$file"`**
+
+    * Shows only line `n`.
 
 ---
 

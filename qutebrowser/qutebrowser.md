@@ -19,8 +19,12 @@
 
 
 **Visual/Caret Mode (Keyboard-based)**
+<<<<<<< HEAD
+* `v`
+=======
 Calet=Cursor=挿入記号=Einfügemarke
 * `f` and `v`
+>>>>>>> 40e62c557d2de923b256a34a84be448e9bc8f4fd
 
 **Tab**
 * Close Tab: `Ctrl+W` or `d`
@@ -67,6 +71,12 @@ Calet=Cursor=挿入記号=Einfügemarke
 * Links and clickable elements on the page get labeled with letter combinations
 * You type the letters shown on the link you want to follow
 * The link opens in the current tab
+
+
+**Quick Mark**
+* `m[char]`: Mark
+* `'[char]` or `b[jump]`: jump
+
 
 **WebGL**
 

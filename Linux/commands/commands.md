@@ -29,7 +29,7 @@ tranlate or delete
 * a|b = paaa output of a to b
 
 
-* `which`
+* `which "$command"`
 
 * $( command ) = command substitution = output of command
 

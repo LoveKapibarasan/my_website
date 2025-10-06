@@ -69,3 +69,9 @@ A layout unit that groups multiple windows together.
 
 ### Finish
 `:wqa` -- all
+
+
+### Commands
+
+* `nvim --cmd ''`
+`:set verbose=15` and `:set verbosefile=/tmp/nvim_verbose.log`
