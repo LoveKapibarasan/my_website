@@ -1,3 +1,8 @@
+
+## VRAM(Virtual RAM)
+* High-end: 8~12GB
+* like CPU cache.
+
 ## NVIDIA
 
 * GeForce

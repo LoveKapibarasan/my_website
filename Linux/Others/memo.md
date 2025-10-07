@@ -12,3 +12,8 @@
 ### Socket File
 * A special file used for inter-process communication (IPC) within the same system
 * Has a physical presence in the file system (typically with a `.sock` extension)
+
+
+### Drivers
+
+* Programs that software use to control hardware.

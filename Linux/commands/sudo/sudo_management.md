@@ -41,7 +41,7 @@ getent group wheel sudo
 
 ```bash
 # Reload immediately
-newgrp sudo
+newgrp "$group"
 ```
 
 ## VISUDO

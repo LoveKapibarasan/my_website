@@ -14,7 +14,9 @@ udisksctl mount -b /dev/sd"$partition" # Without sudo
 |sda # do not touch
 |__ sda1 # partition
 ```
-
+###
+`Trash-1000` -- Trash box of user id 1000. 
+`'System Volume Information'` -- Windows generate this.
 
 ### USBを差し込んだ瞬間に「ウイルスが仕込まれてシステムが乗っ取られる」みたいな演出
 

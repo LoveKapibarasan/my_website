@@ -15,9 +15,8 @@ lp -d "$printer_name" "$file"
 # -o sides=two-sided-short-edge
 # Job List
 lpstat -o
-# Cancel Jobs
 # Check Printer State
-lpstat -p HP_ENVY_6000_series -l
+lpstat -p "$printer" -l
 ```
 
 
