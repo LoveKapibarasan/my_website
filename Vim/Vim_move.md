@@ -3,6 +3,8 @@
 `b` -- Backward word
 `w` -- forward Word
 `e` -- move End of word
+Capital Case -- ignore punctuation
+
 
 `0` -- move line top
 `^` -- move line top(ignoring spaces)
