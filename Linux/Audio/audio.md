@@ -30,3 +30,9 @@
 
 ## SOF (Sound Open Firmware)
 * Mainly used with Intel SoCs / integrated audio (HDA, ASoC, from Tiger Lake onward). = Wird hauptsächlich mit Intel-SoCs / integrierter Audiohardware (HDA, ASoC, ab Tiger Lake) verwendet.
+
+
+### FSB (FMOD Sound Bank)
+* Extension: `.fsb`.
+* Video game audio.
+* Multiple audio files compressed into a single bank file

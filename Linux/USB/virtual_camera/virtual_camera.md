@@ -3,11 +3,17 @@
 
 sudo apt install v4l2loopback-dkms v4l-utils ffmpeg
 sudo pacman -S v4l-utils ffmpeg
+sudo pacman -S dkms linux-headers
+yay -S v4l2loopback-dkms
 ```
 ```bash
-ffmpeg -re -loop 1 -i "$idcard.jpg" \
+ffmpeg -re -loop 1 -i "$filename" \
     -vf scale=1280:720,format=yuv420p \
     -f v4l2 /dev/video10
+#  -re = Real-time Encoding
+# -loop 1 = infinete roop
+# -vf = Video Filter
+# color format:  YUV 4:2:0
 ```
 
 ### Video4Linux2 (V4L2)

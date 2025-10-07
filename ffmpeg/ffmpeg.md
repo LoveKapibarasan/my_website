@@ -8,6 +8,9 @@ ffmpeg -grobal_option -input_option -i "$input" -output_options "§output_file"
 
 
 ### -c, -codec
+Codec = Coder + Decoder
+Technology to compress or decode data.
+
 
 ```bash
 # m4o(MPEG-4 Audio) -> mp3
@@ -17,6 +20,6 @@ ffmpeg -i input.m4a -codec:a libmp3lame -qscale:a 2 output.mp3
 
 
 
-
+## Memo
 
 **MP4** can contain computer virus.(in meta information)
