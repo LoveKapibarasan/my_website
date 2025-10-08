@@ -18,26 +18,38 @@ sudo usermod -aG postgres ${USER}
 sudo usermod -aG rabbitmq ${USER}
 sudo usermod -aG ops ${USER}
 sudo usermod -aG nordvpn ${USER}
+```
 
+```
 # 1. Add sudo
 su - root 
 
-usermod -aG sudo <username>
-usermod -aG wheel <username>
-usermod -aG docker <username>
+usermod -aG "$group" "$user" 
 
-# 2. remove from sudo
-gpasswd -d <username> sudo
-gpasswd -d <username> wheel
-gpasswd -d <username> docker
+sudo gpasswd -a "$user" "$group"
+
+gpasswd -d "$user" "$group"
 
 # 3 Check
-groups <username>
-id <username>
-getent group wheel sudo
+groups "$user"
+id "$user"
+getent group "$group"
+```
+
+**Getent**
+`get entries` -- get database information.
+
+passwd, group, hosts, services
+
+### Allowed Commands
+
+```bash
+sudo -l
+sudo -ll # detail
 ```
 
 
+### Reload
 
 ```bash
 # Reload immediately

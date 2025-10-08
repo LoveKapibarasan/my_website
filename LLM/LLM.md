@@ -31,8 +31,26 @@
 
 * by Meta
 
+**Config:**`/usr/share/ollama/.ollama`
+
 ```bash
 ollama list
 ollama run  "$model_name"
+ollama run "$model_name" "one_shot_commend"
+ollama run "$model_name" < "$input"
+ollama show "$model_name"
 ollama rm "$model_name" 
 ```
+In the prompt,
+```
+>>> /set system "You are assistant AI."
+>>> /clear  # clear context
+>>> /save "name" # Saved on ~/.ollama/
+>>> /bye  # exit
+>>> """
+>>> multi
+>>> line
+>>> """
+```
+
+By default, ollama does not store talk history.

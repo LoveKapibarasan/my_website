@@ -4,6 +4,7 @@
 
 WPA Enterprise (PEAP)
 ```bash
+nmcli connection show
 nmcli dev wifi list
 nmcli connection add type wifi ifname wlan0 con-name OTH-Students ssid "OTH-Students" # first add profile
 nmcli connection modify OTH-Students \

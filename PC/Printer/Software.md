@@ -7,16 +7,28 @@
 2. Enter printer information
 
 
-```
+```bash
 lpstat -p -d # Printer List
 lp -d "$printer_name" "$file"
 # -d option needs the printer name immediately after it 
 # -o sides=two-sided-long-edge
 # -o sides=two-sided-short-edge
+
 # Job List
 lpstat -o
+
+# Cancel All
+cancel -a
+
 # Check Printer State
 lpstat -p "$printer" -l
+
+# See the printer state
+lpstat -t
+lpstat -p "$printer"
+
+# Restart
+cupsenable "$printer_name"
 ```
 
 
