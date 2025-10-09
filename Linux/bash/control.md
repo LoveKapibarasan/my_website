@@ -56,18 +56,22 @@ done
 case "$variable" in
   pattern1)
     # commands
-    ;;
+    ;; # end marker
   pattern2|pattern3)
     # commands for multiple matches
     ;;
-  pattern4)
+  ${v_expansion})
     # commands
     ;;
-  *)
+  *) # *) : default
     # default commands (if no patterns matched)
     ;;
-esac
+esac # reverse of case
 ```
+
+* No AND condition.
+* `|` = OR
+* `*<sth>`= wild card
 
 ### Notes
 * Type: `for …` → press Enter

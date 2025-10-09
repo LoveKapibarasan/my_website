@@ -4,6 +4,13 @@
 
 ---
 
+```bash
+ssh "${user}@${ip}
+# -i "$Identity_file"
+# -p "port_number"
+# -v, -vv, -vvv = Debug log
+# -f = background
+```
 
 * **Remote Login**
   Access a remote server and run commands.

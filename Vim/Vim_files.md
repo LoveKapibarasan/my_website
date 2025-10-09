@@ -1,3 +1,4 @@
-:wq
-:q!
-:wq | !rm.filename.swp
+* `:wq`
+* `:q!`
+* `:wqa`
+* `:wq | !rm.filename.swp`

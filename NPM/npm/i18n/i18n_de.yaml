@@ -1,3 +1,0 @@
-Wenn du deinen Quellcode änderst (z. B. .js, .ts, .json usw.),
-startet nodemon deinen Node.js-Prozess automatisch neu,
-sodass du ihn nach jeder Änderung nicht manuell stoppen und wieder starten musst.

@@ -9,3 +9,7 @@ Linsen = レンズ豆
 o
 
 iphoneの日本での普及率が64%。(他の国 iphone 28%, Android 72%)
+
+
+ASCII
+

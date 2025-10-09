@@ -1,13 +1,17 @@
+* **Check the first `.git` folder. It contains Issue and PR templates.**
+* Create a folk and branch.
+* Do not send too big PR. Do regulaly.
+
 ## Issue
 
 
 ### Purpose
 
-1. Report a bug 🐛
+1. Report a bug 
 
-2. Request a new feature ✨
+2. Request a new feature 
 
-3. Ask a question ❓
+3. Ask a question 
 
 4. Track tasks with checklists
 

@@ -1,3 +1,10 @@
+```bash
+set -a # export all following variables
+source "$file"
+set +a # reverse
+```
+
+
 ### `/etc/environment`
 
 * System wide environment variable. 

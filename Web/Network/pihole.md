@@ -1,4 +1,5 @@
-
+# Pihole
+* DNS filtering.
 * can use DHCP.
 
 ##  `WebUI`
@@ -89,14 +90,4 @@ cat /proc/sys/net/ipv6/conf/all/disable_ipv6
 * NXDOMAIN = Non-Existent Domain
 
 
-* **color = ASCII**
-```bash
-COL_NC='\e[0m'        # (reset)
-COL_WHITE='\e[1;37m'  # White
-COL_GREEN='\e[0;32m'  # Green
-COL_YELLOW='\e[1;33m' # Yellow
-COL_RED='\e[1;31m'    # Red
-# Usage
-echo -e "${COL_GREEN}Green text${COL_NC}"
-echo -e "${COL_RED}Red text${COL_NC}"
-```
+

@@ -49,6 +49,11 @@ RTX 4080: 28,000
 
 2. Geekbench
 
+3. Test
+```bash
+sudo apt install glmark2
+glmark2
+```
 
 ### TDP（Thermal Design Power）
 * RTX 4090: 450W
@@ -74,3 +79,10 @@ vulkaninfo --summary
 
 * → 15-30% Grade down
 * high cost
+
+**Thunderbolt 4**
+* by Apple.
+* Thunderbolt (TB)、USB-C、Mini DisplayPort
+**Oculink**
+* PCI Express（PCIe）base external connector.
+* NVMe M.2 -> Oculink

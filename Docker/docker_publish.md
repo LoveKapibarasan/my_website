@@ -1,4 +1,4 @@
-## ① Create a Docker image
+##  Create a Docker image
 
 * Place a Dockerfile in your project directory
 
@@ -7,18 +7,18 @@
 docker build -t <username>/<repository>:<tag> .
 ```
 
-## ② Create a Docker Hub account & login 
+## Create a Docker Hub account & login 
 
 ```bash
 docker login
 ```
 
-## ③ Push (publish) to Docker Hub 
+##  Push (publish) to Docker Hub 
 ```bash
 docker push <username>/<repository>:<tag>
 ```
 
-## ④ Choose visibility
+##  Choose visibility
 
 Set the repository to Public on Docker Hub if you want anyone to pull it
 

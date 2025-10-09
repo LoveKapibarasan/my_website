@@ -31,3 +31,8 @@ export RESULT
 ```
 ### Visibility
 * local = only valied in the function
+
+
+### Utils
+
+`[ $? -ne 0 ] && return 1` -- `$?` = Exit status  

@@ -13,6 +13,8 @@
     * `aw` -- including space
 * `p` -- paragraph
 
+* `nj`, `nk`(n is int) -- jump
+
 ### Composita
 
 * `viw` -- select a word
@@ -21,3 +23,7 @@
     * w = word except for simbols
     * W = space
 * `%` -- jump corresponding brancket
+
+* Go to line top `Ctrl` + `V` and Select(with `b-aj`) and `I` + `sth`  = `:a,bs/^/<sth>/`(a<b, int)
+> You need to wait after clicking `Esc`.
+

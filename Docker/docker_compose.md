@@ -1,15 +1,30 @@
 ```yaml
 services:
-  pihole:
+  name1:
     container_name: name
     image: name/name:latest
+    platform: linux/amd64/…
     ports:
-        - "<port_of_host>:<port_of_container>/<protcol>"
+        - "${port_of_host}:${port_of_container}/${protcol}"
     # Linux capabilities
     cap_add:
     
     restart: always
+    healthcheck:
+      test: "$command"
+      interval: "$n"s
+      timeout: "$n"s
+      retries: "$n"
+  name2:
+    build:
+      context: "$path"
+      dockerfile: ./Dockerfile
 ```
+
+### .Env
+* `${name}` -- read from shell or `.env`.
+
+
 
 ### Cap Add
 

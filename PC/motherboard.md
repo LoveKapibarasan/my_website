@@ -146,6 +146,10 @@ Indicates the tier within the same chipset line:
 
 * SPK_OUT: Speaker output
 
+* LVDS(Low Voltage Differential Signaling) 
+    * for display connection.
+    * faster than LGB.
+
 ## Check
 
 * CPU support

@@ -25,9 +25,20 @@ driver = webdriver.Chrome(options=options)
 ### Methods
 
 **get**
-```pythons
+```python
 driver.get(url)
 ```
+**find**
+```python
+find_element_by_id("id")
+find_element_by_name("name")	
+find_elements_by_css_selector("name")
+```
+
+    * **CSS Selector**
+        * hierarchy
+        * On which html element apply CSS?
+        * Identify: `tags = driver.find_elements_by_css_selector("～")`
 
 ### Web Driver Wait
 

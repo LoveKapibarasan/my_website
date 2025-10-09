@@ -5,7 +5,6 @@
 **User ID**
 ```bash
 id -u # get user ID
-
 ```
 
 ### Chmod
@@ -30,7 +29,8 @@ chmod xxxx
 ```bash
 chown [OPTIONS] NEW_OWNER[:NEW_GROUP] FILE...
 ```
-
+`-R` = recursive
+`-c` = if ownership is changed, show the message.
 
 ### Faillock
 * If you enter the wrong password 3 times, you won't be able to log in for 10 minutes.

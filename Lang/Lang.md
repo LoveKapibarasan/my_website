@@ -1,5 +1,16 @@
 @
 ```de
+durchführen
+```
+```jp
+実施する, やり遂げる
+```
+```en
+carry out
+```
+
+@
+```de
 Theaterstücke auf Deutsch aufführen
 ```
 

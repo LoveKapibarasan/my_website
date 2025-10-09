@@ -84,3 +84,16 @@ wichtig = von großer Bedeutung sein
 * **eintreten**: 「立ち入る」
 
 * **vertreten**：「代表する」「代理を務める」「（意見を）主張する」
+
+
+
+###
+
+* an teilnehmen
+
+* **vergeben**
+* 決まる、与えられる（授与される）
+
+
+* **Luftinhaltung**
+* 空気の清浄度維持

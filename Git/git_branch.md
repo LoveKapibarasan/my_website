@@ -20,8 +20,9 @@ git reset --hard HEAD # Discard Change and align
 
 git checkout -b <new-branch> <base_branch>
 # -b = create a new branch and switch
-git branch -r | grep <origin_name>/ 
-git branch -d <branch-name> # delete
+git branch -r | grep "$origin_name" 
+git branch -d "$branch_name" # delete local branch
+git push origin --delete "$branch_name" # delete remote branch
 ```
 
 ```bash

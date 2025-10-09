@@ -1,4 +1,5 @@
-* Cookie = session information
+* Cookie = session information on local.
+(session < - server )
 ```txt
 Name: session_id
 Value: abc123xyz456

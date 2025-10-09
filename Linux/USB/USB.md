@@ -4,7 +4,7 @@ lsblk
 sudo (u)mount /dev/sd"$partition" /mnt # /mnt is typicall mount point
 
 udisksctl mount -b /dev/sd"$partition" # Without sudo
-
+# Package name: udiskie
 ```
 
 * Use `dev` = device
