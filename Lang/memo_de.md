@@ -102,3 +102,5 @@ wichtig = von großer Bedeutung sein
 * **umsetzen**
 
 * **Nach, Vormittag**
+
+* **entsinnen**: 記憶に戻る、思い出す。

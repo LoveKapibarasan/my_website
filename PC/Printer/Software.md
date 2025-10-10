@@ -6,6 +6,7 @@
 1. Login with local account.
 2. Enter printer information
 
+**!! Kill VPN!!**
 
 ```bash
 lpstat -p -d # Printer List
@@ -18,7 +19,7 @@ lp -d "$printer_name" "$file"
 lpstat -o
 
 # Cancel All
-cancel -a
+sudo cancel -a "$printer_name"
 
 # Check Printer State
 lpstat -p "$printer" -l

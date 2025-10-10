@@ -57,3 +57,16 @@ sgdisk [options] <device>
     Write → Save the partition table to disk
 
 `lsusb` -- list usb devices
+
+
+### dd
+dd: "Disk Dump" or "Data Duplication"
+```bash
+dd if=INPUT of=OUTPUT [Option]
+```
+* if=/dev/zero: 0
+* if=/dev/random 
+* `bs=4M`, `bs=1024`: block size
+    * b, K, M, G
+* `count=100`: the number of blocks
+* `status=progress`: Show log
