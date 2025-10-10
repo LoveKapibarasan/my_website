@@ -10,6 +10,7 @@ o
 
 iphoneの日本での普及率が64%。(他の国 iphone 28%, Android 72%)
 
-
+嚥下性空気症
+Digest g
 ASCII
 

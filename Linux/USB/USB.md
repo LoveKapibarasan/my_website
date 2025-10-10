@@ -1,9 +1,12 @@
 
 ```bash
 lsblk
-sudo (u)mount /dev/sd"$partition" /mnt # /mnt is typicall mount point
-
-udisksctl mount -b /dev/sd"$partition" # Without sudo
+sudo (u)mount /dev/sd"$p" /mnt # /mnt is typicall mount point
+sudo eject /dev/sd"$p" # for CD/DVD physically remove
+udisksctl mount -b /dev/sd"$p" # Without sudo
+udisksctl unmount -b /dev/sd"$p"
+udisksctl power-off -b /dev/sd"$p"
+# -b = block device, -p = path like /media/user…
 # Package name: udiskie
 ```
 
@@ -14,6 +17,15 @@ udisksctl mount -b /dev/sd"$partition" # Without sudo
 |sda # do not touch
 |__ sda1 # partition
 ```
+
+**Block Device**
+Read and Write per block.
+can build file system.
+
+**Loopback Device**
+Regard file as a block device.
+
+
 ###
 `Trash-1000` -- Trash box of user id 1000. 
 `'System Volume Information'` -- Windows generate this.

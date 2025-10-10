@@ -23,8 +23,9 @@
 
 **PipeWire**
 * replace PluseAudio and Jack
-
-
+```bash
+wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%-
+```
 * The layer that runs on top of ALSA and allows applications to use audio comfortably. = Die Schicht, die auf ALSA läuft und es Anwendungen ermöglicht, Audio komfortabel zu nutzen.
 
 
