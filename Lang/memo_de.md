@@ -97,3 +97,8 @@ wichtig = von großer Bedeutung sein
 
 * **Luftinhaltung**
 * 空気の清浄度維持
+
+
+* **umsetzen**
+
+* **Nach, Vormittag**

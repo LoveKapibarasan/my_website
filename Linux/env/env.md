@@ -4,6 +4,10 @@ source "$file"
 set +a # reverse
 ```
 
+* `export xxx='yyy'`
+    * Adding ' is better(for special characters)
+    * No space around =.
+
 
 ### `/etc/environment`
 

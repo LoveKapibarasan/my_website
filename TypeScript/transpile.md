@@ -1,3 +1,4 @@
+✘　compile
 
 ## tsconfig.json in the root directly
 
@@ -28,5 +29,9 @@
 
 ```bash
 npx tsc --init
-npx tsc
+npx tsc "$file1" "$file2"
+npx tsc # Compile based on tsconfig.json
+npx tsc watch # = npx tsc w = nodemon
+# --build 
+# --verbose
 ```

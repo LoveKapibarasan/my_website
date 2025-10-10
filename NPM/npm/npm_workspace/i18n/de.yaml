@@ -1,1 +1,0 @@
-Wenn man npm install einmal im Root-Verzeichnis ausführt, werden automatisch alle node_modules und Abhängigkeiten für sämtliche Workspaces installiert.

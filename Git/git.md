@@ -40,8 +40,10 @@ git reset # reset command
 
 ### Notes
 
-
-Dubious = doubtful
+* Github Mirror
+    * copy repository from another place.
+    * cannot send PR or Issue.
+* Dubious = doubtful
 ```
 fatal: detected dubious ownership in repository at
 ```

@@ -1,3 +1,16 @@
+```en
+Office
+```
+```de
+das Büro
+```
+@
+```en
+it turned out
+```
+```de
+es stellte sich heraus
+```
 @
 ```de
 durchführen
@@ -13,7 +26,6 @@ carry out
 ```de
 Theaterstücke auf Deutsch aufführen
 ```
-
 ```jp
 ドイツ語で演劇する
 ```

@@ -3,6 +3,11 @@
 * Automatically reload when source code is changed.
 
 `nodemon.json`
+```bash
+npm install --save-dev nodemon
+```
+
+* node -> nodemon.
 
 ```json
 {

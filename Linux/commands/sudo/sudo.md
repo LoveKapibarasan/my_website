@@ -42,3 +42,7 @@ username ALL=(ALL) NOPASSWD: /usr/bin/xxx <command>
 * Behavior: Doesn't start a login shell, runs with minimal environment
 * Environment: Doesn't read .bashrc by default
 * Login: Not a login session
+
+
+**Double Sudo**
+* You should not use sudo in sudo script.

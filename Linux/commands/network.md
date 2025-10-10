@@ -21,3 +21,11 @@ sudo ss -tlnp | grep ":$port"
 # -t = tcp
 ```
 
+`| grep LISTEN`
+LISTEN = Connectable
+0 = message in a receieve queue
+0.0.0.0:Port = all network
+127.0.0.1:Port = only local
+users:(("$program_name",pid=53767,fd=7))) 
+    * fd = file discreptor
+    * program_name: like docker-proxy

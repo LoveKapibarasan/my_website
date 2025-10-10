@@ -1,5 +1,5 @@
 **migration**
-* is a file that describes changes you want to make to your database, written in code.
+* is a file that describes changes you want to make to your database, like creating tables or constraints.
 
 * in `\migration` folder.
 

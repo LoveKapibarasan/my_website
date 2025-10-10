@@ -4,7 +4,7 @@
 
 * Build the Docker image with:
 ```bash
-docker build -t <username>/<repository>:<tag> .
+docker build -t "$username"/"$repository":"$tag" .
 ```
 
 ## Create a Docker Hub account & login 

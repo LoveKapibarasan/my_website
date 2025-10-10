@@ -1,4 +1,5 @@
 # npm = node.js package manager
+== yarn
 
 # Basic Flow
 
@@ -65,6 +66,7 @@ npm run script
 ```
 
 * `--prefix` = cd  
+    * "xxx": "npm run xxx --prefix ./Dir" -- recursively run child package.json
 
 * `-D` = `--save-dev` = saves it under
 
@@ -76,16 +78,21 @@ npm run script
 ## Version
 
 ```bash
-npm show <name> version
-npm info <name> # dependencies
+npm show "$name" version
+npm info "$name" # dependencies
 npm ci（Continuous Integration ）# Strictly follow package-lock.json
 ```
+
+* **~1.4.0** = >=1.4.0 <1.5.0
+> It does not match git hub version(Tags).
 
 ## npx
 * a command that comes with npm (since npm v5.2.0) and is used to run Node.js packages **without installing them globally.**
 
 ## nodemon
-
+    ```json
+    "start": "nodemon --config nodemon.json"  # ← Check nodemon.json
+    ```
 * If you change your source code (like .js, .ts, .json, etc.), nodemon automatically restarts your Node.js process for you — so you don’t need to stop and start it manually every time you make a change.
 
 ### Notes

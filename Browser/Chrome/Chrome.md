@@ -8,3 +8,6 @@
 **Time**
 1. after:yyyy-mm-dd before:yyyy-mm-dd
 1. tool bar 
+
+
+**allow paste**

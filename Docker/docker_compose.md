@@ -17,7 +17,7 @@ services:
       retries: "$n"
   name2:
     build:
-      context: "$path"
+      context: "$path" # like ../ used with COPY . . 
       dockerfile: ./Dockerfile
 ```
 
