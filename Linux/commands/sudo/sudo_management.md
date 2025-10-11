@@ -11,6 +11,14 @@ useradd -m -G wheel ${USER}
 # -m=create home directory
 # -G=join wheel(typically used for sudo)
 # “big wheel” = 大物・偉い人
+
+# rename
+sudo pkill -u "$olduser"
+sudo usermod -l "$newuser" "$olduser"
+sudo usermod -d "/home/$newuser" -m "$newuser"
+sudo groupmod -n "$newuser" "$olduser"
+
+
 passwd "${USER}"
 
 sudo usermod -aG systemd-journal ${USER}

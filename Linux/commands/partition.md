@@ -56,6 +56,13 @@ sgdisk [options] <device>
 
     Write → Save the partition table to disk
 
+
+`fdisk`
+    
+    `-n`: create a new partition
+        `p`: primary
+    `w`: write out
+
 `lsusb` -- list usb devices
 
 

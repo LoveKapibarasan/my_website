@@ -54,7 +54,8 @@ Sincelely, Best Regards
 
 ### Domain Transfer
 
-1. Unasign the domain from the web site.
+1. Unasign the domain from the web site and get EPP/Auth Code.
+1. **DNS**: Turn off DNSSEC protection and change name server.
 
 ### ICANN Lock
 * https://lookup.icann.org/

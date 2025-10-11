@@ -104,3 +104,12 @@ wichtig = von großer Bedeutung sein
 * **Nach, Vormittag**
 
 * **entsinnen**: 記憶に戻る、思い出す。
+
+
+* **Quasi** : 「ほぼ」「いわば」「～のような」
+
+* **Vererbung**: 遺伝
+
+* **vorhersagen** 予測する、予言する
+
+* **mitkriegen**:「気づく」「理解する」「察知する」「聞き逃さない」

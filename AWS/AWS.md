@@ -64,3 +64,7 @@ curl checkip.amazonaws.com
 sudo ss -tlnp | grep LISTEN
 sudo netstat -tlnp | grep LISTEN
 ```
+
+### Notes
+
+> EC2 does not open 25(e mail) by default.

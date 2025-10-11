@@ -42,7 +42,7 @@ GTX 10（2016〜）- Pascal
 
 ### Score
 1. **3DMark**
-
+[URL](https://www.3dmark.com/search)
 Example:
 RTX 4090: 36,000
 RTX 4080: 28,000
