@@ -12,7 +12,7 @@
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
-
+git init # create .git
 git clone --depth="$n"  -o $origin_name $url $place
 # --recursive = including submodules
 git add . # . = all

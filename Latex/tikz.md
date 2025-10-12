@@ -164,3 +164,29 @@ below=1.5cm of nodename
 - `\usetikzlibrary{graphs}` でグラフ構文を簡略化
 - `node distance=2cm` でデフォルトの距離を設定
 - `every node/.style={...}` で全ノードにスタイル適用
+
+
+### Forest
+
+```tex
+\usepackage{forest}
+
+\begin{forest}
+  for tree={
+    grow=south,
+    circle, draw, minimum size=1cm,
+    s sep=1cm  % 兄弟間の距離を自動調整
+  }
+  [Root-1
+    [W-2
+      [W-3
+        [W-4][L-3]
+      ]
+      [L-2
+        [W-3][L-1]
+      ]
+    ]
+    [L-0]
+  ]
+\end{forest}
+```

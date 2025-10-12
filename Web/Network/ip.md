@@ -93,7 +93,30 @@ Show ARP（Address Resolution Protocol）table
 # Show ip address and MAC address in the same network
 ```
 
+### Global(Fixed) IP address
 
+1. Contact with ISP, provider.
+2. Use service like Tailscale Funnel
+> cannot use custum domain.
 
+**Fiber Optic Cable Work**
 
+**Work Flow:**
 
+1. **From outside the building to the building**
+
+Draw out light fiber cables from a telephone pole(電柱) to the building
+If already installed, skip this step
+
+2. **From the building to the room**
+
+Pass through walls or wall gaps for pipes
+Often use air conditioning duct openings
+Or make small holes (about 1 cm in diameter)
+
+3. **Inside the room**
+
+Install outlets (connectors)
+Attach an ONU device
+
+**Required time: 1-2 hours**

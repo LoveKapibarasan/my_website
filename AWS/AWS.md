@@ -65,6 +65,11 @@ sudo ss -tlnp | grep LISTEN
 sudo netstat -tlnp | grep LISTEN
 ```
 
+### 
+* Root User
+* IAM（Identity and Access Management）
+
+
 ### Notes
 
 > EC2 does not open 25(e mail) by default.

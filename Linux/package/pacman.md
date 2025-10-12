@@ -16,6 +16,8 @@ pacman <operation> [option] [target]
 #-h=help
 #-n=purge
 #-s=recursive(dependencies)
+#--noconfirm
+#--needed Do not reeinstall
 ```
 
 ### AUR (Arch User Repository)

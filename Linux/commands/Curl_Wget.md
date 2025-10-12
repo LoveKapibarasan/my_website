@@ -51,6 +51,8 @@ curl -X POST -d "key=value" https://api.example.com
 ```bash
 
 wget -O "$newname".zip https://example.com/file.zip
+# -O = output file path
+# -o = log file
 
 # Resume download
 wget -c https://example.com/largefile.iso

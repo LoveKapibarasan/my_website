@@ -26,9 +26,9 @@ sudo openfortivpn
 
 ```ini
 host = sslvpn.oth-regensburg.de
-port = 443
 realm = vpn-default
-trusted-cert = 364fb4fa107e591626b3919f0e7f8169e9d2097974f3e3d55e56c7c756a1f94a
+port = 443
+trusted-cert = 2d275478298edc3577bd3ca1e22a898b916e149d677aea8f507758424fa47603
 username = abc12345
 password = meinpasswort
 ```

@@ -10,6 +10,7 @@ myapp: main.cpp utils.cpp
 clean:
 	rm -f myapp
 ```
+
 ```bash
 make # = make all
 make install

@@ -18,6 +18,7 @@
 ## Text Formatting
 
 ```latex
+\text {Hello, $E=mg$}
 \textbf{bold text}              % Bold
 \textit{italic text}            % Italic
 \underline{underlined}          % Underline
@@ -54,6 +55,7 @@
 % Unordered list
 \begin{itemize}
   \item First item
+  next line
   \item Second item
 \end{itemize}
 
@@ -123,6 +125,8 @@ x^{2}_{i}                       % Both
 % Sets
 \in  \notin  \subset  \subseteq
 \cup  \cap  \emptyset  \mathbb{R}
+
+%% cUp=U and cap
 
 % Logic
 \forall  \exists  \nexists

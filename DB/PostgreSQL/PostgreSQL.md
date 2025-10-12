@@ -6,6 +6,12 @@
 
 * mainly `C`
 
+
+**Config:**
+`~/.pgpass`
+```
+localhost:5432:database_name:username:password
+```
 # Basic
 
 ```bash
@@ -65,13 +71,15 @@ ALTER DATABASE <old_user> OWNER TO <new_user>;
 * `--` -- psql/SQL comments
 
 
-## Connection
+## Commands
 
 ```bash
-psql -h <IP_address> -p <port_number> -U <username> -d <db_name>
+psql -h "$domain_or_IP_address" -p <port_number> -U <username> -d <db_name>
 ```
-
+* `-h` = hostname
 * 127.0.0.1 = localhost
+* `-f` = excute `.sql` file.
+* `-q` = quiet
 
 ## TCP IP connection setting
 
@@ -129,3 +137,7 @@ postgres-# -- not OK. commonly you forget ;
 | `CREATE EXTENSION postgis;`  | Enables geographic data types like `geometry(Point)` |
 | `CREATE EXTENSION pgcrypto;` | Adds cryptographic functions (e.g. UUID generation)  |
 | `CREATE EXTENSION citext;`   | Adds case-insensitive text type (`citext`)           |
+
+### Notes
+- You cannot use "user" for username 
+- PG_PASSWORD
