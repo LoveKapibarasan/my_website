@@ -2,20 +2,28 @@
 
 ## tsconfig.json in the root directly
 
-```ts
+```json
 {
   "compilerOptions": {
     "target": "ES2020",            // JavaScript version to output
     "module": "commonjs",          // Module system
     "strict": true,                // Enable strict type checking
     "esModuleInterop": true,       // Compatibility between import and require
+    "noEmit": true,                 // Do not ourput JS. Only do type check
     "outDir": "./dist",            // Output folder for compiled files
     "rootDir": "./src"             // Root folder of source files
   },
   "include": ["src/**/*"],         // Files to compile
+  "references": [
+    {
+      "path": "./tsconfig.node.json" // nodemon
+    }
+  ],
   "exclude": ["node_modules"]      // Files/folders to ignore
 }
 ```
+
+
 
 | Option              | Description                                                 |
 | ------------------- | ----------------------------------------------------------- |
@@ -34,4 +42,33 @@ npx tsc # Compile based on tsconfig.json
 npx tsc watch # = npx tsc w = nodemon
 # --build 
 # --verbose
+```
+
+
+
+With `rootDir`
+```
+project/
+├── tsconfig.json
+├── src/              ← remains
+│   ├── index.ts
+│   ├── utils.ts
+│   └── types/
+│       └── user.ts
+├── dist/             ← generated
+│   ├── index.js , index.d.ts  ←  d.ts type definition file
+│   ├── utils.js
+│   └── types/
+│       └── user.js
+└── package.json
+```
+Without
+```
+project/
+├── dist/
+│   └── src/              ← src is included
+│       ├── index.js
+│       ├── utils.js
+│       └── types/
+│           └── user.js
 ```

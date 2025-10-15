@@ -9,8 +9,6 @@
 * The replacement model of OSS = Nachfolgemodell von OSS
     * OSS (Open Sound System)
 
-
-
 ### User Space
 
 **PulseAudio**

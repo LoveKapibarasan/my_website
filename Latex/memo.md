@@ -1,4 +1,6 @@
 
+* `\begin{align*}`, `\section*{}`: Do not enumerate
+
 **Empty Line**: Paragraph line
 
 **answer**
@@ -11,6 +13,7 @@ Answer: $\underline{\underline{x = 4}}$
 \left( \frac{a}{b} \right)
 ```
 
+* Escape `_` inside a `\text{}`
 
 ### R
 ```tex
@@ -22,3 +25,6 @@ $\mathbb{Z}$
 $\mathbb{Q}$
 $\mathbb{C}$
 ```
+
+
+

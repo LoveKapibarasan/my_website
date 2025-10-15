@@ -9,5 +9,5 @@
 1. after:yyyy-mm-dd before:yyyy-mm-dd
 1. tool bar 
 
-
-**allow paste**
+* Clear Cache: `Application` -> `Storage` -> `Clear Site Date` 
+* **allow paste**

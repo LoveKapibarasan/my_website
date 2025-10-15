@@ -1,4 +1,3 @@
-Here’s a concise table of the main **TypeScript types** in English:
 
 | Type              | Description                                                        |            |
 | ----------------- | ------------------------------------------------------------------ | ---------- |

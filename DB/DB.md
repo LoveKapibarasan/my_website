@@ -4,6 +4,15 @@
 
 * Primary key
 
+### Diagram
+
+1. Schema Diagram
+* Concept
+* Relationship between entities.
+
+1. ER Diagram（Entity-Relationship Diagram）
+* Implementation
+* Table, Attributes(Column), PK or FK and reference.
 
 ## Cloud Database
 

@@ -1,42 +1,50 @@
 ### Schlüssel
 * Wenn das Schlüsselloch rechts an der Tür ist, dreht man den Schlüssel nach links (gegen den Uhrzeigersinn), um aufzuschließen.
 
-### Others
+### Sonstiges
 * Es gibt keine Fahrkartenkontrolle am Steig. Man muss den Fahrschein im Fahrzeug vorzeigen.
 
-### 基本モード
+### Grundprogramme der Waschmaschine
 
-**Kochwäsche (コッホヴェシェ) - 煮洗い**
-
+**Kochwäsche**
 * 90°C / 60°C
-* 白い綿製品、タオル、シーツなど
-* 一番強力な洗浄
+* Weiße Baumwollprodukte, Handtücher, Bettwäsche usw.
+* Stärkste Reinigung
 
-**Buntwäsche (ブントヴェシェ) - 色物洗い**
-
+**Buntwäsche**
 * 60°C / 40°C
-* 色柄物の綿製品
-* 普段着など
+* Bunte Baumwollprodukte
+* Alltagskleidung usw.
 
-**Pflegeleicht (プフレーゲライヒト) - 手入れ簡単**
-
+**Pflegeleicht**
 * 40°C / 30°C
-* 化繊、混紡素材
-* しわになりにくい素材向け
+* Synthetische Fasern, Mischgewebe
+* Für knitterfreie Materialien
 
-**Feinwäsche (フアインヴェシェ) - デリケート洗い**
-
+**Feinwäsche**
 * 30°C / 20°C
-* デリケートな衣類
-* 弱い水流
+* Empfindliche Kleidung
+* Schwacher Wasserfluss
 
-**Handwäsche / Wollwasch (ヴォルヴェシュ) - 手洗い/ウール**
+**Handwäsche / Wollwäsche**
+* 30°C oder niedriger
+* Wolle, Kaschmir usw.
+* Sehr schonende Wäsche
 
-* 30°C以下
-* ウール、カシミヤなど
-* 非常に優しい洗い
+**Miniwasch**
+* Für kleine Wäschemengen
+* Zeitverkürztes Programm
 
-**Miniwasch - ミニ洗い**
+### Beschäftigungsformen
 
-* 少量の洗濯物向け
-* 時間短縮プログラム
+* **Minijob**
+    * Verdienstgrenze: bis 538 Euro pro Monat
+    * Steuern: grundsätzlich einkommensteuerfrei
+
+* **Nebenjob**
+    * Wenn das Einkommen höher als beim Minijob ist
+
+* **Teilzeit**
+    * Arbeitszeit: in der Regel unter 30-35 Stunden pro Woche
+
+

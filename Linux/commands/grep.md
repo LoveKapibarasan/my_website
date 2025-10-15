@@ -5,7 +5,7 @@
     * `a | grep` -- pass output of a to grep.
     * `-i` -- does not care capital or non-capital letter.
     * `-I` -- ignore binary files
-    * `-R` -- recursively(ignore directlies)
+    * `-R` -- recursively(ignore directories)
     * `-n` -- show line number
     * `-l` -- output only file name, not matched line.
     * `-v` -- invert match

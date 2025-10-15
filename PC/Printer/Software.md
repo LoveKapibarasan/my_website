@@ -14,7 +14,8 @@ lp -d "$printer_name" "$file"
 # -d option needs the printer name immediately after it 
 # -o sides=two-sided-long-edge
 # -o sides=two-sided-short-edge
-
+# -o ColorModel=Gray
+# -o print-quality=draft
 # Job List
 lpstat -o
 

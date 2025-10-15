@@ -34,3 +34,12 @@ sudo fmtutil-sys --all
 `?`: Error prompt
     * `x` + `Enter`: exit
     * `i` + `Enter`: fix
+
+**PNG**
+```bash
+convert -density "$n" input.pdf -quality 100 output.png # old
+magick -density 300 document.pdf -quality 100 output.png # new
+# dpi 300
+# -quality 100: 100%
+```
+

@@ -127,4 +127,26 @@ wichtig = von großer Bedeutung sein
 - ausnehmend: どんな状況でも、常に優れていること。例えば、出番が多いことなど。
 - Muster: ある形や図柄を表すもの。パターン。
 - Freck: (1) ひよこチョークによって、肌に色をつけること。(2) 色のついた、チョーク。
-- Ziffern: 数字。
+* **Ziffern**: 数字。
+* **Zur Verfügung stehen**: 「手助けする、援助する」
+* **Herkunft**:  出身、起源、ルーツ、出自
+* **Quereinsteiger**  異業種からの転職者
+* **Geschlecht** 1. 性別 2. 世代、3. 家系
+
+* **Verwaltung** 公的機関や組織の運営・管理
+
+* **fortsetzen** --続ける、継続する
+    * e.g. das Gespräch fortsetzen 
+
+* beginnen- begonnen
+* fahren - fuhr - gefahren
+
+### Da + Prä
+
+* dazu Lust haben -- Verben
+* darauf Lust haben -- Nomen
+
+
+**Andere Richtung**
+* Vorname -- 名前
+* Nachname -- 苗字

@@ -29,8 +29,10 @@ CMD ["node", "server.js"]
 ```bash
 docker build -t "$image_name" .
 docker run -d -p "$local_port":"$containar_port" "$image"
+# --name
 docker images # pulled images
 docker rmi "$image_name"
+docker image prune -a # delete not used images
 ```
 
 

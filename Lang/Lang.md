@@ -1,4 +1,23 @@
+@
 
+```de
+außer 3 / bis auf 4
+```
+```en
+except for 
+```
+
+@
+```de
+laut 2 / gemäß 3 / nach 3
+```
+
+```en
+according to 
+```
+
+
+@
 ```en
 Office
 ```

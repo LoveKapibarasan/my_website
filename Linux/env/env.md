@@ -6,9 +6,17 @@ set +a # reverse
 
 * `export xxx='yyy'`
     * Adding ' is better(for special characters)
-    * No space around =.
+    * No space around =
+    * environment variable
+    * Until the shell session ends (like log out)
+* `xxx=yyy`
+    * shell variable
+    * child process do not inherit
 
-
+```bash
+source .env
+export $(cat .env | xargs) 
+```
 ### `/etc/environment`
 
 * System wide environment variable. 

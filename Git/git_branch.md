@@ -10,16 +10,25 @@ git branch -a
 git checkout "${origin}/${branch}" $file_path
 # Default: origin, main, all files
 # Rewrite content
+```
 
-
+**Checkout**
+```bash
 git checkout "$branch" # Go to the latest commit
 
 # Go back
 git checkout "$commit-hash"
 git reset --hard HEAD # Discard Change and align 
 
-git checkout -b <new-branch> <base_branch>
+git checkout -b "$new-branch"
+git checkout "${origin}/${branch}"
+git checkout "${origin}/${branch}" -- "$file"
+# --theirs, --ours 
 # -b = create a new branch and switch
+```
+
+
+```bash
 git branch -r | grep "$origin_name" 
 git branch -d "$branch_name" # delete local branch
 git push origin --delete "$branch_name" # delete remote branch

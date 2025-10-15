@@ -2,11 +2,12 @@
 
 * Take the commits from the branch main and integrate them into your current branch.
 ```bash
-git merge <main>
+git merge "${origin}/${branch}"
 ```
 > add && commit -> merge -> edit -> add the file -> commit -> edit msg -> push
 
 * `--squash` = merge only changes(commit histories are ignored.)
+* `--allow-unrelated-histories`
 
 ### Rebase
 
@@ -32,8 +33,8 @@ git config --global.pull.rebase true
 ### fetch
 
 ```bash
-git fetch <origin> <main> 
-git fetch <origin> # all branch
+git fetch "$origin" "$main"
+git fetch "$origin" # all branch
 ```
 * Default: default remote(origin) and main or master.
 
@@ -69,7 +70,6 @@ git merge-file "$file1" "$basefile" "$file2"
 
 ###
 ```bash
-git checkout "${origin}/${branch}" -- "$file"
 
 # Staging step by step
 git add -p complete_pipeline.ipynb

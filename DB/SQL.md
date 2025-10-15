@@ -10,6 +10,11 @@ WHERE condition;
 | `id`     | Interpreted as an identifier in **all lowercase**.                           |
 | `"id"`   | Treated as a **case-sensitive identifier** — known as a *quoted identifier*. |
 
+**Comment:**`/**/` or `--`
+
+
+* `DISTINCT`: removes duplicated line.
+
 
 ## Insert
 

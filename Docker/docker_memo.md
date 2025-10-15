@@ -49,7 +49,9 @@ RUN,COPY: This adds a layer.
 5. Environment in Dockerfile with `ENV` instruction"
 
 ## Commands
-
+```bash
+docker compose [global option] [sub command] [sub command option]
+```
 * `docker start`
     * up one container.
 
@@ -62,10 +64,16 @@ RUN,COPY: This adds a layer.
 
     * `-f`
         * Assign docker file path.
+
+    *  `--env-file`
     
     * `--build`
-
         * Forces a rebuild of images before starting containers, even if the image already exists locally.
+
+* `docker compose down`
+    * Default `docker-compose.yml`
+    * `--rmi all`: remove image
+    * `--rmi local`: Only built image
 
 * `docker logs <container_name>`
     
@@ -92,12 +100,19 @@ services:
 * `docker ps`
     * `-q` → lists only the IDs of all running containers.
     * `-a` → lists also stopped containers.
+```
+CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
+```
 
 ### Stop commands
 
 * `docker stop $(docker ps -q)`
 
 * `docker rm -f $(docker ps -aq)`
+    * Volume is not deleted
+    * Pulled or built images are not deleted
+    * delete container
+
 
 * `docker container prune`
     * Delete all stopped containers

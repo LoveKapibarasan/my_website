@@ -12,7 +12,11 @@
 ```bash
 git config --global user.name "Your Name"
 git config --global user.email "your.email@example.com"
+
+# 1.
 git init # create .git
+git remote add "$origin" "$url"]
+# 2.
 git clone --depth="$n"  -o $origin_name $url $place
 # --recursive = including submodules
 git add . # . = all
@@ -47,3 +51,7 @@ git reset # reset command
 ```
 fatal: detected dubious ownership in repository at
 ```
+
+* **Personal access tokens (classic)**
+
+--> Developer's setting.

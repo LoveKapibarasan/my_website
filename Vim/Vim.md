@@ -1,5 +1,5 @@
 
-swp, swo = .bak recover and delete.
+swp, swo = .bak. Buffer file.
 
 `%` = 
 1. editing file.(command line)

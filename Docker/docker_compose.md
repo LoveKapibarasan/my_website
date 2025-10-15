@@ -4,6 +4,7 @@ services:
     container_name: name
     image: name/name:latest
     platform: linux/amd64/…
+    container_name: "${name}"
     ports:
         - "${port_of_host}:${port_of_container}/${protcol}"
     # Linux capabilities
