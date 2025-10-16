@@ -3,6 +3,8 @@
 **Docker Image:** blueprint  of an application. like install file.
 **Container:** running image
 
+Everything will be executed in a container.
+
 ```dockerfile
 # 1. Base Image
 FROM python:3.9 # Python Environment

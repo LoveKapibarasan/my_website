@@ -2,7 +2,9 @@
 It receieves HTTP request and returns JS, CSS, HTML.
 e.g. Serve, Nginx, Apache
 
+
 ### Nginx
+* Dynamic Server
 `/usr/share/nginx/html/`     ← Place HTML file
 `/etc/nginx/nginx.conf`      ← How to distribute
 ```nginx
@@ -38,12 +40,27 @@ http {
             proxy_pass http://backend:3000/;
         }
     }
+    # send compressed content
+    gzip on;
+    gzip_vary on;
+    gzip_min_length 1000;
+    gzip_types
+        text/plain
+        text/css
+        text/xml
+        text/javascript
+        application/javascript
+        application/json
+        application/xml+rss
+        image/svg+xml;
 }
-
 
 ```
 
 ### Serve
+* Static Server: Returns file as it is.
+* Image size is much bigger.
+* easy to understand.
 
 **Config:**
 * `serve.json`

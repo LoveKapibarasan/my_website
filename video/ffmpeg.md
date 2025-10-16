@@ -15,7 +15,12 @@ Technology to compress or decode data.
 ```bash
 # m4o(MPEG-4 Audio) -> mp3
 ffmpeg -i input.m4a -codec:a libmp3lame -qscale:a 2 output.mp3
+# mp4 -> mp3
+ffmpeg -i "$file.mp4" -acodec libmp3lame -ab 256k "$file.mp3"
 ```
+
+* MP3 = Audio Format
+* MP4 = Video Format
 
 
 

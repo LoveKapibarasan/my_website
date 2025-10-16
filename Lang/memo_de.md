@@ -1,4 +1,6 @@
+人称代名詞2格は使われない
 
+* Statt mir
 
 
 * **Übrigens**: btw
@@ -42,6 +44,15 @@
 * **auftauchen**：「現れる」「浮かび上がる」「（問題などが）出てくる」
 
 * **Abenteuer**：「冒険」「大きな挑戦」「波乱のある経験」
+
+
+
+### Verb
+
+* **fragen nach 3**
+* **bitten um 4**
+
+
 
 ### Brief
 
@@ -115,15 +126,22 @@ wichtig = von großer Bedeutung sein
 * **mitkriegen**:「気づく」「理解する」「察知する」「聞き逃さない」
 
 
-* aufschreiben: そのものを書き留める。
-* einschätzen: その物について、その程度を予測し、判断する。評価する。
+* aufschreiben: 書き留める。
+
+* einschätzen: 予測し、判断する。評価する。
+
 * verzerrung: 正しい形や正しくなっていないこと。歪み。
-* sich tauschen: 人と人との間で物や考えなどを交換する。
-* sich zeigen: 本当の気持ちや意志などを明らかにする。
+
+* sich tauschen: 交換する。
+
+* sich zeigen: 本当の気持ちを明らかにする。
+
 - abspringen: 仕事や責任などを引き受けず、立ち去ること。または逃げ出すこと。
 - Schluss: 最終的な結論。もとより知っていたこと。決まったこと。これで。最後まで。
-- erheben: 高いところに上げる。高くする。起き立つ。起こす。大きくなる。
+- **erheben**: 高いところに上げる。高くする。起き立つ。起こす。大きくなる。
+    * erbheblich
 - zufällig: そのときに、偶然の関係として起きたこと。
+
 - ausnehmend: どんな状況でも、常に優れていること。例えば、出番が多いことなど。
 - Muster: ある形や図柄を表すもの。パターン。
 - Freck: (1) ひよこチョークによって、肌に色をつけること。(2) 色のついた、チョーク。
@@ -150,3 +168,48 @@ wichtig = von großer Bedeutung sein
 **Andere Richtung**
 * Vorname -- 名前
 * Nachname -- 苗字
+
+**Katastrophe** 
+
+**liegen lassen haben**
+
+**endlich**=**zuletzt**
+
+**verdampfen**
+
+* **verleihen** - **verlieh** - **verliehen**: 貸す
+* **verlieren** - **verlor** - **verloren**
+
+* **Zugang**
+
+* **sich sparen**
+
+* **raten, das Rat geben**
+* **erraten**
+
+* **damals**, **in dem Moment**
+
+* **die Kamera**, **Photo machen**
+
+* **vollzihen**
+
+* **abbiegen**, **beschleunigen**, **bremsen**
+
+* **auf den Geschmack**: 感受性
+
+* **aufweisen**
+
+* tun,  Tat
+
+* Inzwischen
+
+* schlumpfen
+
+* erstellen
+
+* Berechtung --認証
+
+
+### Der Die Das
+
+der Kurs

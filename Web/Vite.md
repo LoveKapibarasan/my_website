@@ -51,6 +51,22 @@ export default defineConfig({
 
 ```
 
+**Plugin**
+* Polyfill = dummy alternative
+Allow to use Node.js functions on browser for libralies that internally use process or fs.
+* Babel = typescript transpiler
+```
+const fs = require('fs');
+const path = require('path');
+const Buffer = require('buffer').Buffer;
+window.process = {
+  env: {
+    NODE_ENV: 'production'
+  }
+};
+```
+
+
 ### Alias
 
 ```ts

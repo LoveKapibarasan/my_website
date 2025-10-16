@@ -51,6 +51,7 @@ In the prompt,
 >>> multi
 >>> line
 >>> """
+>>> Ctrl + d # exit
 ```
 
 By default, ollama does not store talk history.

@@ -28,7 +28,7 @@ Bootloader
 
 * ASUS
 * Google Pixel
-
+* PinePhone
 ### OS
 * Ubuntu
 * LineageOS
@@ -52,3 +52,7 @@ Bootloader
 **Android**
 * Android Core
 * Android API  should be the same.
+
+### VoIP, IP phone call
+* difficult to identify location
+* Voice over Internet Protocol

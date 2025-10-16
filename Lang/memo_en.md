@@ -28,3 +28,10 @@
 
 
 * get a sence of: 雰囲気を掴む
+
+
+* admit - admitted
+
+
+* without giving up
+* without losing heart

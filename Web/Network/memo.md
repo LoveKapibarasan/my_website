@@ -28,9 +28,6 @@ IPv6 is newer and solves the problem of running out of IPv4 addresses.
 
 
 
-## NetworkManager
-
-* A Linux service/daemon that manages network connections.
 
 * `/etc/NetworkManager/conf.d/` Setting dir.
 
@@ -70,7 +67,16 @@ sudo iptables -P INPUT DROP
 
 
 
-## WWW
+### WWW
 www. = World Wide Web
 * to distinguish web server from other server.
 * Nowaday it has no meaning.
+
+
+### WPS（Wi-Fi Protected Setup）
+
+* setting up wifi without password.
+* Click the WPS button
+
+
+

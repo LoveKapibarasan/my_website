@@ -52,6 +52,7 @@ for x in "${name[@]}"; do
 
 ### Command Line Arguments
 ```
+all_arguments="$@"
 x="$1"
 y="$2"
 
