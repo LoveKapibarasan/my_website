@@ -5,7 +5,8 @@ set +a # reverse
 ```
 
 * `export xxx='yyy'`
-    * Adding ' is better(for special characters)
+    * Adding `'` is better(for special characters)
+        * `'`: Literal without variable expansion
     * No space around =
     * environment variable
     * Until the shell session ends (like log out)

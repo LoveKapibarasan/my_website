@@ -2,7 +2,7 @@
 
 * Take the commits from the branch main and integrate them into your current branch.
 ```bash
-git merge "${origin}/${branch}"
+git merge "${origin}/${branch}" # with current branch
 ```
 > add && commit -> merge -> edit -> add the file -> commit -> edit msg -> push
 
@@ -31,6 +31,8 @@ git config --global.pull.rebase true
 * `-m` -- merge comment might be also required.
 
 ### fetch
+
+* Local files do not change !!
 
 ```bash
 git fetch "$origin" "$main"

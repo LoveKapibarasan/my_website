@@ -35,3 +35,6 @@
 
 * without giving up
 * without losing heart
+
+
+* Patch a file = ファイルに対して部分的な変更・修正を適用すること

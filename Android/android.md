@@ -10,6 +10,9 @@
     * `/system/bin/sh`
 * `/data`        - User data
     * `/data/app`
+        - `shared_prefs/` - SharedPreferences file（XML format）
+        - `files/` - 
+        - `databases/` - SQLite database
 * `/cache`
 * `/vendor`
 * `/boot`

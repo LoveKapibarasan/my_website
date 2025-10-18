@@ -13,9 +13,13 @@ fastboot oem unlock
 fastboot flashing unlock
 ```
 
+- Integrated with ROM
+- Secret Key is managed by maker
+
 
 ### How to Get Root Privileges on Android = Wie man Zugriff auf Wurzelrechte erhält
-* `Magisk`
+**`Magisk`**
+* [URL](https://droidwin.com/root-lineageos-magisk-boot-img/)
 * Some bank application might not work.
 
 ### Fastboot
@@ -53,6 +57,11 @@ Bootloader
 * Android Core
 * Android API  should be the same.
 
-### VoIP, IP phone call
-* difficult to identify location
-* Voice over Internet Protocol
+
+
+### TWRP(Team Win Recovery Project)
+
+* used to unlock or get root.
+
+
+

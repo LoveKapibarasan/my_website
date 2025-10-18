@@ -34,3 +34,12 @@ mutation {
 }
 
 ```
+
+
+## Hasura
+
+* Automatically generate GraphQL API from Database.
+* [Git URL](https://github.com/hasura/graphql-engine)
+
+
+ws = web socket url(bidirection)

@@ -57,6 +57,8 @@ Sincelely, Best Regards
 1. Unasign the domain from the web site and get EPP/Auth Code.
 1. **DNS**: Turn off DNSSEC protection and change name server.
 
+> Without domain transfer, you can change DNS record setting.
+
 ### ICANN Lock
 * https://lookup.icann.org/
 * When domain owner information(name, phone number, mail address, address) is changed, you cannot transfer the domain for 60 days.
@@ -104,3 +106,6 @@ Registrant Address: 東京都渋谷区1-2-3
 * VPS
 * Dedicated Server -- Large sites
 * Cloud(like AWS) -- Pay-as-go, Enterprise
+
+
+

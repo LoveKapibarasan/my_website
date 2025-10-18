@@ -3,6 +3,9 @@
 - a headless Content Management System(CMS) and data platform that provides a customizable admin interface for managing database content.
 - It offers a REST and GraphQL API on top of your data, allowing both developers and non-technical users to collaborate. 
 
+
+> [AI tools](https://directus.io/docs/guides/ai/mcp/installation#generate-access-token)
+
 ## Basic Flow
 ```bash
 npm install -g directus

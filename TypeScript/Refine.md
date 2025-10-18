@@ -8,6 +8,9 @@ cd test
 npm run dev
 ```
 
+**Port**
+* 5173 or 3000
+
 #### Ant design
 
 

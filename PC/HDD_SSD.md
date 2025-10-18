@@ -8,7 +8,7 @@
 
 * Best suited for older PCs or as secondary storage
 
-2. M.2 SSD
+2. M.2 SSD Key M
 
 * Card-type drive that plugs directly into the motherboard (looks like a stick of gum)
 
@@ -18,12 +18,13 @@
 
 * 2242, 2260, 22110 also exist.
 
-
 PCIe 3.0: 3,500MB/s 
 PCIe 4.0: 7,000MB/s
 PCIe 5.0: 10,000MB/s
 
-> Check motherboard and CPU comatibility.
+3. M.2 Key E
+for Wifi or Bluetooth slot.
+
 
 ### Add-in Card (AIC SSD)
 

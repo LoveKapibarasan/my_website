@@ -56,8 +56,13 @@ detached
 HEAD → C2
 C1 — C2 — C3   (main -> C3) 
 ```
-no branch commit
+* It points to a commit but not on any branch.
+* `[detached HEAD xxxx]` message. 
 
+**Cause:**
+    1. Checkout with commit hash or tag or remote branch
+
+Do `git checkout`.
 
 
 ### Diff
@@ -68,6 +73,7 @@ git diff "${origin_x}/${branch_y}" "${origin_z}/${branch_w}" -- "$path"
 
 # --name-only = only show file name 
 
+git diff "g_path1" "$g_path2" # this even works between different repos
 ```
 
 ### hunk

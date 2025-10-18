@@ -26,7 +26,6 @@ services:
 * `${name}` -- read from shell or `.env`.
 
 
-
 ### Cap Add
 
 * `CAP_NET_ADMIN` → Network configuration changes (IP changes, routing operations, etc.) = Änderungen der Netzwerkkonfiguration (IP-Änderungen, Routing-Operationen usw.)
@@ -43,3 +42,10 @@ services:
 on host system.
 
 * `CAP_` is not necessary.
+
+
+* This will be synced if you use the same image on different project.
+```yaml
+    environment:
+      POSTGRES_PASSWORD: "my-secret-password" 
+```

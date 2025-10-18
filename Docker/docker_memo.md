@@ -48,6 +48,10 @@ RUN,COPY: This adds a layer.
 4. `.env` file
 5. Environment in Dockerfile with `ENV` instruction"
 
+If `environment:` section is `"${}"` style.
+
+2,4,5 is valied until the container is downed.
+
 ## Commands
 ```bash
 docker compose [global option] [sub command] [sub command option]
@@ -56,6 +60,7 @@ docker compose [global option] [sub command] [sub command option]
     * up one container.
 
 * `docker compose up`
+    * Do not build when an image exists.
 
     * `-d` 
         * **Detached mode** <-> Foreground mode (default)
@@ -74,6 +79,9 @@ docker compose [global option] [sub command] [sub command option]
     * Default `docker-compose.yml`
     * `--rmi all`: remove image
     * `--rmi local`: Only built image
+
+* `docker compose build`
+    * `--no-cache`
 
 * `docker logs <container_name>`
     
