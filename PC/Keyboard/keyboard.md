@@ -1,6 +1,7 @@
-US -> better to type simbols
+* Place the first finger on `J`, `K`
+* US -> better to type simbols
 
-USB or Bluetooth
+* USB or Bluetooth
 
 ## Classification by Switch Type:
 

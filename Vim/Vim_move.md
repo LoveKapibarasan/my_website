@@ -1,5 +1,5 @@
 # Normal Mode
-
+`"$n"j,"$m"k,h,l`
 `b` -- Backward word
 `w` -- forward Word
 `e` -- move End of word

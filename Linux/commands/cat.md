@@ -21,3 +21,6 @@
             $line 1… # can use variable expansion
         EOF
         ```
+
+
+`"$command" < "$x"`: Redirect. Pass x as an argument

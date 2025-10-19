@@ -22,6 +22,15 @@ services:
       dockerfile: ./Dockerfile
 ```
 
+### Search Image Name
+
+* [docker URL](https://hub.docker.com)
+* `docker search "$name`
+* `[registry/]repository[:tag][@digest]`
+    * Registry: xxx.io or hub.docker.com(default)
+    * Tag: `stable` or `latest`(default)
+    * Digest = SHA256 hash
+
 ### .Env
 * `${name}` -- read from shell or `.env`.
 

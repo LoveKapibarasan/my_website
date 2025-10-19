@@ -1,9 +1,11 @@
 
-
+`Ctrl` + `t`: Open NVimTree(Custum Setting) 
+`Ctrl` + `W` + `h,l`: Switch focus between NVimTree and editor area. 
 ### File Navigation
 
 * `Enter` / `l` → Open file or expand folder
-* `o` → Open file or folder (same as `Enter`)
+* `o` → Open(Toggle) file or folder (same as `Enter`)
+    * `W`: Collapse all folder recursively.
 * `t` → Open file in a new tab
 * `s` → Open file in a horizontal split
 * `v` → Open file in a vertical split

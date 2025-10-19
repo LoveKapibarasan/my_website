@@ -1,4 +1,4 @@
-## htop
+## htop(top, btop)
 ```
 0 = CPU
 1

@@ -1,6 +1,8 @@
 ## Conditions
+
+* `true`, `false`
 * `!` = negate(Do not forget space after `!`)
-* `[ <condition> ]` -- When variable expansion happens
+* `[ "$condition" ]` -- When variable expansion happens, use `[]`.
 
 * `[ -n "$VAR" ]` = if var is empty string, true
 * `[ -z "$VAR" ]` = if var is not empty string, true
@@ -11,11 +13,12 @@
   > `"$var"` Do not forget `""`
 * `[ "$a" -eq "$b" ]` = compare between numbers
 
-*  `[ -d "$name" ]` = is name is directory, true.
+*  `[ -d "$name" ]` = If name is directory and exists, true.
 * `[ -f "$name" ]` = file
+* `[ -s "$name" ]` = `-f` and not empty
 * `[ -e "$name" ]` = name exists?
 * `[ -ne "$name" ]` = name not exists?
-* need space after [ and before ].
+* need space after `[` and before `]`.
 
 ## And Or
 

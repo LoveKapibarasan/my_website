@@ -1,5 +1,5 @@
-bash = Bourne-Again Shell <--bone again
-
+# bash = Bourne-Again Shell <--bone again
+* Interpreter
 ## Give a permission
 ```bash
 chmod +x name.sh

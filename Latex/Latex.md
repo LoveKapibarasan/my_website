@@ -250,6 +250,15 @@ x^{2}_{i}                       % Both
 \usepackage{babel}              % Language support
 \usepackage{natbib}             % Bibliography
 ```
+## Arrow
+```latex
+\rightarrow        →
+\leftarrow         ←
+\leftrightarrow    ↔
+\Rightarrow        ⇒
+\Leftarrow         ⇐
+\Leftrightarrow    ⇔
+```
 
 ## Comments
 

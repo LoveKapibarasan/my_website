@@ -66,5 +66,5 @@ Insted filename, shortcut_link is always opend.
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 ```
 * `dirname "$0"` → Get the directory part of the script’s path.
-    * "$0" is the path used to invoke the script (could be like ./script.sh.)
+    * `"$0"` is the path used to invoke the script (could be like ./script.sh.)
 * `pwd` = stands for “print working directory”.

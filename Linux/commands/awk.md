@@ -19,6 +19,9 @@ $(awk -F: '$3 >= 1000 && $1 != "nobody" {print $1}' /etc/passwd); # get normal u
 ## IFS
 
 IFS (Internal Field Separator)
+IFS= : Do not separate a line.
 ```bash
 while IFS=, read -r x y; do
+
+done
 ```

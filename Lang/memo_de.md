@@ -209,6 +209,7 @@ wichtig = von großer Bedeutung sein
 
 * Berechtung --認証
 
+* arm = pleite = mittellos 
 
 ### Der Die Das
 

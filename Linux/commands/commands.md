@@ -17,6 +17,7 @@ tranlate or delete
     * `>`
 
 * `mv a b`
+    * `-f`
     * rename=move
 
 * `mkdir`
@@ -40,4 +41,3 @@ tranlate or delete
 * `touch <filename>` -- touch update timestamp of the file
 * `cat > <filename>`
 * `vim or nano <filename>`
-* `echo "$string" > <filename>` # echo = echolocation

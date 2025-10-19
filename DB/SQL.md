@@ -12,6 +12,7 @@ WHERE condition;
 
 **Comment:**`/**/` or `--`
 
+* a,b,c can be attribute or number.
 
 * `DISTINCT`: removes duplicated line.
 
@@ -51,5 +52,9 @@ WHERE
 | ----- | ----------------------------------- | --------------------------------------------------------- |
 | `kcu` | **k**ey **c**olumn **u**sage        | Which **child table & column** are using the foreign key = Where is this FK used? |
 | `ccu` | **c**onstraint **c**olumn **u**sage | Which **parent table & column** are referenced by the key = What is this FK pointing to? |
+
+
+### EXIST
+**EXISTS**: Subquery returns more than one line? $\sim $ `xxx IN`
 
 

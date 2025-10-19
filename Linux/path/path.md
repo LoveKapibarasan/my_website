@@ -6,6 +6,9 @@
 
 * At the start of a filename (.file) = On Unix/Linux systems, this means a hidden file.
 
+
+**Current directory is the location where the file was
+run, not the file location.**
 * `.` = current dir
 * `..` = go up
 * `*`  = all

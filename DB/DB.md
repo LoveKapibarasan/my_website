@@ -1,7 +1,7 @@
 ## 
 
 * Foreign Key
-
+    * `ON DELETE CASCADE ON UPDATE CASCADE`
 * Primary key
 
 ### Diagram
@@ -13,6 +13,10 @@
 1. ER Diagram（Entity-Relationship Diagram）
 * Implementation
 * Table, Attributes(Column), PK or FK and reference.
+
+
+* use (the power of 2) - 1 for `VARCHAR(n)`
+
 
 ## Cloud Database
 

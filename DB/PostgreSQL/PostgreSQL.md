@@ -4,15 +4,21 @@
 
 * [URL](https://github.com/postgres/postgres)
 
-* mainly `C`
+* mainly wrritten in `C`
 
 
 **Config:**
-`~/.pgpass`
-```
+
+* `~/.pgpass`
+```ini
 localhost:5432:database_name:username:password
 ```
-# Basic
+* Docker URL
+`postgresql://[user[:password]@]host[:port]/database[?param=value&...]`
+    * Host=service name when executing docker.
+    * Use docker container's port for port.
+
+## Basic
 
 ```bash
 sudo systemctl enable postgresql --now
@@ -24,51 +30,44 @@ CREATE USER username WITH PASSWORD 'password';
 -- Create database
 CREATE DATABASE db_name OWNER username;
 
-
 -- quit
 \q
 ```
 
-## Users
+### Users
 
-### User list
+**User list**
 ```sql
 \du+ -- show user list
 SELECT rolname FROM pg_roles;
 ```
-
 * `psql` is the default super user.
 
-### Delete user
+**Delete user**
 ```sql
 DROP ROLE <user_name>;
 ```
 
-## DBs
-
-### DB list
+### DB
+**DB list**
 ```sql
 \list
 SELECT datname FROM pg_database;
 ```
-### table list
+* template0, 1, postgres are default.
 
+**table list**
 ```sql
 \dt
 ```
 
-* template0, 1, postgres are default.
-
-### Change owner
-
+**Change owner**
 ```sql
-ALTER DATABASE <old_user> OWNER TO <new_user>;
+ALTER DATABASE "$old_user" OWNER TO "$new_user";
 ```
 
-
-## Comments
-
-* `--` -- psql/SQL comments
+**Comments**
+* `-- comment` -- psql/SQL comments
 
 
 ## Commands
@@ -76,25 +75,13 @@ ALTER DATABASE <old_user> OWNER TO <new_user>;
 ```bash
 psql -h "$domain_or_IP_address" -p <port_number> -U <username> -d <db_name>
 ```
+* `-c` = command
 * `-h` = hostname
-* 127.0.0.1 = localhost
 * `-f` = excute `.sql` file.
 * `-q` = quiet
 
-## TCP IP connection setting
-
-```bash
-postgresql.conf in etc
-# and  listen_addresses = '*', port_number = 
-
-pg_hba.conf in etc
-# IPv4 local connections:
-# host    all             all             127.0.0.1/32           scram-sha-256 or md5(older)
-
-```
-
-## Logs
-1. Check systemmd
+### Logs
+1. Check `systemctl status`
 
 2.
 
@@ -108,22 +95,21 @@ log_directory = 'log'
 log_filename = 'postgresql-%a.log'
 ```
 
-```bash
-sudo -u postgres psql -c "SHOW data_directory;"
-
-#  relative to postgre data_directly
-sudo -u postgres psql -c "SHOW log_directory;"
-sudo -u postgres psql -c "SHOW log_filename;"
-```
-
 # Memo
 ```
 postgres=# -- input OK
 postgres-# -- not OK. commonly you forget ;
 ```
-* ' vs. "
-  * " = Identifier. Capital and Non-Capital letters are distinguished. 
-  * ' =  String Literals
+* `'` vs. `"`
+  * `"` = Identifier. Capital and Non-Capital letters are distinguished. 
+  * `'` =  String Literals
+
+### Errors
+
+**Constraints Error**
+
+**CASCADE Error**
+
 **ERROR: Unknown constraint error**
 * FK is created before the referencing table is created.
 

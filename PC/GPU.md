@@ -86,3 +86,15 @@ vulkaninfo --summary
 **Oculink**
 * PCI Express（PCIe）base external connector.
 * NVMe M.2 -> Oculink
+
+
+
+### Size
+**Length**
+1. Full Length -- 25～28cm
+1. Half-length -- 13～15cm
+1. Low-profile
+
+
+**Slot**
+x16(Full), x8, x4, x1
