@@ -10,10 +10,14 @@ git merge "${origin}/${branch}" # with current branch
 * `--allow-unrelated-histories`
 
 ### Rebase
-
+* Edit or organize commit history
 * linear
 ```bash
 git rebase
+
+# collect into one history
+git rebase -i HEAD~n # check n with git log --oneline
+# -i = interactive mode
 git config --global.pull.rebase false
 ```
 

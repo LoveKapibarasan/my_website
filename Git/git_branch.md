@@ -4,15 +4,28 @@
 
 ```bash
 git branch -a
+# * is current branch
 # -vv = with remote track
 # -a = all
 # -r = remote
+```
+
+* Branch name convention
+1. `feature/xxx`
+1. `bugfix/xxx`
+1. `refactor/xxx`
+1. `release/xxx`
+1. `docs/xxx`
+1. `improvement/xxx`
+
+**Checkout**
+
+```bash
 git checkout "${origin}/${branch}" $file_path
 # Default: origin, main, all files
 # Rewrite content
 ```
 
-**Checkout**
 ```bash
 git checkout "$branch" # Go to the latest commit
 
@@ -20,18 +33,28 @@ git checkout "$branch" # Go to the latest commit
 git checkout "$commit-hash"
 git reset --hard HEAD # Discard Change and align 
 
-git checkout -b "$new-branch"
+git checkout -b "$new-branch" # create new branch from current commit
+git checkout -b "$new-branch" "${origin}/{main}"
 git checkout "${origin}/${branch}"
 git checkout "${origin}/${branch}" -- "$file"
 # --theirs, --ours 
 # -b = create a new branch and switch
 ```
 
-
+**Deletion**
 ```bash
-git branch -r | grep "$origin_name" 
-git branch -d "$branch_name" # delete local branch
+git branch -r | grep "$origin_name"
+
+# delete local branch
+git branch -d "$branch_name"
+# -D = Force to delete
 git push origin --delete "$branch_name" # delete remote branch
+```
+
+**Rename**
+```bash
+git branch -m "$old_name" "$new_name"
+# remote > delete and push
 ```
 
 ```bash
@@ -41,7 +64,6 @@ git show "$commit":$"path" > "$output_file"
 
 
 > Checkout can not change deleted files.
-
 
 
 

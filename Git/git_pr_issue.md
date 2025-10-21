@@ -1,6 +1,9 @@
 * **Check the first `.git` folder. It contains Issue and PR templates.**
 * Create a folk and branch.
-* Do not send too big PR. Do regulaly. Separate.
+
+* **Do not send too big PR. Do regulaly. Separate.**
+* **Run linter before.**
+
 
 ## Issue
 
@@ -32,7 +35,7 @@
     Assignees (who should handle it)
 
 ```bash
-gh issue create --title "<title>" --body "<body>" --label bug
+gh issue create --title "$title" --body "$body" --label bug  --repo "${owner}/{repo}"
 ```
 
 
@@ -48,7 +51,8 @@ git checkout -b <branch_name>
 
 on CUI
 ```bash
-gh pr create --base main --head <branch_name> --title "<title>" --body "<Explanation>"
+gh pr create --base "$target_branch" --head "$source_branch_name" --title "$title" --body "$Explanation"
+# or --body-file "$file_path" --repo "${owner}/{repo}" --head  "${me}/{repo}"
 ```
 
 5. Review
