@@ -1,4 +1,5 @@
 ```yaml
+# Comment
 services:
   name1:
     container_name: name
@@ -16,10 +17,16 @@ services:
       interval: "$n"s
       timeout: "$n"s
       retries: "$n"
+    networks:
+      - shared-network
   name2:
     build:
       context: "$path" # like ../ used with COPY . . 
       dockerfile: ./Dockerfile
+
+networks:
+  network_name:
+    external: true
 ```
 
 ### Search Image Name
@@ -57,4 +64,36 @@ on host system.
 ```yaml
     environment:
       POSTGRES_PASSWORD: "my-secret-password" 
+```
+
+
+**URL**
+
+* `localhost`
+* `host.docker.internal`: port of local machine
+
+
+### Network
+
+* `localhost` does not work between different `docker-compose`.
+
+```bash
+# create external network
+docker network create "$network_name"
+```
+       
+
+
+### YAML anchor
+* Define with `&` and reference with `*`.
+
+```yaml
+x-defaults: &default-env
+  environment:
+    - DEBUG=true
+    - LOG_LEVEL=info
+services:
+  service1:
+    image: app1
+    <<: *default-env
 ```

@@ -29,7 +29,7 @@ CMD ["node", "server.js"]
 ```
 
 ```bash
-docker build -t "$image_name" .
+docker build -t "$image_name" . # You can not run dockerfile directly.
 docker run -d -p "$local_port":"$containar_port" "$image"
 # --name
 docker images # pulled images

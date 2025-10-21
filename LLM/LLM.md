@@ -39,7 +39,8 @@ ollama run  "$model_name"
 ollama run "$model_name" "one_shot_commend"
 ollama run "$model_name" < "$input"
 ollama show "$model_name"
-ollama rm "$model_name" 
+ollama rm "$model_name"
+# no rename?
 ```
 In the prompt,
 ```
@@ -54,4 +55,4 @@ In the prompt,
 >>> Ctrl + d # exit
 ```
 
-By default, ollama does not store talk history.
+`~/.ollama/history`: talk history

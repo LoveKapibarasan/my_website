@@ -10,3 +10,9 @@
 * **www** stands for "World Wide Web."
 * It’s a type of *host name* that points to the server providing web pages.
 * Nowadays, many sites let you omit "www" (e.g., `www.google.com` and `google.com` lead to the same site).
+
+
+
+### Notation
+**No trailing slash**
+A trailing slash is the forward slash (`/`) at the end of a URL. 

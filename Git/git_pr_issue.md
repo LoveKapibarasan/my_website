@@ -1,6 +1,6 @@
 * **Check the first `.git` folder. It contains Issue and PR templates.**
 * Create a folk and branch.
-* Do not send too big PR. Do regulaly.
+* Do not send too big PR. Do regulaly. Separate.
 
 ## Issue
 

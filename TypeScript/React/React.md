@@ -17,6 +17,11 @@ function Counter() {
 
 * useEffect - side effect after rendering
 
+**Event**
+```jsx
+<Button onClick={() => function()} 
+```
+
 **Props** 
 - Pass data
 - Only from parent to child
@@ -42,6 +47,9 @@ function UserProfile({ userId }) {
       .then(data => {
         setU
 ```
+
+
+* Import && Export
 
 ## Tools
 

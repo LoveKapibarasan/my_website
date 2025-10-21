@@ -80,7 +80,7 @@ npm run script
 ```bash
 npm show "$name" version
 npm info "$name" # dependencies
-npm ci（Continuous Integration ）# Strictly follow package-lock.json
+npm ci #（Continuous Integration ）Strictly follow package-lock.json
 ```
 
 * **~1.4.0** = >=1.4.0 <1.5.0

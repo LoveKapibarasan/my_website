@@ -211,6 +211,19 @@ wichtig = von großer Bedeutung sein
 
 * arm = pleite = mittellos 
 
+* Hänger = ハンガー
+
+* Dichtung = 1. 詩・詩歌 2. 接着剤
+
+
+### Fachwörter
+
+* Reinforcement Lerning = Stärkungsverhalten
+
+* Server = server
+
+* Weg = Route
+
 ### Der Die Das
 
 der Kurs
