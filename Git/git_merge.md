@@ -10,22 +10,38 @@ git merge "${origin}/${branch}" # with current branch
 * `--allow-unrelated-histories`
 
 ### Rebase
-* Edit or organize commit history
+1. Place your change on the latest commit.
+2. Edit or organize commit history
+* This can cause Merge Conflict.
 * linear
 ```bash
-git rebase
+git rebase "${origin}/${branch}" # with current branch
 
+git config --global.pull.rebase false
+
+# Continue or Abort
+git rebase --continue
+git rebase --abort
+```
+
+**Edit commit history**
+```bash
 # collect into one history
 git rebase -i HEAD~n # check n with git log --oneline
 # -i = interactive mode
-git config --global.pull.rebase false
+> Both need  **"${origin}/${branch}"** argument.
 ```
+
+* pick = use this commit
+* squash = align with commit before
+* reword = edit commit message
+* drop = delete commit 
 
 
 ### pull = fetch + merge
 
 ```bash
-git pull <origin> <main>
+git pull "$origin" "$main"
 ```
 Default: `--no-rebase` <-> `-rebase`
 ```
@@ -66,6 +82,16 @@ Else changes are saved.
 `git commit`
 
 
+### --theirs, --ours
+
+1. Rebase
+theirs = my branch
+ours = coming branch
+2. Merge
+theirs = comming branch
+ours = my branch
+
+
 ### Create a merge conflict
 
 ```bash
@@ -78,7 +104,7 @@ git merge-file "$file1" "$basefile" "$file2"
 ```bash
 
 # Staging step by step
-git add -p complete_pipeline.ipynb
+git add -p "$file" # or patch
 # y = apply change
 # n = Skip
 # s = split

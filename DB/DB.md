@@ -78,3 +78,8 @@ const users = await UserRepository.findAll(); // SELECT * FROM users;
 * Doctrine
 
 * Eloquent（Laravel）
+
+## Inmemory DB
+
+* (e.g. H2, valkey)
+* used for storing cache or testing purpose.

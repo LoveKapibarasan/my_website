@@ -1,3 +1,8 @@
+
+* Github
+* Gitlab: for company or enterprise
+* Apache Gitbox:(Git repository hosting service.)
+
 ## Dropbox * Git
 
 * Use Dropbox as the storage location for your Git repository, so that you get:
@@ -10,8 +15,8 @@
 
 
 ```bash
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+git config --global user.name "$Your_Name"
+git config --global user.email "$your.email@example.com"
 
 # 1.
 git init # create .git
@@ -23,7 +28,6 @@ git add . # . = all
 git commit -m "message"
 git push origin main
 # --force overwrite remote history
-git reset # reset command
 ```
 
 

@@ -70,6 +70,8 @@ mutation {
 
 
 ## Hasura
+Main: `graphql engine`
+Sub: `data-connector-agent`´
 
 * Automatically generate GraphQL API from Database.
 * [Git URL](https://github.com/hasura/graphql-engine)

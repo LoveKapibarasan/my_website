@@ -1,3 +1,6 @@
+## environment managament tool
+[Infisical](https://infisical.com/)
+
 ```bash
 set -a # export all following variables
 source "$file"

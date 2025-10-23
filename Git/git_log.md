@@ -8,7 +8,9 @@ git log # Commit history
 # --decorate
 # --author="$name"
 # --grep "$commit_message"
-git reflog # HEAD
+
+# for detached commit recover
+git reflog # HEAD history
 ```
 
 ### --since, --after, --before, --until=

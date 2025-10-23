@@ -53,6 +53,18 @@ requirements.in(Package List)        →  pip-compile  Lock→  requirements.txt
 
 ```bash
 pip install -e "$path" # Install path on system
-# -e = editable
+# -e = editable. no copy and create a link to source code
 # Only programs not data.
 ```
+
+### Notes
+
+**PEP668**
+* ArchLinux. " externally-managed-environment"
+* Do not install package on system python.
+
+**`--use-pep517`**
+- `PEP517`: Python build system standard
+
+**`--no-build-isolation`**
+- `isolation`: Create isolated environment when build. 

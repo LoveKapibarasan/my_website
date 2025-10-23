@@ -12,8 +12,8 @@ chmod +x name.sh
 ### header
 
 **Shebang**
-* `#!/bin/bash`= POSIX shell
 * `#!/bin/bash` = bash
+* `#!/home/user/dir/.venv/bin/python` = use venv python
 * `#!/usr/bin/env python3` = python 3
 > Put **the first** line.
 

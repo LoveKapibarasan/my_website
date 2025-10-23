@@ -10,6 +10,10 @@ getent group
 useradd -m -G wheel ${USER}
 # -m=create home directory
 # -G=join wheel(typically used for sudo)
+# --shell /bin/bash
+# --system
+# --home-dir "/xxx" 
+# --comment 'comment'
 # “big wheel” = 大物・偉い人
 
 # rename

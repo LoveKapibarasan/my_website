@@ -1,8 +1,8 @@
 # sudo
 
-* Root is dangerous.
+* Root is dangerous.(Unrestricted)
 
-* `~` become root home directory.
+* `~` become root home directory.(Use `sudo -H`)
 
 ```bash
 # Function to get the home directory of the user who invoked sudo
@@ -43,6 +43,8 @@ username ALL=(ALL) NOPASSWD: /usr/bin/xxx <command>
 * Environment: Doesn't read .bashrc by default
 * Login: Not a login session
 
+
+* `-i`: Open interactive shell.
 
 **Double Sudo**
 * You should not use sudo in sudo script.

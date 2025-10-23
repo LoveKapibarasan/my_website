@@ -88,6 +88,7 @@ docker network create "$network_name"
 * Define with `&` and reference with `*`.
 
 ```yaml
+# env version
 x-defaults: &default-env
   environment:
     - DEBUG=true
@@ -97,3 +98,7 @@ services:
     image: app1
     <<: *default-env
 ```
+
+**Container Name**
+**{project_name}_{service_name}_{number}** 
+* project name = path that you execute docker compose or `-p "$name"`

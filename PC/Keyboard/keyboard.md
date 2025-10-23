@@ -3,6 +3,8 @@
 
 * USB or Bluetooth
 
+* `#`: Pound Key.
+
 ## Classification by Switch Type:
 
 * Membrane - Inexpensive and quiet, but tactile feedback is minimal

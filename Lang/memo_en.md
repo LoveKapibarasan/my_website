@@ -39,4 +39,8 @@
 
 * Patch a file = ファイルに対して部分的な変更・修正を適用すること
 
-*  stray cat = 野良猫
+* stray cat = 野良猫
+
+* upsert = update + insert
+
+* boilerplate = 「何度も使われる標準的なコード」

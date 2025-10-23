@@ -60,3 +60,8 @@ gh pr create --base "$target_branch" --head "$source_branch_name" --title "$titl
 6. Approve
 
 7. Merge
+
+
+### JIRA
+* by Atlassian
+* project management tool

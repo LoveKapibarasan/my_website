@@ -61,4 +61,7 @@ username:password:UserID:GroupID:Comments:HomeDir:LoginShell
 
 ### UID
 * root -- UID = 0
-* Normal Users -- UID > 1000
+* Normal Users -- UID >= 1000
+* System User -- UID < 1000
+    * for application
+    * cannot login

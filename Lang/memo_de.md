@@ -215,6 +215,11 @@ wichtig = von großer Bedeutung sein
 
 * Dichtung = 1. 詩・詩歌 2. 接着剤
 
+* anpassen = 適応させる
+
+* das Bett
+* Schlafsack = 寝袋
+* Matte = マット
 
 ### Fachwörter
 

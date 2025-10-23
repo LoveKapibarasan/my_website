@@ -88,6 +88,15 @@ Do `git checkout`.
 
 
 ### Diff
+
+* Permission difference is also shown as 6 digit.
+```bash
+# global setting to ignore
+git config --global core.fileMode false
+
+# per repo
+git config core.fileMode false
+```
 ```bash
 git diff [object of comparison =Vergleichsobjekt] [--Option] [File_path...]
 

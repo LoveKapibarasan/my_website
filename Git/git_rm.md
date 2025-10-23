@@ -1,5 +1,7 @@
 
 ```bash
-git rm <path>
-git rm --cached <path> # Only delete from git
+git rm "$file_path"
+git rm --cached "$file_path" 
+# Only delete from git stage
+# -f = delete also from local
 ```
