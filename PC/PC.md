@@ -39,5 +39,5 @@
 ### BTO
 * Build To Order
 
-## Power Supplyer
-* [URL](https://www.sycom.co.jp/media/archives/7180/)
+
+### ATX(Advanced Technology Extended)

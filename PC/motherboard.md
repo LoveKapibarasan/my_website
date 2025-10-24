@@ -195,8 +195,8 @@ Pin numbers →     2         4           6        8   10
 **HDD_LED+ / HDD_LED-**
 → Hard drive / SSD activity LED (has polarity: + / -).
 
-**PWR_BTN**
-→ Power button (turns system ON/OFF).
+**PWR_BTN**(PWR_SW)
+→ Power button (turns system ON/OFF) if two pin is connected.
 
 **RESET**
 → Reset button (forces reboot).

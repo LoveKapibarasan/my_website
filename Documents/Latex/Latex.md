@@ -103,6 +103,9 @@ $$ display math $$              % Alternative (not recommended)
 =  \neq  \approx  \equiv  \leq  \geq
 <  >  \ll  \gg
 
+% special
+\infty
+
 % multiply
 $3 \times 5 = 15$
 $2 \cdot 3 = 6$
@@ -121,6 +124,9 @@ x^{2}_{i}                       % Both
 \int  \sum  \prod  \lim  \partial
 \int_{a}^{b}                    % Integral with limits
 \sum_{i=1}^{n}                  % Sum with limits
+
+% differential
+\frac{d}{dx} f(x)
 
 % Sets
 \in  \notin  \subset  \subseteq
@@ -211,6 +217,18 @@ x^{2}_{i}                       % Both
 ## Environments
 
 ```latex
+% care *
+\begin{align*}
+    x &= y \\
+    w &= z
+\end{align*}
+
+f(x) = \begin{cases}
+x + 1 & \text{if } x > 0 \\
+0 & \text{if } x = 0 \\
+x - 1 & \text{if } x < 0
+\end{cases}
+
 \begin{center}
   Centered text
 \end{center}
