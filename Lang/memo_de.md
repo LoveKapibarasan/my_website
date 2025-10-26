@@ -126,30 +126,9 @@ wichtig = von großer Bedeutung sein
 * **mitkriegen**:「気づく」「理解する」「察知する」「聞き逃さない」
 
 
-* aufschreiben: 書き留める。
 
-* einschätzen: 予測し、判断する。評価する。
 
-* verzerrung: 正しい形や正しくなっていないこと。歪み。
 
-* sich tauschen: 交換する。
-
-* sich zeigen: 本当の気持ちを明らかにする。
-
-- abspringen: 仕事や責任などを引き受けず、立ち去ること。または逃げ出すこと。
-- Schluss: 最終的な結論。もとより知っていたこと。決まったこと。これで。最後まで。
-- **erheben**: 高いところに上げる。高くする。起き立つ。起こす。大きくなる。
-    * erbheblich
-- zufällig: そのときに、偶然の関係として起きたこと。
-
-- ausnehmend: どんな状況でも、常に優れていること。例えば、出番が多いことなど。
-- Muster: ある形や図柄を表すもの。パターン。
-- Freck: (1) ひよこチョークによって、肌に色をつけること。(2) 色のついた、チョーク。
-* **Ziffern**: 数字。
-* **Zur Verfügung stehen**: 「手助けする、援助する」
-* **Herkunft**:  出身、起源、ルーツ、出自
-* **Quereinsteiger**  異業種からの転職者
-* **Geschlecht** 1. 性別 2. 世代、3. 家系
 
 * **Verwaltung** 公的機関や組織の運営・管理
 
@@ -220,6 +199,12 @@ wichtig = von großer Bedeutung sein
 * das Bett
 * Schlafsack = 寝袋
 * Matte = マット
+
+* Mehl, Weizen = 小麦粉、粉（flour）
+* Hefe = イースト、酵母（yeast）
+* Haferkern  = オート麦粒、オーツ麦（oat kernel/grain）
+* Ölsaaten  = 油脂種子。ひまわりの種、菜種、大豆など（oil seeds）
+
 
 ### Fachwörter
 

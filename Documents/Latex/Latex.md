@@ -81,6 +81,7 @@ $inline math$                   % Inline math
 \[ display math \]              % Display math (centered)
 $$ display math $$              % Alternative (not recommended)
 
+% equation == $$
 \begin{equation}                % Numbered equation
   E = mc^2
 \end{equation}
@@ -289,14 +290,5 @@ x - 1 & \text{if } x < 0
 \end{comment}
 ```
 
-## Useful Tips
 
-**Compiling**: Most documents need to be compiled multiple times for references and citations to work properly (usually 2-3 times).
 
-**Non-breaking space**: Use `~` for a non-breaking space, e.g., `Figure~\ref{fig:example}`.
-
-**Paragraph**: Leave a blank line to start a new paragraph. Don't use `\\` for paragraphs.
-
-**Units**: Use the `siunitx` package for proper unit formatting: `\SI{5}{\meter}`.
-
-**Quotation marks**: Use `` for opening quotes and `''` for closing quotes.

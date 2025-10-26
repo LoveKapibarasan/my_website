@@ -54,7 +54,7 @@ for Wifi or Bluetooth slot.
 
 ## Two connection standards:
 
-* SATA (M.2 SATA) → Same speed as a standard SATA SSD (up to ~560 MB/s)
+* SATA( Serial Advanced Technology Attachment) (M.2 SATA) → Same speed as a standard SATA SSD (up to ~560 MB/s)
 
 * NVMe( = Non-Volatile Memory Express ) (PCIe connection) → Extremely fast. Around 3,500 MB/s with PCIe 3.0, and over 7,000 MB/s with PCIe 4.0
 
