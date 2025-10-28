@@ -50,7 +50,8 @@
 
 
 ### Iptables
-a command/mechanism to control Linux’s packet filtering functionality.
+* a command/mechanism to control Linux’s packet filtering functionality.
+
 1. Packet filtering (firewall)
 → Controls which communications are allowed or denied based on rules.
 

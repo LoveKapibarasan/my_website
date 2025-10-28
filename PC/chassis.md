@@ -13,3 +13,8 @@ Mainly used to connect SSDs or HDDs to the motherboard for data transfer.
 A white connector with four round pins arranged in a row.
 Used for older HDDs, optical drives, case fans, and LED controllers.
 Now considered legacy hardware in modern PCs.
+
+
+**Switch, Power Button**
+* pitch 2.54mm
+* φ0.64mm

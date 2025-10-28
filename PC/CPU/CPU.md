@@ -87,3 +87,9 @@ A new open ISA.
 
 * A heat sink is a block of metal (usually aluminum or copper) attached to components that generate heat (like the CPU, GPU, or chipset).
 * Its purpose is to absorb the heat and dissipate it into the surrounding air.
+
+
+**OC Over Clock**
+* CPU (e.g. 3.5GHz → 4.0GHz)
+* 1GHz = 10 billion work /1s .
+* Max: 9.13033 GHz

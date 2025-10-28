@@ -1,17 +1,9 @@
-* user, group, others
-* rwx = (read, write, execute)
--> Sum
-
-**User ID**
-```bash
-id -u # get user ID
-```
-
 ### Chmod
 
-1.　**numeric / octal mode** 
+1. **numeric / octal mode** 
 chmod xxx file
 (x= 0~7)
+
 2. **Symbolic Mode** 
 chmod [ugoa][+-=][rwxXst] file
     * default=all
@@ -19,11 +11,11 @@ chmod [ugoa][+-=][rwxXst] file
 3. **Special Mode** 
 chmod xxxx
 
-**Top degit**
+4. **Top degit**
 4 = setuid
 2 = setgid
 1 = sticky bit
-
+    * Make a sum.
 
 ### Chown
 ```bash
@@ -35,8 +27,8 @@ chown [OPTIONS] NEW_OWNER[:NEW_GROUP] FILE...
 ### Faillock
 * If you enter the wrong password 3 times, you won't be able to log in for 10 minutes.
 ```bash
-faillock --user <username>
-faillock --user <username> --reset
+faillock --user "$username"
+faillock --user "$username" --reset
 
 ```
 
@@ -56,12 +48,13 @@ username:password:UserID:GroupID:Comments:HomeDir:LoginShell
     Benutzername:Verschlüsseltes Passwort:Letzte Passwortänderung:Minimale Passwortgültigkeit:Maximale Passwortgültigkeit:Warnfrist:Inaktivitätsdauer:Ablaufdatum:Unbenutzt
 ```
 
-## nobody
-*  The weakest account with almost no privileges.= Das schwächste Konto mit fast keinen Berechtigungen.
+### `/etc/subuid` `/etc/subgid`
+subordinate UID/GID
+* `user:100000:65536`: the range user can use in a container. username:start:number
+```bash
+sudo usermod --del-subuids 100000-165535 "$user"
+sudo usermod --del-subgids 100000-165535 "$user"
+sudo usermod --add-subuids 100000-165535 "$user"
+sudo usermod --add-subgids 100000-165535 "$user"
+```
 
-### UID
-* root -- UID = 0
-* Normal Users -- UID >= 1000
-* System User -- UID < 1000
-    * for application
-    * cannot login

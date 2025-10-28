@@ -23,8 +23,13 @@ pacman <operation> [option] [target]
 ### AUR (Arch User Repository)
 * Non offitial repo to install.
 
-#### `yay, peru`
+**`yay, peru`**
+* $\sim$ `Pacman`
 * helper to install from AUR. 
+* Do not use sudo.
+```bash
+yay -Sc # clear cache
+```
 
 ### Config
 `/etc/pacman.conf`

@@ -1,13 +1,17 @@
+### Basic Commands
 
+**Mount**
 ```bash
 lsblk
 sudo (u)mount /dev/sd"$p" /mnt # /mnt is typicall mount point
-sudo eject /dev/sd"$p" # for CD/DVD physically remove
+sudo eject /dev/sd"$p" # for CD/DVD, physically remove
+```
+**Udiskie**
+```bash
 udisksctl mount -b /dev/sd"$p" # Without sudo
 udisksctl unmount -b /dev/sd"$p"
 udisksctl power-off -b /dev/sd"$p"
 # -b = block device, -p = path like /media/user…
-# Package name: udiskie
 ```
 
 * Use `dev` = device
@@ -26,7 +30,7 @@ can build file system.
 Regard file as a block device.
 
 
-###
+### Memo
 `Trash-1000` -- Trash box of user id 1000. 
 `'System Volume Information'` -- Windows generate this.
 
@@ -39,16 +43,37 @@ Regard file as a block device.
 
 
 ## Ventoy
+
+**get tar file from git repository**
 ```bash
 cd ~/Downloads
+version=
 # Check https://github.com/ventoy/Ventoy/releases
-wget https://github.com/ventoy/Ventoy/releases/download/v1.0.97/ventoy-1.0.97-linux.tar.gz -O ventoy.tar.gz
-tar xzf ventoy.tar.gz
-cd ventoy-1.0.97
-sudo ./Ventoy2Disk.sh -i /dev/sdX
-sudo mount /dev/sdX1 /mnt
-cp ~/path/to/your/distro.iso /mnt/
-sudo umount /mnt
+wget https://github.com/ventoy/Ventoy/releases/download/v${version}/ventoy-${version}-linux.tar.gz -O ventoy.tar.gz
+tar xzf *.tar.gz
+cd ventoy*/
 ```
-**MBR style (Master Boot Record)**
-a traditional partitioning scheme for hard drives and USB drives.
+
+**Run a script**
+```bash
+export disk=/dev/sda
+sudo ./Ventoy2Disk.sh -i $disk
+udisksctl mount -b $partition
+cp "$distro.iso" "$mnt_path"
+udisksctl unmount -b $partition
+```
+> You can not change partition layout.
+
+**Without LiveUSB**
+
+```bash
+sudo mkdir -p /mnt/newroot/boot
+sudo mount /dev/sda1 /mnt/newroot
+sudo mount /dev/sda1 /mnt/newroot/boot
+sudo debootstrap --arch amd64 jammy /mnt/newroot http://archive.ubuntu.com/ubuntu/
+sudo genfstab -U /mnt/newroot >> /mnt/newroot/etc/fstab
+```
+Ubuntu Codename[Wiki](https://en.wikipedia.org/wiki/Ubuntu_version_history)
+* `jummy`: 22
+* `Questing Quokka`:25
+* `--arch amd64`: x86-64

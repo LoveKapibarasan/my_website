@@ -1,5 +1,13 @@
 # bash = Bourne-Again Shell <--bone again
 * Interpreter
+
+* Open a Shell
+```bash
+sh 
+bash
+zsh
+```
+
 ## Give a permission
 ```bash
 chmod +x name.sh

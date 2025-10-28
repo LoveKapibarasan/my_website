@@ -2,27 +2,18 @@
 
 * Root is dangerous.(Unrestricted)
 
-* `~` become root home directory.(Use `sudo -H`)
+* `~` become root home directory. 
+    * `sudo -H`: Keep $HOME variable
+    * `sudo -s`: becme root temporaly but keep all environment variable
 
-```bash
-# Function to get the home directory of the user who invoked sudo
-get_user_home() {
-    if [ -n "$SUDO_USER" ]; then
-        eval echo "~$SUDO_USER"
-    else
-        echo "$HOME"
-    fi
-}
-```
-
-
-* Clipboard would not be synced.(Use `-E`)
+* Clipboard would not be synced.(Use `sudo -E` )
 
 **Config**
 * `/etc/sudoers` 
 * `/etc/sudoers.d/` -- Directory for custom setting
+
 ```bash
-sudo visudo -f /etc/sudoers.d/<custom>
+sudo visudo -f "/etc/sudoers.d/${custom}"
 username ALL=(ALL) NOPASSWD: /usr/bin/xxx <command>
 ```
 
@@ -45,6 +36,39 @@ username ALL=(ALL) NOPASSWD: /usr/bin/xxx <command>
 
 
 * `-i`: Open interactive shell.
+**Check Allowed Commands**
+```bash
+sudo -l
+sudo -ll # detail
+```
+
+**Reload**
+```bash
+# Reload immediately
+newgrp "$group"
+```
+
+
+### sudo Groups
+```bash
+groups "$user"
+id "$user"
+getent group "$group"
+```
+**Getent**
+`get entries` -- get database information.
+
 
 **Double Sudo**
 * You should not use sudo in sudo script.
+
+
+### VISUDO
+
+* special and safe command to edit `/etc/sudoers`
+
+```bash
+(EDITOR=vim) sudo visudo
+sudo visudo -c # -c=check
+```
+

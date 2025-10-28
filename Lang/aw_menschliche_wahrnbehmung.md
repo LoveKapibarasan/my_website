@@ -7,7 +7,7 @@
 
 - **ausnehmend**: どんな状況でも、常に優れていること。
 - **Muster**: ある形や図柄を表すもの。パターン。
-- **Freck**: 色のついた、チョーク。
+- **Freck**: しみ、斑点、汚れ、跡
 * **Ziffern**: 数字。
 * **Zur Verfügung stehen**: 「手助けする、援助する」
 * **Herkunft**:  出身、起源、ルーツ、出自
@@ -52,3 +52,35 @@
 * **ungewöhnlich**: 異常な
 * **Abhilfe**: 救済
 * **Pfeile**:  矢
+
+* **verschärfen**: 厳しくする、強化する
+* **beeinträchtigen**:悪化する
+
+* **VPn**: Versuchspersonen
+* **einblenden**:表示する　der eingeblendete Text 
+* **Auffälligkeit**: 目立つこと
+* **plaudern**: おしゃべりする
+* **Ablenkungen**: 気晴らし、注意散漫
+* **entbehrlich**: unbenötig
+* **zuwenden**: 注意を向ける
+* **Wohlbefinden**: Glück 
+
+* **Äusseher**:外部の
+* **absehen**:予測する
+* **wackeln**: 揺れる
+* **Knall**: ドン!
+
+* **Taubheit**: 難聴、聴覚喪失
+
+* **Brüche**(Pl): 複数の破裂、骨折
+
+* **Darsteller, Schauspieler**
+
+* **unterstellen**: Hypothesis
+
+* **Flashbulb**: flash back
+
+* **anhaltend, kontinuerlich**
+
+* **die Fahr/tüchtigkeit**: 運転能力
+* **Blut/alkohol/spiegel** 血液中のアルコール濃度

@@ -38,3 +38,5 @@ pkill "$p_name"
 kill "$pid"
 killall "$p_name"
 ```
+
+

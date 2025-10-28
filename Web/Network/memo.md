@@ -29,48 +29,11 @@ IPv6 is newer and solves the problem of running out of IPv4 addresses.
 
 
 
-* `/etc/NetworkManager/conf.d/` Setting dir.
+**TUN/TAP**
+`/dev/net/tun`: Virtual Network Interface
+* Tunnel(Layer 3, IP): VPN or routing
+* Tap(Layer 2, Ethernet): Bridging
 
-```ini
-[main]
-dns=default
-
-[ipv4]
-ignore-auto-dns=true
-dns=127.0.0.1;
-
-[ipv6]
-ignore-auto-dns=true
-dns=::1;
-```
-
-
-
-
-
-## 📌 iptables
-
-* A firewall utility in Linux (part of the Netfilter framework).
-
-* Purpose: control packet filtering, NAT, and routing rules.
-
-* Works at the kernel level.
-
-```bash
-# Allow SSH (port 22)
-sudo iptables -A INPUT -p tcp --dport 22 -j ACCEPT
-
-# Block all incoming traffic by default
-sudo iptables -P INPUT DROP
-```
-
-
-
-
-### WWW
-www. = World Wide Web
-* to distinguish web server from other server.
-* Nowaday it has no meaning.
 
 
 ### WPS（Wi-Fi Protected Setup）

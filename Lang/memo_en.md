@@ -1,4 +1,4 @@
-* revoke: 取り消す
+: revoke: 取り消す
 
 * **convert into** : まったく別のものに変える
 * **convert to** : 〜に改宗する／〜に変換する
@@ -44,3 +44,8 @@
 * upsert = update + insert
 
 * boilerplate = 「何度も使われる標準的なコード」
+
+* **Hindsicht**:
+    * **with hindsicht**: あとになって考えると
+
+* TL;DR = "Too Long; Didn't Read"
