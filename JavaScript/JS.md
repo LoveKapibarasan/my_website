@@ -41,3 +41,15 @@ On the other hand, there are systems like Node.js, where JavaScript runs on the 
 * And then, if needed, sends HTML/CSS/JS to the client (browser)
 
 → This is called **server-side** JavaScript.
+
+
+**Strict Mode**
+```ts
+'use strict';
+```
+
+
+**Export**
+* commonJS
+`module.exports = {}`
+

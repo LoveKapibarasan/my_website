@@ -77,4 +77,7 @@ Sub: `data-connector-agent`´
 * [Git URL](https://github.com/hasura/graphql-engine)
 * use docker or cloud version [URL](https://cloud.hasura.io)
 
-ws = web socket url(bidirection)
+**Tenant ID**:
+(https://hasura.io/blog/introducing-dynamic-routing-hasura)
+
+`ws` = web socket url(bidirection)

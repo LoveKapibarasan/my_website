@@ -4,6 +4,11 @@
     * `ON DELETE CASCADE ON UPDATE CASCADE`
 * Primary key
 
+**Transaction**
+* `Auto Commit`
+* `Commit`: Execute
+* `RollBack`: Cancel
+
 ### Diagram
 
 1. Schema Diagram

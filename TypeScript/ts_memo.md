@@ -4,15 +4,25 @@
 ```ts
 const x
 
+// explicitly declare type (Type Anotation)
+// Often ommited if Typescript does
+const x:type = "foo";
+var xx:type = "foo";
+
+// need Type Anotation
 const function: (name: type;...) => { name:type ... } // type annotation
 
 const function: (name: type;...) => { name:type ... } = () => {} // assign 
 ```
 
 
+**Export**
+`export{}`
+`export default function()`
+* default export. `import arbitral_name from './file.js';`
+* === `module.export{}` in JS.
 
-
-## Export type
+**Export type**
 
 ```ts
 // user.ts
@@ -32,9 +42,20 @@ const newUser: User = {
 ```
 When executing, it will not exist.(Compile check)
 
+`if(object)`: truthy check with any
+`Truthy`: Object, String, Number.. <-> 
+`Non-Truthy`: 0, null, undefined, false, 0, ""
+`!` = null assertion
+`?` = optional
 
-! = null assertion
-? = optional
+
+**String**
+`string`
+`.length`
+
+
+* `const`: constant value
+* `let`(`var`, older)
 
 
 ### ambient(取り巻く)宣言(declare)
@@ -70,4 +91,24 @@ declare global{
 
 * `window.APP_CONFIG`: can be accessed with `console.log(window.APP_CONFIG.apiUrl);`
 * `import.meta.env`: When `npm run build`, it get value from `.env`. It need `VITE_` prefix in vite environment.
+
+
+**Local Strage**
+`localStorage.getItem(xxxKey)`
+`localStorage.removeItem(xxxKey);`
+
+
+**Source Map**
+* Identify source code from compiled js.
+* `.map`
+```bash
+vite build --sourcemap
+```
+
+**Console**
+* Open inspector on a browser.
+* avoid in production environment.
+* Debug tool.
+`console.log("literal_1", ..variable, .."literal_n)`, `console.info()`, `console.warn()`、`console.error()`、`console.table()`、`console.time()`
+
 

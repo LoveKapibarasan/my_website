@@ -1,4 +1,4 @@
-
+suraHeader
 | Type              | Description                                                        |            |
 | ----------------- | ------------------------------------------------------------------ | ---------- |
 | `string`          | Text values (e.g., `"hello"`).                                     |            |
@@ -9,11 +9,12 @@
 | `null`            | Explicitly empty value.                                            |            |
 | `undefined`       | Value not assigned.                                                |            |
 | `any`             | Any type (disables type checking for that value).                  |            |
-| `unknown`         | Any type, but must be type-checked before use.                     |            |
+| `unknown`         | Any type, but must be **type-checked** before use.                     |            |
 | `never`           | No possible value (e.g., function that always throws).             |            |
 | `void`            | No return value (e.g., function that returns nothing).             |            |
 | `object`          | Non-primitive values (arrays, objects, functions).                 |            |
 | Array type        | `string[]` or `Array<string>` (list of items of one type).         |            |
+| Map type          | `new Map<key,value>();`. (e.g. `new Map<string, number>();`      |
 | Tuple type        | Fixed-length array with specific types (e.g., `[string, number]`). |            |
 | Union type        | Value can be one of several types (e.g., \`string                  | number\`). |
 | Intersection type | Combines multiple types (e.g., `A & B`).                           |            |
@@ -32,3 +33,15 @@
 | `ReturnType<T>`   | Gets the return type of a function type `T`.                       |            |
 | `Parameters<T>`   | Gets parameter types of a function type `T`.                       |            |
 | `InstanceType<T>` | Gets the instance type of a constructor type `T`.                  |            |
+
+**type**
+`typeof xxx = "type"`
+
+**Map**
+```ts
+const map = new Map<string, number>();
+map.set("Apple", 100);
+map.forEach((value, key) => {
+  console.log(`${key}: ${value}`);
+});
+```

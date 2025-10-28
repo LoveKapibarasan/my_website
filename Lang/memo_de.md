@@ -202,7 +202,11 @@ vorbestraft: 前科のある
 
 * Inzwischen
 
-* schlumpfen
+* **schlumpfen**:  縮む
+
+* **zustellen**: liefern
+
+* **im Vorfeld**: in advance
 
 * erstellen
 

@@ -16,13 +16,15 @@ curl -i https://example.com # show also header
 ```bash
 curl -X POST -d "key=value" https://api.example.com
 ```
+* `-H "$key":"$value"`: Header
+    * `-H "Content-Type: application/json"`: declare that data format is JSON
 * `-X (--request)`
     * `--request` = GET,POST,PUT,DELETE
 
-        * `-F "<field_name>=@<file_path>"` = send file_path as field_name.
-        * `-d name=value1&name2=calue2` 
+        * `-F "${field_name}=@${file_path}"` = send file_path as field_name.
+        * `-d ${name_1}=${value_1}&${name_2}=${value_2}` 
 
-
+* `-k`: skip SSL certification check `--insecure`
 * `-s` -- do not display info from curl
 
 * `-I` -- only header
@@ -32,6 +34,7 @@ curl -X POST -d "key=value" https://api.example.com
 * `-D file` output responce header
   * `-D -` in standard output
 
+* `-d{}`: body data
 * `-o` = assign output file name.
   * `/dev/null` -- ignore main message
 
