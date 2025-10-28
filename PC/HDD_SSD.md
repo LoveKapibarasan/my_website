@@ -8,6 +8,10 @@
 
 * Best suited for older PCs or as secondary storage
 
+* Power supply + SATA port
+
+* Mount tray
+
 2. M.2 SSD Key M
 
 * Card-type drive that plugs directly into the motherboard (looks like a stick of gum)

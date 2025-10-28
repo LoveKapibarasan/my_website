@@ -52,3 +52,6 @@
 * **ungewöhnlich**: 異常な
 * **Abhilfe**: 救済
 * **Pfeile**:  矢
+
+* **hinsichtlich 2**: ~に関して
+* **die Rosa**: バラ
