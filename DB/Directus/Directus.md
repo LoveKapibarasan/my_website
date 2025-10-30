@@ -25,10 +25,18 @@ root/
 
 * [Filter Syntax](https://directus.io/docs/guides/connect/filter-rules)
 
-**Endpoint
+**Endpoint**
 1. `/files/`
 2. `/auth/`
 3. `/item/` : Naively do CRUD operation
+
+**Collections**
+[URL](https://directus.io/docs/guides/data-model/collections)
+* Directus creates **directus-** tables like **directus-collection** by default?
+* Accessible via Items API.
+* Exposed if someone set the table as collection
+1. User Collection
+2. System Collection
 
 ## 1. REST API
 ```ts
@@ -49,15 +57,18 @@ npm install @directus/sdk
 
 ```ts
 import { createDirectus, rest, authentication } from '@directus/sdk';
-
+interface Schema {
+  // custom collections definition
+}
 async function main() {
+// Create Client
   const client = createDirectus('http://localhost:8055')
     .with(rest())
     .with(authentication('password', {
       email: 'admin@example.com',
       password: 'adminpass',
     }));
-
+// 1. Token, 2 Email + Password
   await client.login();
 
   const articles = await client.request(
@@ -67,13 +78,59 @@ async function main() {
 
 main();
 ```
+
+**Flow**
+
+```ts
+const flow = await client.request(createFlow({
+  name: 'My Flow',
+  status: 'active',
+  trigger: 'manual',  // or 'event', 'schedule', 'webhook'
+  options: {...}
+}));
+
+// 3. Create an Operation
+const op3 = await client.request(createOperation({
+  flow: flow.id,
+  name: 'Operation 3',
+  type: 'notification',
+  options: {...}
+}));
+
+const op2 = await client.request(createOperation({
+  flow: flow.id,
+  name: 'Operation 2',
+  type: 'request',
+  resolve: op3.id,  // Next Operation
+  options: {...}
+}));
+
+const op1 = await client.request(createOperation({
+  flow: flow.id,
+  name: 'Operation 1',
+  type: 'item-read',
+  resolve: op2.id,  
+  options: {...}
+}));
+
+// 4. Start of the Flow
+await client.request(updateFlow(flow.id, {
+  operation: op1.id  // First Operation
+}));
+
+```
+* Automated set of procedure.
+
+
+
 ## Build
 
 ```bash
 npx directus-extension build
 ```
 
-# Extensions
+## Extensions
+* Directus Extensions SDKs
 
 | Type          | Description                                                             |
 | ------------- | ----------------------------------------------------------------------- |
@@ -84,6 +141,8 @@ npx directus-extension build
 | **Endpoint**  | Add your own custom API endpoints (e.g. `/my-endpoint`)                 |
 | **Bundle**    | Package multiple extensions together as one bundle extension            |
 | **Module**    | Add a larger UI feature with its own settings page inside the admin app |
+
+
 
 
 ## symlink
@@ -101,3 +160,8 @@ npx directus-extension link
 ## Deploy
 
 1. Docker
+
+    1. Mail Address + Password
+    2. Token
+    * `KEY`: Used for data encryption in database
+    * `SECRET`: Used for JWT（JSON Web Token）

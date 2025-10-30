@@ -128,6 +128,7 @@ AT+
 ### Router vs. Modem vs ONU
 * Router
     * Distribute the network.
+    * Internet Filter
 * Modem(modulator-demodulator)
 * ONU(Optical Network Unit)
 

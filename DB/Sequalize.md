@@ -1,5 +1,6 @@
 **migration**
 * is a file that describes changes you want to make to your database, like creating tables or constraints.
+* It used used to patch or fix bugs, bad database design(e.g. `flatten`) without losing data.
 
 * in `/migration/timestamp-xxx`.
 

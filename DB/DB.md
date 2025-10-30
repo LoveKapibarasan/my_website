@@ -23,6 +23,17 @@
 * use (the power of 2) - 1 for `VARCHAR(n)`
 
 
+**Flatten**
+（TableA, TableB,..) -> One Table
+```
+Nested:
+{ id: 1, name: "太郎", tags: ["Python", "JavaScript"] }
+
+flatten:
+id=1, name="太郎", tag="Python"
+id=1, name="太郎", tag="JavaScript"
+```
+
 ## Cloud Database
 
 ```yaml

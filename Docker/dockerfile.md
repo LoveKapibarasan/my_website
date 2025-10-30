@@ -37,4 +37,4 @@ docker rmi "$image_name"
 docker image prune -a # delete not used images
 ```
 
-
+`/docker-entrypoint.sh` is used as wrapper start up script.

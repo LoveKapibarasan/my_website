@@ -59,31 +59,27 @@ docker compose [global option] [sub command] [sub command option]
 * `docker start`
     * up one container.
 
-* `docker compose up`
+* `docker compose up "$service_name"`
     * Do not build when an image exists.
-
+    * Default: All Service
     * `-d` 
         * **Detached mode** <-> Foreground mode (default)
-
         * Starts the containers in the background(with no logs).
-
     * `-f`
         * Assign docker file path.
-
     *  `--env-file`
-    
     * `--build`
         * Forces a rebuild of images before starting containers, even if the image already exists locally.
 
 * `docker compose down`
-    * Default `docker-compose.yml`
+    * Default `docker-compose.yml`. `-f` to change
     * `--rmi all`: remove image
     * `--rmi local`: Only built image
 
 * `docker compose build`
     * `--no-cache`
 
-* `docker logs <container_name>`
+* `docker logs "$container_name"`
     
     * `-f` = real time log
 
@@ -101,7 +97,7 @@ services:
 * `docker compose rm -f "$container_name"`
     * `-f` = force
 
-* `docker exec`
+* `docker exec -it "$container_name $command`
     * Run commands inside a container.
     * `-it`   run this command inside the container interactively as if I were in a terminal.
 

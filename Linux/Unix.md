@@ -91,3 +91,16 @@ dd if="$/dev/dvd" of="$output".iso
 ### IMG
 * Compressed disk
 * more general format
+
+
+### OS Prober
+
+* Detect another OS and add to GRUB menu.
+
+```bash
+sudo os-prober
+# Found Ubuntu 22.04 LTS on /dev/sdb2
+sudo sed -i 's/^#\?GRUB_DISABLE_OS_PROBER.*/GRUB_DISABLE_OS_PROBER=false/' /etc/default/grub
+grep GRUB_DISABLE_OS_PROBER /etc/default/grub
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
