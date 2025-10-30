@@ -6,6 +6,7 @@
     * `-i` -- does not care capital or non-capital letter.
     * `-I` -- ignore binary files
     * `-R` -- recursively(ignore directories)
+    * `-r` -- recursive
     * `-n` -- show line number
     * `-l` -- output only file name, not matched line.
     * `-v` -- invert match
@@ -14,12 +15,11 @@
 * \( \) Grouping conditions
 * -o = or \( *.ts -o  * .tsx \) 
 
-*  --:exclude-dir
 
-### Rin
-
+**Filter**
 ```bash
 grep -Rin "word" . \
+    --include=src/
     --exclude-dir=dist \
     --exclude-dir=node_modules
 ``` 

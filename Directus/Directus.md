@@ -23,6 +23,12 @@ root/
  └ ...
 ```
 
+* [Filter Syntax](https://directus.io/docs/guides/connect/filter-rules)
+
+**Endpoint
+1. `/files/`
+2. `/auth/`
+3. `/item/` : Naively do CRUD operation
 
 ## 1. REST API
 ```ts

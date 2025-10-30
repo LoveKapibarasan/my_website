@@ -21,6 +21,7 @@ chmod +x name.sh
 
 **Shebang**
 * `#!/bin/bash` = bash
+* `#!/usr/bin/env bash` = read $PATH and find bash
 * `#!/home/user/dir/.venv/bin/python` = use venv python
 * `#!/usr/bin/env python3` = python 3
 > Put **the first** line.

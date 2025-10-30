@@ -22,3 +22,6 @@ Ctrl+D  # EOF(End of File)
 
 1. `sh -c " xxx "` or `sudo bash -c "xxx"`  -- run xxx as a command
 2. `command | sudo tee > /dev/null`
+
+
+* `| tee /dev/tty`: Pass input while outputing stdout.

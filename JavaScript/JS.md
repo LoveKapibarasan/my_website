@@ -53,3 +53,18 @@ On the other hand, there are systems like Node.js, where JavaScript runs on the 
 * commonJS
 `module.exports = {}`
 
+**Import**
+```js
+// JavaScript
+const { xxx } = require('./yyy(.js)');
+```
+**Spread Syntax**
+```ts
+const obj = { a: 1, b: 2, c: 3 };
+
+console.log(obj);  // { a: 1, b: 2, c: 3 }
+
+console.log(...obj);  // a: 1, b: 2, c: 3 （split）
+```
+
+

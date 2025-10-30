@@ -58,6 +58,23 @@ When executing, it will not exist.(Compile check)
 * `let`(`var`, older)
 
 
+**Decorator**
+* Give meta information
+```ts
+@d_name(object)
+property: type;
+```
+e.g.
+```ts
+@GqlAssociation({
+  // Pairs
+  key1: value1,
+  key2: value2,
+  xxxQuery: { query: XXX_QUERY },
+})
+field: Type; // Automatically Execute GraphQL and store
+```
+
 ### ambient(取り巻く)宣言(declare)
 `declare`: This is only type definition without implementation
 

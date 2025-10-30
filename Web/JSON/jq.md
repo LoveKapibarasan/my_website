@@ -1,12 +1,20 @@
+# JQ
+* JSON operations
+
+* `-r`: raw output(without ")
 
 ```bash
-jq '.name' config.json # extract value with key 'name'
+jq '.name' "$config".json # extract value with key 'name'
+jq '.name_1.name_2' "$config".json # extract recursively
+jq -r '.array[].xx' # Loop. Output xx is separated with \n
+
 jq '.[0]' file.json # Array
 jq . config.json # format json
 jq '.name = "newName"' old.json > new.json
 # do not need to escape . inside name and newName
 ```
-
+`left // right`: if left is empty, execute right
+`empty`: Output nothing
 
 ### Aggregate
 ```bash
