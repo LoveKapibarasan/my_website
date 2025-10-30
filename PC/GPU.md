@@ -3,42 +3,57 @@
 * High-end: 8~12GB
 * like CPU cache.
 
-## NVIDIA
+# NVIDIA
 
-* GeForce
-* Quadro / RTX A 
-* Tesla / A100 / H100
+* GeForce(Geometric Force) GTX(Giga Texel Shader eXtreme)(~2018)/ RTX(Ray Tracing Texel eXtreme)
+* Quadro(4つの) / RTX A: for professonal artist
+* Tesla / A100 / H100: data center
 
 
 ### NVIDIA GeForce
+
 **RTX/GTX + GEN + Grade** 
-e.g. RTX 4090 = RTX | 40 | 90
-Ti = Titanium is better
+e.g. RTX 4090 = RTX | 40 | 90 = Gen 0 | Grade 0  
 
+* **Ti** = Titanium is better
+* **Super**
 
-
+RTX 50 (2025)
 RTX 40（2022〜）- Ada Lovelace
 RTX 30（2020〜）- Ampere
 RTX 20（2018〜）- Turing
-GTX 10（2016〜）- Pascal
+GTX 10xx（2016〜）- Pascal
+GTX 200 ~ 900
 
-## AMD（Advanced Micro Devices）
+**Tensor Core**
+* RTX
+* Faster matrix calcuration
 
-* Radeon
+
+# AMD（Advanced Micro Devices）
+
+* Radeon(「Radiance（輝き）+eon（粒子）」)
 
 **RX + GEN + Grade** 
 
+RX 9000 (2025)
+RX 5000 (2019)
+RX Vega (2017)
+RX 400/500 (2014/2015)
+
 
 * Radeon PRO
-
 * Instinct
 
-## Intel
+# Intel
 
-* Arc
+* Arc=弧、軌跡、アーチ(2022~)
 * Iris Xe
 * Data Center GPU Flex / Max
 
+
+# 3dfx Voodoo(~1990)
+* now in Nvidia
 
 ### Score
 1. **3DMark**
@@ -54,6 +69,7 @@ RTX 4080: 28,000
 sudo apt install glmark2
 glmark2
 ```
+
 
 ### TDP（Thermal Design Power）
 * RTX 4090: 450W
@@ -98,3 +114,18 @@ vulkaninfo --summary
 
 **Slot**
 x16(Full), x8, x4, x1
+
+### computing
+
+* CUDA (Compute Unified Device Architecture)
+* Intel oneAPI: CUDA in Intel Arc
+* TensorRT: Nivdia
+    * Convert AI model faster
+    * 精度削減（Precision Calibration）, Layer Fusion
+    * GTX 1650/1660: OK, No Tensor Core
+    * GTX 1080 ??
+* MIGraphX: Radeon TensorRT. Limited support
+* Rocm(Radeon Open Compute): 
+    * Open Source, PyTorch, TensorFlow, ONNX. Compile CUDA code
+* CuDNN (CUDA Deep Neural Network library): 
+    * for deep lerning. Used on PyTourch, TensorFlow
