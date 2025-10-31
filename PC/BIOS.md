@@ -40,10 +40,25 @@ sudo efibootmgr -o 0000,0001,0002,0003
 # Check EFI entries
 sudo efibootmgr -v
 # -v = verbose
+
+# Add
+sudo efibootmgr --create --disk /dev/"$device_name" --part partition number --label "label" --loader '\EFI\**.efi'
+
 # Delete boot entry
 sudo efibootmgr -B -b 0001
 ```
 
+**Chroot to reeinstall GRUB**
+```bash
+sudo mount /dev/sda2 /mnt
+sudo mount --bind /dev /mnt/dev
+sudo mount --bind /proc /mnt/proc
+sudo mount --bind /sys /mnt/sys
+sudo mount /dev/sda1 /mnt/boot/efi # or sudo mount /dev/sda1 /mnt/boot
+sudo chroot /mnt
+# Do sth
+exit
+```
 ### GRUB = GRand Unified Bootloader
 * `/boot/grub/`
     * locale, fonto. starfield, thema
@@ -142,15 +157,35 @@ sudo refind-install --yes
 # --yes = --noconfirm
 ```
 * **Config**:
-`/boot/refind_linux.conf`
+`/boot/refind_linux.conf`: Boot option for each entry
 ```ini
 # 
 # ro = read only
-"Entry name" ro root=/dev/sda1
+"Entry name(description)" ro root=/dev/sda1
 "Entry name (Fallback)" ro root=/dev/sda1 initrd=/boot/initramfs-linux-fallback.img
 ```
 `/etc/refind.d/refind.conf`
-`/boot/EFI/refind/refind.conf`
+`/boot/EFI/refind/refind.conf`: Entry option from another disks
+```ini
+menuentry "Custom Linux Boot" {
+  icon /EFI/refind/icons/os_linux.png
+  volume "EFI" # 1. LABEL 2. 
+  loader /vmlinuz-5.10.0 # 
+  initrd /initrd.img-5.10.0
+  options "root=/dev/sda1 ro quiet"
+  submenuentry{}
+  disabled
+}
+# other disk
+menuentry "Ubuntu" {
+    icon /EFI/refind/icons/os_ubuntu.png
+    # 1.
+    loader PART_UUID=xxxx:/EFI/ubuntu/grubx64.efi
+    # 2.
+    volume /dev/sda2
+}
+```
+
 ```ini
 timeout 10          
 textonly            # text mode
@@ -165,11 +200,11 @@ include themes/name/theme.conf
 * [Minimal](https://github.com/EvanPurkhiser/rEFInd-minimal)
 
 ```bash
-sudo mkdir -p /boot/EFI/refind/themes
+sudo mkdir -p /boot/EFI/refind/themes/rEFInd-minimal/
 git clone git@github.com:evanpurkhiser/rEFInd-minimal.git
 sudo rm  -rf rEFInd-minimal/.git
-sudo mv rEFInd-minimal /boot/EFI/refind/themes/
-echo  'include themes/rEFInd-minimal/theme.conf' | sudo tee -a include /boot/EFI/refind/refind.conf
+sudo mv rEFInd-minimal /boot/EFI/refind/themes/rEFInd-minimal/
+echo  'include /boot/EFI/themes/rEFInd-minimal/theme.conf' | sudo tee -a include /boot/EFI/refind/refind.conf
 grep 'include' /boot/EFI/refind/refind.conf
 ```
 

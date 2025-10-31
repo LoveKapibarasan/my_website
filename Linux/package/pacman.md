@@ -18,6 +18,12 @@ pacman <operation> [option] [target]
 #-s=recursive(dependencies)
 #--noconfirm
 #--needed Do not reeinstall
+
+
+sudo pacman -Syyu  # Force refresh all package databases Normally -Syu is enough.
+sudo pacman -Sc  # Remove uninstalled packages from cache
+sudo pacman -Qtdq  # List orphans
+sudo pacman -Rns $(pacman -Qtdq)
 ```
 
 ### AUR (Arch User Repository)
