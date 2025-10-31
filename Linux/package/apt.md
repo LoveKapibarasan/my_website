@@ -58,7 +58,7 @@
 
 
 ## Commands
-
+**apt**
 ```bash
 sudo apt install <package>
 sudo apt update # update package list index
@@ -72,4 +72,12 @@ sudo do-release-upgrade # OS distribution will be updated
 apt search
 apt list
 apt list --installed
+```
+**dpkg**
+```bash
+dpkg -l
+# ii = installed
+# rc = deleted
+# un = not installed
+| grep linux-image # list old kernel
 ```

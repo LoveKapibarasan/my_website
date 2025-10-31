@@ -17,7 +17,10 @@ world   # output
 Ctrl+D  # EOF(End of File)
 ```
 
-
+**with echo**(no redirect problem)
+```bash
+echo "str" | sudo tee -a "$file_path"
+```
 ### Redirect Problem when using sudo
 
 1. `sh -c " xxx "` or `sudo bash -c "xxx"`  -- run xxx as a command

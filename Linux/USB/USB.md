@@ -4,6 +4,9 @@
 ```bash
 lsblk
 sudo (u)mount /dev/sd"$p" /mnt # /mnt is typicall mount point
+# Bind mount
+# use Home OS /dev on /mnt/dev
+sudo mount --bind /dev /mnt/dev
 sudo eject /dev/sd"$p" # for CD/DVD, physically remove
 ```
 **Udiskie**

@@ -29,6 +29,8 @@ passwd "${USER}"
 ```bash
 sudo usermod -aG ${group} ${user}
 # -a = append
+
+# Care the order
 sudo gpasswd -a "$user" "$group"
 sudo gpasswd -d "$user" "$group"
 # -d = delete

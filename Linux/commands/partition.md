@@ -5,6 +5,8 @@
     * `-f` -- with file system information.
 `lsusb` -- list usb device
 
+`sudo blkid "$device"` -- print UUID of disk partition
+
 ### Format
 `gdisk`: GUI tool for GPD partition
     * `p` : Print the partition table

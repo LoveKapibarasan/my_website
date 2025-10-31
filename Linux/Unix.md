@@ -92,6 +92,15 @@ dd if="$/dev/dvd" of="$output".iso
 * Compressed disk
 * more general format
 
+**/etc/os-release**
+* OS information
+```ini
+NAME="Ubuntu"
+VERSION="24.04.3 LTS"
+ID=ubuntu
+ID_LIKE=debian ...
+```
+
 
 ### OS Prober
 
@@ -103,4 +112,8 @@ sudo os-prober
 sudo sed -i 's/^#\?GRUB_DISABLE_OS_PROBER.*/GRUB_DISABLE_OS_PROBER=false/' /etc/default/grub
 grep GRUB_DISABLE_OS_PROBER /etc/default/grub
 sudo grub-mkconfig -o /boot/grub/grub.cfg
+grep -i ubuntu /boot/grub/grub.cfg
+# Timeout
+sudo sed -i 's/^#\?GRUB_TIMEOUT=.*/GRUB_TIMEOUT=30/' /etc/default/grub
+grep GRUB_TIMEOUT /etc/default/grub
 ```
