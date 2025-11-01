@@ -27,15 +27,15 @@ NODENAME=rabbit@hostname
 NODE_IP_ADDRESS=0.0.0.0 
 ```
 
-Logs: /var/log/rabbitmq/
+* Logs: /var/log/rabbitmq/
 
 > **No systemmd log file**
 
 
 ## Create a user
-
 ```bash
 sudo rabbitmqctl add_user "$username" "$password"
+sudo rabbitmqctl change_password "$username"
 sudo rabbitmqctl set_user_tags "$username" administrator 
 rabbitmqctl add_vhost "$vhost_name" # default /
 rabbitmqctl list_vhosts
