@@ -3,7 +3,16 @@
 **Dosfsttools**
 DOS/FAT file system
 ```bash
-mkfs.xxx # create xxx partition
+sudo mkfs.xxx # create xxx partition
+sudo mkfs.ext4 "$DEV"
+sudo mkfs.ntfs -f "$DEV"
+sudo mkfs.exfat "$DEV"
+sudo mkfs.vfat -F 32 "$DEV"
+# -F: FAT Type
+sudo mkfs.btrfs "$DEV"
+# -f: force
+
+
 fsck.fat # recover
 ```
 **mtools**
@@ -57,6 +66,8 @@ fsck.fat # recover
     **Cluster**
     * Unit of data(Normally 4KB)
 
+4. NTFS (New Technology File System)
+    * Windows and Linux
 
 ```bash
 # Check

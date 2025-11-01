@@ -17,6 +17,7 @@
     i : Show detailed information about a partition (info)
 
     t : Change a partition’s type code (type)
+
 `sgdisk` -- CLI tool for GPD partition
 ```bash
 sgdisk [options] "$device"
@@ -25,19 +26,23 @@ sgdisk [options] "$device"
 
     -p : Print the partition table
 
-    -i <N> : Show detailed information about partition number N
+    -i "$N" : Show detailed information about partition number N
 
 * Create / Delete
 
     -n <partnum:start:end> : Create a new partition
+        * end = 0: entire
+        * can use relative(+,-) expressions
+    
+    -t "$N":partition_code
 
-    -d <N> : Delete partition number N
+    -d "$N" : Delete partition number N
 
 * Disk Operations
 
     -g : Generate a new random disk GUID
 
-    -Z : Zap (erase) the disk completely, wiping GPT/MBR data
+    -Z(=--zap-all) : Zap (erase) the disk completely, wiping GPT/MBR data
 
     -o : Create a new, empty GPT
 
@@ -80,6 +85,10 @@ sudo dd if="$INPUT" of="$OUTPUT_DEVICE" [Option]
 **Others**
 * `status=progress`: Show log
 
+**Partition code**
+8300: Linux file system
+8200: swap
+ef00: EFI
 
 ### Partition
 **dev = device**
