@@ -1,0 +1,4 @@
+* X
+* Instagram
+* Line
+* WhatsApp

@@ -1,11 +1,16 @@
 # "Python"
-```txt
-1990年、オランダのプログラマー Guido van Rossum（グイド・ヴァン・ロッサム） がクリスマス休暇中に趣味で新しいスクリプト言語を作り始めました。
+`
+From 1990オランダのプログラマー Guido van Rossum（グイド・ヴァン・ロッサム） がクリスマス休暇中に趣味で新しいスクリプト言語を作り始めました。
 
-ちょうどその頃、彼はイギリスBBCの伝説的コメディ番組 「Monty Python’s Flying Circus」 の脚本集を読んでいて、番組のファンだったため、
-「Python」という短くて覚えやすい名前にしよう と決めました。
-ヘビ（Python）は偶然にも同じ単語ですが、命名の直接の理由はコメディ番組です。
-```
+from comedy England (BBC) 「Monty Python’s Flying Circus」 
+
+* Python(ヘビ) is nor relevant.
+
+* (URL)[https://www.python.org/]
+
+### Style
+[CPython](https://github.com/python/cpython)
+[RustPython](https://github.com/RustPython/RustPython.git)
 
 ## Components
 * Interactive Mode -- execute per line

@@ -7,18 +7,12 @@
     * `-f` - force
 
 
-* `tr -dc 'A-Za-z0-9!@#$%^&()_+=-'`
-tranlate or delete
-    * -d = delete
-    * -c = complement
+
 
 * `/dev/null`
     * null location.
     * `>`
 
-* `mv a b`
-    * `-f`
-    * rename=move
 
 * `mkdir`
     * `-p` - create all necessary parent directories

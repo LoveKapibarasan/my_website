@@ -8,6 +8,9 @@
 
 * It’s more than just an installation command — it resolves dependencies and fetches software from repositories.
 
+## apt-get
+* Older `apt` but still used for script.
+
 ## How apt works (process)
 1. Fetch repository information
 
@@ -58,7 +61,7 @@
 
 
 ## Commands
-
+**apt**
 ```bash
 sudo apt install <package>
 sudo apt update # update package list index
@@ -69,7 +72,16 @@ sudo apt remove "$package"
 
 sudo apt dist-upgrade
 sudo do-release-upgrade # OS distribution will be updated 
+apt --fix-broken install
 apt search
 apt list
 apt list --installed
+```
+**dpkg**
+```bash
+dpkg -l
+# ii = installed
+# rc = deleted
+# un = not installed
+| grep linux-image # list old kernel
 ```

@@ -21,11 +21,19 @@ set +a # reverse
 source .env
 export $(cat .env | xargs) 
 ```
-### `/etc/environment`
+* `/etc/environment`
 
-* System wide environment variable. 
+* System wide persistant environment variable. 
 
 ```ini
 LANG=ja_JP.UTF-8
 PATH="/usr/local/bin:/usr/bin:/bin"
+HOME
+```
+
+
+**env**
+```bash
+env # environment variable list
+env "$program_name" # search program and execute
 ```

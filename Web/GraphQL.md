@@ -16,13 +16,18 @@ curl -X POST http://localhost:8080/v1/graphql \
 ```
 
 1. Schema
-    A blueprint defined on the server that specifies which types of data can be fetched.
-
+    * A blueprint defined on the server that specifies which types of data can be fetched.
+    * `.graphql`, `ggl`: Definition File
+    * `schema.types.ts`: Generate type from GraphQL schema file or hasura server by GraphQL Code Generator
+    ```ts
+    npm run codegen
+    graphql-codegen --config "$file.ts"
+    ```
 
 2. Query
 Used by the client to request only the fields it needs.
 ```graphql
-query {
+query $OperationName{
   "$table"(id: 1) {
     id
     name
@@ -77,4 +82,80 @@ Sub: `data-connector-agent`´
 * [Git URL](https://github.com/hasura/graphql-engine)
 * use docker or cloud version [URL](https://cloud.hasura.io)
 
-ws = web socket url(bidirection)
+**Tenant ID**:
+(https://hasura.io/blog/introducing-dynamic-routing-hasura)
+
+`ws` = web socket url(bidirection)
+
+
+**Meta Data**
+* Setting information and definition
+1. Setting from console
+2. Metadata API 
+3. Hasura CLI + YAML(Auto configuration)
+Docker(`hasura/graphql-engine:v2.40.3.cli-migrations-v3` with `cli-migration` postfix) automatically load `hasura-metadata/tables.yaml`
+```
+your-repository/
+├── hasura-metadata/    ← YAML format meta data
+│   ├── tables.yaml
+│   ├── permissions.yaml
+│   └── ...
+├── docker-compose.yaml
+```
+```
+hasura-metadata/
+├── databases.yaml          ← Database connection info
+├── tables.yaml             ← Table Definition
+├── relationships.yaml      ← Relation
+├── permissions.yaml    
+├── functions.yaml          ← SQL function
+├── actions.yaml            
+├── remote_schemas.yaml     ← External graphQL API
+├── events.yaml             ← Trigger・Webhook
+├── api_limits.yaml         ← API limit
+└── version.yaml            ← metadata version
+
+```
+
+## REACT + GraphQL
+```ts
+import ApolloClient from '@apollo/client';
+
+const client = new ApolloClient({
+  uri: 'https://graphql-server.com/graphql',
+  cache: new InMemoryCache(),
+});
+```
+
+```ts
+import { gql } from '@apollo/client';
+
+const GET_USERS = gql`
+  query GetUsers {
+    users {
+      id
+      name
+      email
+    }
+  }
+`;
+```
+
+```ts
+import { useQuery } from '@apollo/client';
+
+export const UsersList = () => {
+  const { data, loading, error } = useQuery(GET_USERS);
+  
+  if (loading) return <p>Loading...</p>;
+  if (error) return <p>Error: {error.message}</p>;
+  
+  return (
+    <ul>
+      {data.users.map(user => (
+        <li key={user.id}>{user.name}</li>
+      ))}
+    </ul>
+  );
+};
+```

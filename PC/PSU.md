@@ -59,4 +59,8 @@ Standard AC（IEC C13)
 ### 80 Plus
 
 
-
+**Screw**
+**M4:(Diameter 4mm)**
+* Flathead
+* 10 ~ 12 mm
+* 0.7mm pitch

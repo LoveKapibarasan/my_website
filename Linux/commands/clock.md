@@ -22,3 +22,7 @@ Sync system clock → hardware clock.
 * `hwclock --utc`
 Treat the hardware clock as UTC.
 (Recommended on Linux)
+
+
+
+`time`: Calcurate executing time

@@ -125,10 +125,30 @@ wichtig = von großer Bedeutung sein
 
 * **mitkriegen**:「気づく」「理解する」「察知する」「聞き逃さない」
 
+* **zum Zweck von**: 目的で
 
+* **ein Häckchen setzen**: ✔
 
+* **Fähigkeit**: 能力
 
+* **Straf**: 罪
+vorbestraft: 前科のある
 
+* **verweigern**: ablehnen
+
+* **Mir ist bekannt, dass...**: ～であることは私は知っています
+
+* **einen Service in Anspruch nehmen**: サービスを利用する
+
+* **eine Nachricht übermitteln**: メッセージを送信する
+
+* **auf Erteilung eines Visums**: ビザの付与を求めて
+
+* **Schengen Staat**
+
+* **Ermittelungsverfahren**: 捜査手続き
+
+* **Auszug**: 抽出、明細
 
 * **Verwaltung** 公的機関や組織の運営・管理
 
@@ -146,7 +166,7 @@ wichtig = von großer Bedeutung sein
 
 **Andere Richtung**
 * Vorname -- 名前
-* Nachname -- 苗字
+* Nachname -- 苗字, Familienname
 
 **Katastrophe** 
 
@@ -182,7 +202,11 @@ wichtig = von großer Bedeutung sein
 
 * Inzwischen
 
-* schlumpfen
+* **schlumpfen**:  縮む
+
+* **zustellen**: liefern
+
+* **im Vorfeld**: in advance
 
 * erstellen
 
@@ -205,6 +229,14 @@ wichtig = von großer Bedeutung sein
 * Haferkern  = オート麦粒、オーツ麦（oat kernel/grain）
 * Ölsaaten  = 油脂種子。ひまわりの種、菜種、大豆など（oil seeds）
 
+* hart
+* n-Stunden-lang
+* anstrengend
+
+### Konj
+**Haupt**
+* Deshalb
+* Dennoch
 
 ### Fachwörter
 

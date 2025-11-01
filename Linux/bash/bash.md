@@ -1,5 +1,13 @@
 # bash = Bourne-Again Shell <--bone again
 * Interpreter
+
+* Open a Shell
+```bash
+sh 
+bash
+zsh
+```
+
 ## Give a permission
 ```bash
 chmod +x name.sh
@@ -13,6 +21,7 @@ chmod +x name.sh
 
 **Shebang**
 * `#!/bin/bash` = bash
+* `#!/usr/bin/env bash` = read $PATH and find bash
 * `#!/home/user/dir/.venv/bin/python` = use venv python
 * `#!/usr/bin/env python3` = python 3
 > Put **the first** line.

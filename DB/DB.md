@@ -4,6 +4,11 @@
     * `ON DELETE CASCADE ON UPDATE CASCADE`
 * Primary key
 
+**Transaction**
+* `Auto Commit`
+* `Commit`: Execute
+* `RollBack`: Cancel
+
 ### Diagram
 
 1. Schema Diagram
@@ -17,6 +22,17 @@
 
 * use (the power of 2) - 1 for `VARCHAR(n)`
 
+
+**Flatten**
+（TableA, TableB,..) -> One Table
+```
+Nested:
+{ id: 1, name: "太郎", tags: ["Python", "JavaScript"] }
+
+flatten:
+id=1, name="太郎", tag="Python"
+id=1, name="太郎", tag="JavaScript"
+```
 
 ## Cloud Database
 

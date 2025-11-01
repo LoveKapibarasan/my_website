@@ -7,3 +7,6 @@
 * **Compiler:** -- A compiler translates high-level programming language code into low-level machine code or bytecode that can be directly executed by hardware or a virtual machine. This translation happens before runtime, producing an executable file or binary.
 * **Interpreter:**
 An interpreter directly executes source code line-by-line or statement-by-statement without prior translation to machine code. It reads, analyzes, and runs the program instructions in real-time during execution.
+* **Binary**: Generated files by program.
+* **Telemetry**: Correct user usage data
+* **Macro**: 1. shortcut for repeat process.(Excel) 2. Big, Large

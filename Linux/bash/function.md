@@ -30,7 +30,7 @@ export RESULT
 
 ```
 ### Visibility
-* local = only valied in the function
+* `local` = only valied in the function
 
 
 ### Utils

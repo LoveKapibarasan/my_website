@@ -13,3 +13,11 @@ echo -e "\033[31mRed\033[0m"  # color
 # -E: default. No escape sequence.
 echo -E "Hello\nWorld"  # \n
 ```
+
+**Printf**
+
+```bash
+printf printf 'format_string like "%s","%s"' "$xxx" "yyy")
+```
+
+* `%s`: String

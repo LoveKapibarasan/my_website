@@ -1,7 +1,7 @@
 # Motherboard
 [URL](https://www.sycom.co.jp/media/archives/2012/)
 
-* ATX（305 × 244 mm）
+* ATX（305 × 244 mm）(Advanced Technology Extended)
 
 * Micro-ATX（mATX）（244 × 244 mm）
 
@@ -13,65 +13,7 @@
 * GIGABYTE
 * MSI
 
-## GIGABYTE
-
-### Basic Structure of GIGABYTE Motherboard Model Numbers
-
-Example: GIGABYTE B550 AORUS ELITE AX V2
-
-1. Chipset name (B550, X570, Z690, etc.)
-
-The first letter indicates the series / target tier:
-
-* A = A-series (entry level, for Ryzen: A320, A520)
-
-* B = B-series (mid-range: B450, B550)
-
-* X = High-end (X370, X570)
-
-* Z = High-end for Intel (Z590, Z690, Z790)
-
-* H = Low-end for Intel (H510, H610)
-
-The numbers correspond to the generation or supported CPU generation.
-
-2. Brand name
-
-* AORUS = GIGABYTE’s gaming brand. RGB lighting, reinforced power delivery, flashier design.
-
-* Ultra Durable (UD) = Durability focused. Cost-effective and stable.
-
-* Gaming X / Gaming = Gaming-oriented but simpler and cheaper than AORUS.
-
-3. Model name (ELITE, PRO, MASTER, XTREME, etc.)
-
-Indicates the tier within the same chipset line:
-
-* ELITE = Lower tier
-
-* PRO = Mid tier
-
-* MASTER = Upper tier
-
-* XTREME = Flagship / top tier
-
-4. Suffixes (feature indicators)
-
-* AX = Built-in Wi-Fi 6 (AX)
-
-* V2 = Version 2 (revised model)
-
-* M = micro-ATX form factor
-
-* I = mini-ITX form factor
-
-* DS3H / D3H = Older naming convention, entry-level
-
-* K = Indicates a special feature or cost-reduced version (e.g., A520M K V2)
-
-
-
-## Asus
+### Asus
 
 **ASUS Motherboard Model Naming – Basic Structure**
 
@@ -84,11 +26,8 @@ Indicates the tier within the same chipset line:
 * ROG STRIX → Slightly below ROG, but still high-end gaming focused
 
 * TUF Gaming → Durability and stability focused, good cost-performance
-
-* PRIME → Basic line, minimal features, affordable
-
+* PRIME → Basic line
 * ProArt → Aimed at creators (video, design work)
-
 * WS (WorkStation) → Professional workstation use
 
 2. Chipset Name
@@ -99,34 +38,26 @@ Indicates the tier within the same chipset line:
 → Indicates CPU generation and performance tier
 
 3. Model Number + Suffix
-
-* -F / -E / -A / -I / -H, etc.
-
+**Suffix**
 * F/E = ATX (full-size)
-
 * A = Slightly lower-end variant
-
 * I = Mini-ITX (small form factor)
-
 * H = Micro-ATX
-
 * GAMING = Gaming-oriented design (reinforced power delivery, RGB, extra features)
 
 4. Additional Features
-
 * Wi-Fi / WIFI6 / WIFI II → Includes onboard wireless LAN
-
 * II / V2 → Updated revision/version
 
 
 ### Wifi
 
-* Wired LAN (RJ45 port) is always standard.
+* Wired LAN (RJ45 port).
 
 * Wi-Fi depends on the specific model.
 
 
-## Pcle generation, number of lanes
+### Pcle generation, number of lanes
 
 * PCIe 3.0 x4 → about 3,500MB/s
 
@@ -134,8 +65,10 @@ Indicates the tier within the same chipset line:
 
 * PCIe 5.0 x4 → about 10,000MB/s
 
+### SATA
+* SATA 6.0 Gb/s is standard.
 
-## Port
+### Port
 * TPM：Trusted Platform Module（security tip）
 
 * F_AUDIO: Front panel audio header (for case headphone/microphone jacks).
@@ -150,24 +83,45 @@ Indicates the tier within the same chipset line:
     * for display connection.
     * faster than LGB.
 
-## Check
+### Check
 
 * CPU support
 
-* SATA or PCIe
 
 * BIOS update
 
-* RAM support
+### RAM support
     * DDR4 or DDR5.
 
 
-* **Dead on Arrival**
-0.5% ~ 2%.
 
-### Tabs
-* If the **DC_PWR** plug won’t fit because of the I/O shield tab, it’s okay to bend or even remove that tab only. 
-* For other ports like USB, LAN, or HDMI, it’s best to leave the tabs in place since they help with grounding/shielding.
+### Chip Set
+**North + South**
+* Older
+1. North
+**Memory Controller Hub**
+* Connect CPU with high end component like GPU or memory
+2. South
+**I/O Controller Hub**
+
+**CPU + PCH**
+* Newer
+1. CPU
+**Intel chipsets**
+`Xnnn`
+`H` = Entry-level
+`B` = Mid-range
+`Z` = High-end
+`W` = work station
+`Q` = Business
+
+**AMD chipsets**
+`A` = Entry-level
+`B` = Mid-range
+`X` = High-end
+
+2. PCH（Platform Controller Hub）
+
 
 
 ### PSU
@@ -203,3 +157,13 @@ Pin numbers →     2         4           6        8   10
 
 **NC**
 → Not connected (unused pins).
+
+### Notes
+
+**OC(Over Clock compatibility)**
+
+* If the **DC_PWR** plug won’t fit because of the I/O shield tab, it’s okay to bend or even remove that tab only. 
+* For other ports like USB, LAN, or HDMI, it’s best to leave the tabs in place since they help with grounding/shielding.
+
+
+

@@ -3,8 +3,21 @@
 * nmtui/nmcli
 
 **Config**
-
 * `/etc/NetworkManager/system-connections/keyfile (.nmconnection)`
+* `/etc/NetworkManager/conf.d/` Setting dir.
+
+```ini
+[main]
+dns=default
+
+[ipv4]
+ignore-auto-dns=true
+dns=127.0.0.1;
+
+[ipv6]
+ignore-auto-dns=true
+dns=::1;
+```
 
 ### UI
 * CLI: `nmcli`
