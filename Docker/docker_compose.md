@@ -82,7 +82,12 @@ on host system.
 docker network create "$network_name"
 ```
        
-
+```
+Docker Bridge Nework
+172.17.0.0/16
+  ├─ 172.17.0.1 = Gateway from localhost, internet
+  └─ 172.17.0.X = Container
+```
 
 ### YAML anchor
 * Define with `&` and reference with `*`.

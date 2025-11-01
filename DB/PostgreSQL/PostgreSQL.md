@@ -18,6 +18,8 @@ localhost:5432:database_name:username:password
     * Host=service name when executing docker.
     * Use docker container's port for port.
 
+`jdbc:postgresql://${localhost_or_ip}:${port}/${database_name}`
+
 ## Basic
 
 ```bash

@@ -89,13 +89,22 @@ const users = await UserRepository.findAll(); // SELECT * FROM users;
 
 * JPA (Java Persistence API)
 
+**JDBC**
+* Java Database Connectivity. 
+* It's a Java API (Application Programming Interface) that allows Java programs to interact with databases.
+
 ### PHP
 
 * Doctrine
 
 * Eloquent（Laravel）
 
+## DB
+* MariaDB
+* PostgreSQL
+
+
 ## Inmemory DB
 
-* (e.g. H2, valkey)
+* (e.g. H2, valkey, redis)
 * used for storing cache or testing purpose.

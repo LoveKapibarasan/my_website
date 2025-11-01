@@ -35,7 +35,9 @@ sudo pacman -Rns $(pacman -Qtdq)
 * Do not use sudo.
 ```bash
 yay -Sc # clear cache
+yay -Scc # delete all cache
 ```
+`~/.cache/yay/`: Cache. can be deleted
 
 ### Config
 `/etc/pacman.conf`

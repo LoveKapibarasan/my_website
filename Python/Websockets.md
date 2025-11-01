@@ -12,7 +12,9 @@ asyncio.run(main())
 
 ```
 
+# WebSocket
 
+* Socket between client like browser and server.
 
 | Method / Property                             | Type             | Description                                                            |
 | --------------------------------------------- | ---------------- | ---------------------------------------------------------------------- |
