@@ -10,3 +10,8 @@ An interpreter directly executes source code line-by-line or statement-by-statem
 * **Binary**: Generated files by program.
 * **Telemetry**: Correct user usage data
 * **Macro**: 1. shortcut for repeat process.(Excel) 2. Big, Large
+* Patch a file = ファイルに対して部分的な変更・修正を適用すること
+* stray cat = 野良猫
+* upsert = update + insert
+* boilerplate = 「何度も使われる標準的なコード」
+* Assets = 画像などのデータ
