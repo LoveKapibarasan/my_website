@@ -93,6 +93,7 @@ services:
     ports:
       - "8080:8080"
 ```
+    * `--no-cache`: Old image remains
 
 * `docker compose rm -f "$container_name"`
     * `-f` = force
