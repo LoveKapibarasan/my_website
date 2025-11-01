@@ -53,6 +53,8 @@
 * **Abhilfe**: 救済
 * **Pfeile**:  矢
 
+* **hinsichtlich 2**: ~に関して
+* **die Rosa**: バラ
 * **verschärfen**: 厳しくする、強化する
 * **beeinträchtigen**:悪化する
 

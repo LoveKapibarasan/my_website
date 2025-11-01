@@ -32,6 +32,7 @@ BIOS -> EFI -> UEFI
     * Binary file.
 
 ### EFIbootmgr
+* System wide setting.
 * Define boot priority.
 * Can not show boot list.
 ```bash
@@ -40,7 +41,11 @@ sudo efibootmgr -o 0000,0001,0002,0003
 # Check EFI entries
 sudo efibootmgr -v
 # -v = verbose
+```
+BootOrder:
+GPT UUID, Start sector, size, EFI path
 
+```bash
 # Add
 sudo efibootmgr --create --disk /dev/"$device_name" --part partition number --label "label" --loader '\EFI\**.efi'
 

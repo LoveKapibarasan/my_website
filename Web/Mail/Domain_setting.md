@@ -41,11 +41,8 @@ Sincelely, Best Regards
 2. Mail Address
 3. Mail Client
 
-### Gmail
+### Gmail(`@gmail.com`) Outlook.com (with `@outlook.com`)
 * Perfect package for mail.
-
-### Outlook.com (with `@outlook.com`)
-* Perfect package
 
 
 ### Outlook
@@ -65,20 +62,6 @@ Sincelely, Best Regards
 * "Opt out of 60-day transfer lock" option may exist.
 
 
-### SSL Certificates
-* Encryption levels are the same.
-* Enable SSL encryption.
-
-* DV（Domain Validation）
-    * Check only domain ownership.
-    * Free.(Let's encrypt.)
-    ```bash
-    sudo apt install certbot
-    sudo certbot certonly --webroot -w /var/www/html -d example.com
-    ```
-* OV（Organization Validation）
-* EV（Extended Validation）
-
 ### Site Lock
 * Security tools for website
 * Unnecessary.
@@ -87,8 +70,9 @@ Sincelely, Best Regards
 
 * Nowadays it should be free.
 **Withour protection.**
-```
+```bash
 whois example.com
+# Hide these sensitive information
 ---
 Registrant Name: Taro Yamada
 Registrant Email: taro@personal.com
@@ -101,7 +85,6 @@ Registrant Address: 東京都渋谷区1-2-3
 * You can download any software freely.
 
 **Type**
-
 * Shared Hosting
 * VPS
 * Dedicated Server -- Large sites

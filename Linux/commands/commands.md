@@ -7,11 +7,17 @@
     * `-f` - force
 
 
-
+**Status Code**
+```bash
+"$command" "$N"
+```
+0: stdin(standard input)
+1: stdout
+2: stderr(error)
 
 * `/dev/null`
     * null location.
-    * `>`
+    * Used with `>`
 
 
 * `mkdir`

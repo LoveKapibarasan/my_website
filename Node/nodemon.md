@@ -5,6 +5,8 @@
 `nodemon.json`
 ```bash
 npm install --save-dev nodemon
+# execute
+nodemon
 ```
 
 * node -> nodemon.

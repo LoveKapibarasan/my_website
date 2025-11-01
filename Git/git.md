@@ -26,9 +26,13 @@ git clone --depth="$n"  -o $origin_name $url $place
 # --recursive = including submodules
 git add . # . = all
 git commit -m "message"
+# push to remote
 git push origin main
 # --force overwrite remote history
 ```
+
+**Remote**
+**Local**
 
 
 ## Branch

@@ -3,32 +3,51 @@
 `lsblk`
     * show block device list
     * `-f` -- with file system information.
-`lsusb` -- list usb device
+`gdisk` -- for GPD partition
+    p : Print the partition table (show current partitions)
 
-`sudo blkid "$device"` -- print UUID of disk partition
+    n : Create a new partition (new)
 
-### Format
-`gdisk`: GUI tool for GPD partition
-    * `p` : Print the partition table
-    * `n` : Create a new partition (new)
-    * `d` : Delete a partition (delete)
-    * `w` : Write changes to disk and exit (save and quit)
-    * `q` : Quit without saving changes
-    * `i` : Show detailed information about a partition (info)
-    * `t` : Change a partition’s type code (type)
+    d : Delete a partition (delete)
 
-`sgdisk`: CLI tool for GPD partition
+    w : Write changes to disk and exit (save and quit)
+
+    q : Quit without saving changes
+
+    i : Show detailed information about a partition (info)
+
+    t : Change a partition’s type code (type)
+
+`sgdisk` -- CLI tool for GPD partition
 ```bash
 sgdisk [options] "$device"
 ```
-    * `-p` : Print the partition table
-    * `-i` "$N" : Show detailed information about partition number N
-    * `-n "${partnum}:"${start}:"${end}" : Create a new partition
-    * `-d "$N"` : Delete partition number N
-    * `-g` : Generate a new random disk GUID
-    * `-Z` : Zap (erase) the disk completely, wiping GPT/MBR data
-    * `-o` : Create a new, empty GPT
-    * `-b "$file"` : Backup the GPT to a file
+* Information
+
+    -p : Print the partition table
+
+    -i "$N" : Show detailed information about partition number N
+
+* Create / Delete
+
+    -n <partnum:start:end> : Create a new partition
+        * end = 0: entire
+        * can use relative(+,-) expressions
+    
+    -t "$N":partition_code
+
+    -d "$N" : Delete partition number N
+
+* Disk Operations
+
+    -g : Generate a new random disk GUID
+
+    -Z(=--zap-all) : Zap (erase) the disk completely, wiping GPT/MBR data
+
+    -o : Create a new, empty GPT
+
+* Backup / Restore
+    -b <file> : Backup the GPT to a file
 
 `cgdisk` -- another sibling of gdisk (GPT partitioning tool).
     * New → Create a new partition
@@ -47,12 +66,8 @@ sgdisk [options] "$device"
     * `-l`: show info
     * `w`: write out
 
-`parted`
-    * `-- command`
-    * `print`
-    * `resizepart 1 xGB`
-    * `mkpart primary "$start"GB "$end"GB`
-`gparted`: safe GUI tool
+`lsusb` -- list usb devices
+
 
 ### dd
 * dd: "Disk Dump" or "Data Duplication"
@@ -70,6 +85,10 @@ sudo dd if="$INPUT" of="$OUTPUT_DEVICE" [Option]
 **Others**
 * `status=progress`: Show log
 
+**Partition code**
+8300: Linux file system
+8200: swap
+ef00: EFI
 
 ### Partition
 **dev = device**

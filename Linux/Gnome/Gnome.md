@@ -1,4 +1,16 @@
+
+* `Alt` + `Tab`
+* `Alt` + `f4`: kill window
+* `Super` + `H`: minimize
+* `Super`+ ` ↑`: maximize
+* `Super`+ `←/→`: Snap windows
+*  `Super + PageUp/PageDown`: Workspace
+* `Super` + `L`: Lock screen
+* `PrtScn`: Full screen shot
+* `Shift` + `PrtScn`: Screen shot
 * `ctrl` + `alt` + `t`
+
+
 
 * **Screen Shot**
 

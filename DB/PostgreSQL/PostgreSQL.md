@@ -51,12 +51,19 @@ DROP ROLE <user_name>;
 ```
 
 ### DB
+
 **DB list**
 ```sql
 \list
 SELECT datname FROM pg_database;
 ```
 * template0, 1, postgres are default.
+* Whatever you create database, it is copied from `template1`.
+
+**connect**
+```sql
+\c db_name
+```
 
 **table list**
 ```sql
@@ -72,7 +79,7 @@ ALTER DATABASE "$old_user" OWNER TO "$new_user";
 * `-- comment` -- psql/SQL comments
 
 
-## Commands
+**Commands**
 
 ```bash
 psql -h "$domain_or_IP_address" -p <port_number> -U <username> -d <db_name>
@@ -82,8 +89,8 @@ psql -h "$domain_or_IP_address" -p <port_number> -U <username> -d <db_name>
 * `-f` = excute `.sql` file.
 * `-q` = quiet
 
-### Logs
-1. Check `systemctl status`
+**Logs**
+1. Check `systemctl status` or `docker logs`
 
 2.
 
@@ -91,20 +98,13 @@ psql -h "$domain_or_IP_address" -p <port_number> -U <username> -d <db_name>
 sudo vim /etc/postgresql/17/main/postgresql.conf
 ```
 
-```conf
+```ini
 logging_collector = on
 log_directory = 'log'
 log_filename = 'postgresql-%a.log'
 ```
 
-# Memo
-```
-postgres=# -- input OK
-postgres-# -- not OK. commonly you forget ;
-```
-* `'` vs. `"`
-  * `"` = Identifier. Capital and Non-Capital letters are distinguished. 
-  * `'` =  String Literals
+
 
 ### Errors
 
@@ -115,17 +115,50 @@ postgres-# -- not OK. commonly you forget ;
 **ERROR: Unknown constraint error**
 * FK is created before the referencing table is created.
 
-# Plug in
+### Plug in
 
 * `CREATE EXTENSION`
-(Run as super user)
+(Run as super user `postgre`)
 
-| Command                      | What it enables                                      |
-| ---------------------------- | ---------------------------------------------------- |
-| `CREATE EXTENSION postgis;`  | Enables geographic data types like `geometry(Point)` |
+
 | `CREATE EXTENSION pgcrypto;` | Adds cryptographic functions (e.g. UUID generation)  |
 | `CREATE EXTENSION citext;`   | Adds case-insensitive text type (`citext`)           |
 
+
+**PostGis**(Geographic Information System)
+```sql
+CREATE EXTENSION postgis;
+``` 
+
+
+* Enables geographic data types.
+
+```sql
+-- Before
+latitude FLOAT
+longitude FLOAT
+
+-- PostGIS
+coordinates geometry(Point) 
+
+-- 「渋谷から新宿までの距離」を計算
+SELECT ST_Distance(
+    ST_GeomFromText('POINT(139.7017 35.6595)', 4326)::geography,
+    ST_GeomFromText('POINT(139.7006 35.6905)', 4326)::geography
+) / 1000 AS distance_km;
+```
+
+* tiger: part of PostGIS
+
+
 ### Notes
+```
+postgres=# -- input OK
+postgres-# -- not OK. commonly you forget ;
+```
+* `'` vs. `"`
+  * `"` = Identifier. Capital and Non-Capital letters are distinguished. 
+  * `'` =  String Literals
+
 - You cannot use "user" for username 
 - PG_PASSWORD

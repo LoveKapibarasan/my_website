@@ -58,3 +58,38 @@ WHERE
 **EXISTS**: Subquery returns more than one line? $\sim $ `xxx IN`
 
 
+**Indexes**
+```sql
+CREATE INDEX idx_user_email ON users(email);
+
+```
+
+* SELECT: faster
+* INSERT, UPDATE, DELETE: slower
+
+
+**View**
+* Data protection
+```sql
+CREATE VIEW user_summary AS
+SELECT id, name, email FROM users WHERE active = true;
+CREATE MATERIALIZED VIEW user_summary AS
+SELECT id, name, email FROM users WHERE active = true;
+```
+Non-materialized: Virtual. Compute when accessed.
+materialized: store data on disk
+
+**Schemas**
+```sql
+-- Create schema
+CREATE SCHEMA sales;
+CREATE SCHEMA hr;
+
+-- Create table in a schema
+CREATE TABLE sales.orders ( ... );
+CREATE TABLE hr.employees ( ... );
+
+-- When accessing
+SELECT * FROM sales.orders;
+SELECT * FROM hr.employees;
+```

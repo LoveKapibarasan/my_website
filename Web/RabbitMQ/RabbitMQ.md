@@ -22,26 +22,28 @@ loopback_users.guest = false
 * Environment variable that can be read when rabbitMQ starts.
 
 ```bash
-NODENAME=rabbit@<hostname>
+NODENAME=rabbit@hostname
 # Wait for all ip address (127.0.0.1 only for local host)
 NODE_IP_ADDRESS=0.0.0.0 
 ```
 
-Logs: /var/log/rabbitmq/
+* Logs: /var/log/rabbitmq/
 
 > **No systemmd log file**
 
 
 ## Create a user
-
 ```bash
 sudo rabbitmqctl add_user "$username" "$password"
+sudo rabbitmqctl change_password "$username"
 sudo rabbitmqctl set_user_tags "$username" administrator 
 rabbitmqctl add_vhost "$vhost_name" # default /
 rabbitmqctl list_vhosts
 rabbitmqctl delete_vhost "$vhost_name"
+# configure, read ,write
 rabbitmqctl set_permissions -p "$vhost_name" "$username" ".*" ".*" ".*"
 ```
+* 
 
 * vhost \sim venv in python
 

@@ -1,10 +1,7 @@
 #  Bandwidth
 * Total file size per month served to visitors
 
-## Query Parameter
-```bash
-?key1=value1&...
-```
+
 
 
 ## Business Logic 
