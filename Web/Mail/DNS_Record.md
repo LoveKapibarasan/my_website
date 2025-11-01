@@ -3,12 +3,16 @@
 
 @ = all domain
 
+### A, AAAA
+* IPv4, IPv6
 
 ### CNAME Record (Canonical Name = Alias)
-Points one name to another name
+* Points one name to another name
+* www ->
 
 ### MX Record (Mail Exchange)
-Tells where email should be delivered
+* Priority
+* Tells where email should be delivered
 
 ### TXT Record (Text)
 Stores text information for various purposes
@@ -16,13 +20,12 @@ Stores text information for various purposes
     * DKIM = Digital signature for emails
     * DMARC = Anti-spam policy
 
+### NS
+* Name server
 
 ### SRV Record (Service)
 Points to specific services with port numbers
 
-
-### Change mail server
-1. MX @ →  new server
-2. a mail →  new server
-3. v=spf1 ip4:$ip a mx include:websitewelcome.com ~all
-* verify authentication.
+### PTR
+* Pointer
+* IP -> Domain

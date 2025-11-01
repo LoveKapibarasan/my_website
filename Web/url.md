@@ -11,7 +11,10 @@
 * It’s a type of *host name* that points to the server providing web pages.
 * Nowadays, many sites let you omit "www" (e.g., `www.google.com` and `google.com` lead to the same site).
 
-
+### Query Parameter
+```bash
+?key1=value1&...
+```
 
 ### Notation
 **No trailing slash**

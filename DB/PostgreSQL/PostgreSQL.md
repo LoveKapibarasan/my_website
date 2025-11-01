@@ -49,6 +49,7 @@ DROP ROLE <user_name>;
 ```
 
 ### DB
+
 **DB list**
 ```sql
 \list
@@ -56,6 +57,11 @@ SELECT datname FROM pg_database;
 ```
 * template0, 1, postgres are default.
 * Whatever you create database, it is copied from `template1`.
+
+**connect**
+```sql
+\c db_name
+```
 
 **table list**
 ```sql

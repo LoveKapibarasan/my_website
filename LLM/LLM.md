@@ -28,7 +28,6 @@
 ### Llama
 
 * Llama 3.1 (8B) -- 2025
-
 * by Meta
 
 **Config:**`/usr/share/ollama/.ollama`
