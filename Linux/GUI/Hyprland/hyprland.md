@@ -11,7 +11,7 @@ dwm, i3
 * GPU acceleration means using the graphics processing unit to speed up computations that are too heavy or slow for a CPU alone.
 
 ### Config
-
+[URL](https://wiki.hypr.land/Configuring/)
 * `~/.config/hypr/hyprland.conf`
 
 * Change default keyboard layout.
