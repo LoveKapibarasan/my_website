@@ -108,3 +108,7 @@ const users = await UserRepository.findAll(); // SELECT * FROM users;
 
 * (e.g. H2, valkey, redis)
 * used for storing cache or testing purpose.
+
+### Time Stamp
+
+* `createdAt` and `updatedAt`

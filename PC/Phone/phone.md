@@ -113,8 +113,7 @@ Listen copy of other's voice.
 * Landline connection
     * Optical fiber、Copper wire
 
-### DTMF(Dual-Tone Multi-Frequency)
-1 = 697Hz + 1209Hz
+
 
 ### AT command
 AT = ATtension

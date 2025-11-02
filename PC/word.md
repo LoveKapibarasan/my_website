@@ -15,3 +15,4 @@ An interpreter directly executes source code line-by-line or statement-by-statem
 * upsert = update + insert
 * boilerplate = 「何度も使われる標準的なコード」
 * Assets = 画像などのデータ
+* **Project**

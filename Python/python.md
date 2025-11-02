@@ -48,11 +48,36 @@ if len(sys.argv) < 3:
 
 `%` = magic command for terminal command.
 
-## Type check
+### Import
+
+1. Package import
 
 ```python
+from package import module
+from package.module import function
+```
+
+2. relative import
+
+```python
+# the same level
+from . import module
+from .module import function
+
+# parent
+from .. import module
+from ..package import module
+```
+> Do not add `.py` extension.
+
+### Type check
+
+```python
+# type name:type
 def print_message(msg: str) -> None:
     print(msg)
 ```
+* `str`
+* ◯ :bool ✗:boolean
 
-* ◯ bool ✗boolean
+
