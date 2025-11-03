@@ -18,3 +18,19 @@ Now considered legacy hardware in modern PCs.
 **Switch, Power Button**
 * pitch 2.54mm
 * φ0.64mm
+
+
+[Reference](https://www.pc-master.jp/jisaku/pc-case.html)
+
+* **PCLe Slot cover**
+
+* **5 inch bay**
+
+* **3.5 inch open bay** 
+
+### Size
+1. Full tower
+2. Middle tower
+3. Mini tower
+4. Mini-ITX
+

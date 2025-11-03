@@ -83,5 +83,6 @@ dpkg -l
 # ii = installed
 # rc = deleted
 # un = not installed
+dpkg -i "$package".deb # = sudo apt install ./.deb
 | grep linux-image # list old kernel
 ```

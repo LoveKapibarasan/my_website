@@ -59,6 +59,7 @@ sudo mount /dev/sda2 /mnt
 sudo mount --bind /dev /mnt/dev
 sudo mount --bind /proc /mnt/proc
 sudo mount --bind /sys /mnt/sys
+sudo mount --bind /run /mnt/run
 sudo mount /dev/sda1 /mnt/boot/efi # or sudo mount /dev/sda1 /mnt/boot
 sudo chroot /mnt
 # Do sth

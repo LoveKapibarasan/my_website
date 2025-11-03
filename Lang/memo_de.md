@@ -237,7 +237,7 @@ vorbestraft: 前科のある
 **Haupt**
 * Deshalb
 * Dennoch
-
+* ,woduruch = それによって
 ### Fachwörter
 
 * Reinforcement Lerning = Stärkungsverhalten

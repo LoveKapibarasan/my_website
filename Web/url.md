@@ -11,10 +11,27 @@
 * It’s a type of *host name* that points to the server providing web pages.
 * Nowadays, many sites let you omit "www" (e.g., `www.google.com` and `google.com` lead to the same site).
 
+### Scheme
+* http, https, ftp, mailto, file
+
+### Authority
+`[userinfo@]host[:port]`
+* `userinfo` = `user:pass`. deprecated
+* `host` = domain
+
+### Path
+
+* `/`, `..`, `.`
+
 ### Query Parameter
 ```bash
 ?key1=value1&...
 ```
+* This is also encripted in `https`
+
+### Fragment
+* `#`
+* Page anchor
 
 ### Notation
 **No trailing slash**

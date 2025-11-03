@@ -9,5 +9,6 @@ https://raw.githubusercontent.com/username/repo/main/path.jpg
 + jsDelivr
 
 ```
-https://cdn.jsdelivr.net/gh/username/repo@main/path.jpg
+https://cdn.jsdelivr.net/gh/username/repo@main/version/path.jpg
+# version can be ommited
 ```
