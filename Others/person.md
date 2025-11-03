@@ -34,6 +34,7 @@ CREATE TABLE addresses (
     updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 );
 
+
 ### 結婚 = Marriage = die Ehe, heiraten
 
 * 婚姻届 =marriage certificates  = die Eheanmeldung 

@@ -47,3 +47,8 @@ firefox
 * `about:preferences#privacy`
 
 
+## Profile
+
+Config: `~/.mozillia`
+Profile: `xxxx.default`
+Profile Setting: `profile.ini`

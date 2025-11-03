@@ -11,7 +11,7 @@
     * `-l` -- output only file name, not matched line.
     * `-v` -- invert match
     * `-q` -- return 1(match) or 0    
-
+    * `-A n -B n`= `-C n` -- increase line range(After, Before, Context)
 * \( \) Grouping conditions
 * -o = or \( *.ts -o  * .tsx \) 
 

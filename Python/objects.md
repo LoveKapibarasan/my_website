@@ -17,3 +17,25 @@ from urllib.parse import urlparse, urljoin, quote, unquote
 url = "https://example.com:8080/path?key=value#fragment"
 parsed = urlparse(url)
 ```
+
+
+### Path
+
+**os.path**: old
+
+```python
+
+from pathlib import Path
+p = Path("/absolute/path") / "to" / "file.txt"
+p = Path.home()
+p = Path.cwd()
+```
+
+### Read and Write
+```python
+with open(path, mode, encoding=): 
+    f.read
+    f.write
+```
+
+* Mode: a,w,r

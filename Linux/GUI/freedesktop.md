@@ -15,6 +15,7 @@
 `~/.config/` - configuration files
 `~/.local/share/` - data files
 `~/.cache/` - cache files
+> or `~/snap`
 
 2. Desktop Entry Specification
 * Defines the `.desktop` file format (for application menus, etc.)
