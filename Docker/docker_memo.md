@@ -80,8 +80,9 @@ docker compose [global option] [sub command] [sub command option]
     * `--no-cache`
 
 * `docker logs "$container_name"`
-    
     * `-f` = real time log
+    * `--since 10m`
+    * `--tail n`
 
 * `docker compose build`
 ```yaml
