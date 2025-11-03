@@ -35,3 +35,6 @@ CREATE TABLE addresses (
 );
 
 
+### 結婚 = Marriage = die Ehe, heiraten
+
+* 婚姻届 =marriage certificates  = die Eheanmeldung 

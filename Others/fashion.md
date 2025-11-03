@@ -86,3 +86,29 @@ cut & serwn
 * コンサバ（conservative：保守)
 
 * 萌え袖
+
+
+### 靴 =  shoe(s) = Schuh(e) 
+* ブーツ = boots = Stiefel 
+* サンダル = sandals = Sandalen 
+* スリッパ = slippers = Hausschuhe / Pantoffeln 
+* スニーカー = sneakers / trainers = Turnschuhe / Sneakers
+
+#### Size
+1. length
+* **つま先に1cm程度の余裕**
+2. width
+* D/E/EE/EEE
+
+#### インソール = insole(inner sole)) = Einlegesohle
+
+#### Material 
+- **天然皮革**：牛革、豚革、羊革、山羊革
+- **ゴム**：天然ゴム、合成ゴム
+
+#### Maker
+**ASICS**
+**Mizuno**
+**NIKE**
+**Adidas**
+**New Balance**
