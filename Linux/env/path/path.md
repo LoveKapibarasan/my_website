@@ -17,9 +17,14 @@ run, not the file location.**
         * `cd - > /dev/null || exit`
 * `x/`= Directory 
 
-### `PATH`
+### `$PATH`
+1. `/etc/profile`
+2. `/etc/environment`
+3. `.profile`, `.bashrc`, `.zshrc`
+
 ```bash
 echo $PATH
+# Most of the case
 /home/user/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin
 # separator is :
 ```

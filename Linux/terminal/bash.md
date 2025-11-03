@@ -1,4 +1,5 @@
+# Bash
 
-
-`.profile`: when logined
+* **Config:**
+`.profile`: when logined === `.zprofile`
 `.bashrc`: when new terminal is opend ==`.zshrc`

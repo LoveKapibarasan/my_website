@@ -17,6 +17,8 @@ set +a # reverse
     * shell variable
     * child process do not inherit
 
+* `source $file` == `. $file`
+* Execute on current shell.
 ```bash
 source .env
 export $(cat .env | xargs) 
