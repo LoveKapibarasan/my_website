@@ -51,9 +51,9 @@ RX 400/500 (2014/2015)
 * Iris Xe
 * Data Center GPU Flex / Max
 
-
-# 3dfx Voodoo(~1990)
-* now in Nvidia
+## Others
+* **3dfx Voodoo(~1990)**
+* **hp, Asus,..**: AIB（Add‑In Board）
 
 ### Score
 1. **3DMark**

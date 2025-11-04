@@ -165,5 +165,6 @@ Pin numbers →     2         4           6        8   10
 * If the **DC_PWR** plug won’t fit because of the I/O shield tab, it’s okay to bend or even remove that tab only. 
 * For other ports like USB, LAN, or HDMI, it’s best to leave the tabs in place since they help with grounding/shielding.
 
-
+* I/O schield
+[milk pack schield](https://yamakan3.exblog.jp/19572790/)(https://impsbl.hatenablog.jp/entry/HandmadeIOshield)
 
