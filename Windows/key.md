@@ -23,6 +23,13 @@ slmgr /dli
 * Gray zone
 * violate licence not low
 
+**Phone Authentication**
+
+`[Windows Key]＋R → slui 4 → Enter`
+
+* `Install ID`: Created from product key
+* Receieves `Confirmation ID`
+* [Phone Auth](https://www.pchonpo.com/post-14892/)
 
 **TPM（Trusted Platform Module)**
 * securty chip

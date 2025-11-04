@@ -1,3 +1,9 @@
+# fcitx5
+
+* Replace `ibus`
+
+* Open source.
+
 ```bash
 fcitx5 -d  -r
 # -r = force reload

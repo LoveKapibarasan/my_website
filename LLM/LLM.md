@@ -54,4 +54,24 @@ In the prompt,
 >>> Ctrl + d # exit
 ```
 
-`~/.ollama/history`: talk history
+* `~/.ollama/history`: talk history
+
+
+### llama.cpp 
+* By Georgi Gerganov.
+* Use CPU inference. 
+
+### + VSCode
+
+* [Ollama VSCode Setting](https://docs.ollama.com/integrations/vscode)
+
+* [Ref 1](https://note.com/junwatanabe72/n/n36f52a6ca454)
+1. llama-vscode＋llama.cpp＋QwenCoder
+* [Github](https://github.com/ggml-org/llama.vscode?tab=readme-ov-file)
+2. Continue＋Ollama＋Code Llama
+* [Github](https://github.com/continuedev/continue)
+* [Ref 2](https://qiita.com/ctc-j-ikai/items/43e318750d41e2ffb05f)
+
+**Config:**`.continue/config.yaml`
+
+### Web Search Function
