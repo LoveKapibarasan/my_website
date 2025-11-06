@@ -26,7 +26,7 @@ INSERT INTO "<table_name>"(column_1,column_2,..) VALUES (value_1, value_2,...);
 ## Delete
 
 ```sql
-DELETE FROM "<table_name> WHERE condition;
+DELETE FROM "<table_name>" WHERE condition;
 ```
 
 ### Delete on cascade(fk constraints)
@@ -68,8 +68,9 @@ CREATE INDEX idx_user_email ON users(email);
 * INSERT, UPDATE, DELETE: slower
 
 
-**View**
+#### View
 * Data protection
+
 ```sql
 CREATE VIEW user_summary AS
 SELECT id, name, email FROM users WHERE active = true;
@@ -79,7 +80,9 @@ SELECT id, name, email FROM users WHERE active = true;
 Non-materialized: Virtual. Compute when accessed.
 materialized: store data on disk
 
-**Schemas**
+#### Schemas
+Like public in PostgreSQL.
+
 ```sql
 -- Create schema
 CREATE SCHEMA sales;
@@ -93,3 +96,12 @@ CREATE TABLE hr.employees ( ... );
 SELECT * FROM sales.orders;
 SELECT * FROM hr.employees;
 ```
+
+### Notes 
+
+* Keyword need not be capital letter.
+
+* `LIKE '%xxx%'`
+
+* `"`: Care capital letter
+* `'`: Literal 

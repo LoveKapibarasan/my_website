@@ -25,3 +25,8 @@ Database
 
 **SQL**
 SQL Editor → New SQL Script
+
+
+### Short cut key
+
+1. `<f5>`: Refresh

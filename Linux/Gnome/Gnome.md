@@ -10,8 +10,6 @@
 * `Shift` + `PrtScn`: Screen shot
 * `ctrl` + `alt` + `t`
 
-
-
 * **Screen Shot**
 
 Gnome (default Ubuntu desktop):
@@ -25,8 +23,8 @@ Gnome (default Ubuntu desktop):
 **Keyboard**
 
 * Setting -> Region & Language -> Reboot-> Keyboard
+* `Super` + `Space`: toggle input layout
 
-* `Ctrl` + `<Space>` to switch.
 
 
 ```bash
@@ -49,3 +47,7 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'jp')]"
 gsettings reset org.gnome.desktop.input-sources sources
 gsettings reset org.gnome.desktop.input-sources show-all-sources
 ```
+
+
+**Config:**
+* `dconf-Editor`
