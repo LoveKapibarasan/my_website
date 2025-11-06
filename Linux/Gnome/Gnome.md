@@ -28,7 +28,6 @@ Gnome (default Ubuntu desktop):
 
 * `Ctrl` + `<Space>` to switch.
 
-fcitx -> newer
 
 ```bash
 echo $XMODIFIERS
@@ -49,6 +48,4 @@ gsettings set org.gnome.desktop.input-sources sources "[('xkb', 'jp')]"
 # disable completely
 gsettings reset org.gnome.desktop.input-sources sources
 gsettings reset org.gnome.desktop.input-sources show-all-sources
-
-
 ```

@@ -4,8 +4,8 @@
 
 
 ### Config
-`~/.config/Code/User/settings.json`
-
+* `~/.config/Code/User/settings.json`
+* Open Extension -> Click geer mark
 
 ## Command Parette
 `Ctrl + Shift + P`
@@ -56,4 +56,8 @@ code --install-extension "$extension" # extensions = id
 npm install -g yo generator-code
 yo code
 ```
+
+### Notes
+
+**OpenVSX**: Visual Studio Code marketing place by Eclipse Foundation.
 
