@@ -11,6 +11,12 @@
 * **Kali Linux**
   Specialized in security and penetration testing.
 
+
+* **Tails OS**
+  works on USB, does not affect hardware
+  anonymous IP
+(https://tails.net/install/linux/index.en.html)
+
 ---
 
 ## Red Hat-based

@@ -61,3 +61,7 @@ yo code
 
 **OpenVSX**: Visual Studio Code marketing place by Eclipse Foundation.
 
+### Python Extension
+
+* Right click `.venv` folder and add to python project
+

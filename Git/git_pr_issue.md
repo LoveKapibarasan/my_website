@@ -62,6 +62,8 @@ gh pr create --base "$target_branch" --head "$source_branch_name" --title "$titl
 7. Merge
 
 
+> Point to "rc" = release candidate
+
 ### JIRA
 * by Atlassian
 * project management tool
