@@ -27,6 +27,9 @@ cargo install "$crate-name"
 ## !! For library crate !!
 cargo add "$crate-name"
 
+# Fix warnings
+cargo fix
+## --allow-dirty : Allow to destroy uncommit changes
 cargo run
 ```
 
