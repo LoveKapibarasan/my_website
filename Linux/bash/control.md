@@ -30,9 +30,15 @@
 for <var> in <list_1> <list_2>; do
     <commands>
 done
+
+# /*
+for file in "$file_path"/*; do
+    if [ -f "$file" ]; then
+        # do sth with file
+    fi
+done
 ```
 
-* `for <file> in *` and  `if [ -f "$file" ]; then`
 * var should be used as `"$var"`
 
 ## If Else

@@ -33,6 +33,8 @@ env = SDL_IM_MODULE, fcitx
 ```bash
 hyprctl monitors
 hyprctl monitors all
+# Change scale for specific monitor
+hyprctl keyword monitor DP-1,preferred,auto,1.5
 ```
 
 * 1920x1080@60.00000 = Full HD, 60Hz

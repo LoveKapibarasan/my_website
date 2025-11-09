@@ -9,12 +9,30 @@
 * 「ソフトウェア開発キット」 
 
 
-| Type                      | Purpose                                        | Contains                               | Processing (Logic)                  |
-| ------------------------- | ---------------------------------------------- | -------------------------------------- | ----------------------------------- |
-| **DTO**                   | Structure for data transfer                    | Fields only (possibly getters/setters) | None in principle                   |
-| **Entity**                | Representation of a database record            | Fields, DB mapping information         | None in principle (DB-related only) |
-| **Model / Domain Object** | Core application data including business logic | Fields + logic                         | Yes                                 |
-| **Service**               | Executes business processes                    | Methods only (internal data if needed) | Yes                                 |
+
+**DTO**               
+* Structure for data transfer  
+
+**Repository**
+1. プロジェクトのソースコードや履歴（コミット履歴）を保管する場所
+2. DB操作を隠蔽するオブジェクト, データアクセス層
+
+**Model / Domain Object**
+* Database definition
+
+**Entity**                
+* モデル化した「現実世界の対象」を表す概念
+* ER Diagram
+* Different from Schema
+
+
+**Schema**
+* データベース内の名前空間または論理的なグループ
+* データの構造・ルールの集合。
+* テーブルやビューなどをまとめる入れ物
+
+**Service**        
+* Executes business processes
 
 
 **Websocket**

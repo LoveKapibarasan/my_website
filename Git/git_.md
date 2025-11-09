@@ -7,7 +7,8 @@
 
 
 * `#` -- comment
-* `*`, `**`
+* `*` -- all
+* `**` --arvitral directory
 * `!` -- Negate 
 
 # gitattribute

@@ -75,6 +75,7 @@ docker compose [global option] [sub command] [sub command option]
     * Default `docker-compose.yml`. `-f` to change
     * `--rmi all`: remove image
     * `--rmi local`: Only built image
+    > `Down` stores cache. Some files might not be upgraded.
 
 * `docker compose build`
     * `--no-cache`
@@ -122,6 +123,9 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 
 * `docker container prune`
     * Delete all stopped containers
+
+* `docker builder prune -af`
+    * Delete build cache
 
 * `docker system df`
     * Check docker disk size.

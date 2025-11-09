@@ -1,7 +1,3 @@
-Alright, let’s go through the **mathematical explanation of ECC (Elliptic Curve Cryptography)** in English.
-
----
-
 ## an elliptic curve?
 
 In ECC, an elliptic curve is defined by an equation of the form:
@@ -28,35 +24,14 @@ $$
 
 ---
 
-## Group law: point addition
+1. Decide base point G(x,y) and p, a, b.
+2. G + G + G + ... = nG(PublicKey), n is private key
+**G + G**
+* 楕円曲線上にある接点Gに関して、接線を得ることができます。
+* この接線は必ず接点G以外の楕円曲線上の点と交わります。
+* その交点のx軸対称の点が次の点2G
 
-The core of ECC is defining addition of points on the curve.
-
-* Given two points $P$ and $Q$, draw the line through them.
-* Find the third intersection point of this line with the curve.
-* Reflect that point across the x-axis → that is defined as the sum $R = P + Q$.
-
-If $P = Q$, the tangent line at $P$ is used instead, which defines point doubling $2P$.
-
-With these rules, the set of points forms an **abelian group**.
-
----
-
-## Cryptographic use
-
-* Choose a base point $P$ (generator).
-* Pick a random secret integer $k$ (private key).
-* Compute the public key as $Q = kP$ (repeated addition of $P$).
-
-The security relies on the **Elliptic Curve Discrete Logarithm Problem (ECDLP)**:
-
-* Given $P$ and $Q = kP$, it is computationally infeasible to recover $k$.
-
-This is analogous to the hardness of prime factorization in RSA.
-
----
-
-## 5. Curve25519
+##  Curve25519
 
 A specific, modern elliptic curve:
 
