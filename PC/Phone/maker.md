@@ -1,4 +1,8 @@
 
+* GooglePixel
+* Samsung
+* Huawei
+
 * [Minimal Phone](https://minimalcompany.com/)
 
 ## Keyboard

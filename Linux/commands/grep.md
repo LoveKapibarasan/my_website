@@ -1,4 +1,4 @@
-# grep
+# grep(Global Regex Print)
 
 * `grep [OPTIONS] PATTERN [FILE...]`
     * for finding text(linne) patterns in output or files.

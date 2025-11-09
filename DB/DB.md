@@ -110,5 +110,5 @@ const users = await UserRepository.findAll(); // SELECT * FROM users;
 * used for storing cache or testing purpose.
 
 ### Time Stamp
-
+* SQL filename should include `YYYY-MM-DD HH:MM:SS`
 * `createdAt` and `updatedAt`

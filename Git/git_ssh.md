@@ -2,13 +2,13 @@
 
 ## 1. Generate a New SSH Key
 
-Create a new SSH key:
+Create a new SSH key on `$HOME/.ssh/`
 
 ```bash
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ```
 
-* `-t ed25519` → modern and secure algorithm
+* `-t ed25519` → modern ECC algorithm
 * `-C` → a comment (your email address)
 
 When prompted:
@@ -38,7 +38,8 @@ This creates two files:
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 ```
-
+1: ssh-askpass (GUI, every time)
+2: ssh-agent (Openssh, use cache)
 ---
 
 ## 3. Add the Public Key to GitHub
@@ -49,15 +50,7 @@ Show your public key:
 cat ~/.ssh/id_ed25519.pub
 ```
 
-Copy the full output (starts with `ssh-ed25519 ...`).
-
-Then on GitHub:
-
-1. Go to **Settings → SSH and GPG keys**
-2. Click **New SSH key**
-3. Add a title (e.g., `MyLaptop-2025`)
-4. Paste the public key
-5. Save
+Copy the full output (starts with `ssh-ed25519 ...`) and register it on GitHub.
 
 ---
 
@@ -67,7 +60,7 @@ Then on GitHub:
 ssh -T git@github.com
 ```
 
-First time, you will see:
+The first time, you will see:
 
 ```
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
@@ -76,7 +69,6 @@ Are you sure you want to continue connecting (yes/no/[fingerprint])?
 → Type `yes`
 
 If successful:
-
 ```
 Hi USERNAME! You've successfully authenticated, but GitHub does not provide shell access.
 ```
@@ -107,4 +99,6 @@ git remote -v
 
 * Separate keys for each device.
 
-`
+### `known_hosts`
+* Public key history of server you connect
+* can delete

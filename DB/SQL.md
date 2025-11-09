@@ -16,12 +16,28 @@ WHERE condition;
 
 * `DISTINCT`: removes duplicated line.
 
+## Types
+* No list, array.
+
+
+## CREATE
+
+```sql
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  name TEXT,
+  -- TEXT = VARCHAR(\infty),
+  age INTEGER
+);
+```
+
 
 ## Insert
 
 ```sql
 INSERT INTO "<table_name>"(column_1,column_2,..) VALUES (value_1, value_2,...);
 ```
+> Use single quote
 
 ## Delete
 

@@ -20,4 +20,7 @@ git lfs push --all origin main # if only pointer is pushed.
 git lfs pull # to pull
 # otherwise pointer file will be cloned.
 
+
+# Disable Git LFS Lock
+git config lfs.https://github.com/username/repo.git/info/lfs.locksverify false
 ```

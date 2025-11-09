@@ -145,9 +145,9 @@ AT+
 ### GSM（Global System for Mobile Communications)
 
 
-### 先行例
-* [URL_fix](https://sonohen.life/fix_iphone_by_yourself/)
-* [URL_custom_phone](https://fabscene.com/new/make/galaxy-z-flip-blackberry-keyboard-mod-diy-smartphone/)
+### SimLock
+* (~ 2021)
+* Cannot use another SIM card.
 
 ### Shape
 [スマホはなぜ四角か？](https://vodmania-lab.com/smartphone-shikakui-riyuu)

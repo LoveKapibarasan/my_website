@@ -9,3 +9,11 @@ deactivate
 # -m = module
 ./venv/bin/python -m pip install package
 ```
+
+**Windows**
+```powershell
+# in CMD
+.\.venv\Scripts\activate.bat
+# in powershell
+.\.venv\Scripts\Activate.ps1
+```

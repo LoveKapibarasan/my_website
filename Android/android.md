@@ -1,5 +1,6 @@
 # Android
-
+* Version 16(~2025)
+* Android Open Source Project (AOSP) by Google
 * "andro-" meaning "man" or "male human"
 * "-oid" meaning "resembling" or "like"
 * Linux kernal base.

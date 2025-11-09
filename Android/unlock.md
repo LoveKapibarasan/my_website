@@ -1,4 +1,5 @@
 ### Unlock Bootloader
+0. Device Information > developer options > enable developer options.(7 clicks)
 1. Get unlock key from the maker.
 
 ```bash
