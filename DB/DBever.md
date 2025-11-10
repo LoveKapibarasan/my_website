@@ -3,6 +3,7 @@
 * CE = community edition
 * Open source
 * Java
+* OpenAI integration.
 
 **Structure**
 ```

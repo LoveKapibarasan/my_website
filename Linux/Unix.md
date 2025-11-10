@@ -101,6 +101,16 @@ ID=ubuntu
 ID_LIKE=debian ...
 ```
 
+### UNIX VS Windows
+
+#### Path
+Windows: `\` style.
+Unix: `/` style.
+
+#### Line Change
+Windows: `\r\n` style.
+Unix: `\n` style.
+
 
 ### OS Prober
 
