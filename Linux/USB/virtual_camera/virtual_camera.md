@@ -1,6 +1,5 @@
 
 ```bash
-
 sudo apt install v4l2loopback-dkms v4l-utils ffmpeg
 sudo pacman -S v4l-utils ffmpeg
 sudo pacman -S dkms linux-headers

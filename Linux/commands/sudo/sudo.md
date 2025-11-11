@@ -72,3 +72,16 @@ getent group "$group"
 sudo visudo -c # -c=check
 ```
 
+
+### Sudo-rs
+[Rust sudo](https://github.com/trifectatechfoundation/sudo-rs)
+
+映画「2001年宇宙の旅」の HAL 9000 の台詞のパロディ
+("I'm sorry, Dave. I'm afraid I can't do that.")
+[URL](https://www.youtube.com/watch?v=ARJ8cAGm6JE)
+
+```
+user@pc:~$ sudo apt install obs-studio
+sudo-rs: I'm sorry user. I'm afraid I can't do that
+```
+

@@ -26,3 +26,10 @@ macOS Sequoia 15（2024~）
 
 - **Mac Pro**
   - Top
+
+
+### traffic lights
+
+1. Red: Close
+2. Green: Full screen
+3. Yellow: Minimize

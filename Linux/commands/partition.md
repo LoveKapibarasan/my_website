@@ -85,6 +85,8 @@ sudo dd if="$INPUT" of="$OUTPUT_DEVICE" [Option]
 **Others**
 * `status=progress`: Show log
 
+* `conv=fsync` is safer than`oflag=direct`
+
 **Partition code**
 8300: Linux file system
 8200: swap
