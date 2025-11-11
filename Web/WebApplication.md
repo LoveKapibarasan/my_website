@@ -37,3 +37,7 @@
 
 **Websocket**
 * WebSockets is a communication protocol that allows a persistent, **two-way connection between a client (like a browser or device) and a server over a single TCP connection.**
+
+
+**Proxy**
+* Transport message to another server.
