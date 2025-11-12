@@ -81,3 +81,11 @@ def print_message(msg: str) -> None:
 * ◯ :bool ✗:boolean
 
 
+### Interface
+
+1. Not impletemted
+```python
+def f()
+        pass
+```
+

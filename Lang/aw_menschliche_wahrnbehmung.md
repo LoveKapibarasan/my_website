@@ -88,6 +88,13 @@
 * **Blut/alkohol/spiegel** 血液中のアルコール濃度
 
 
+###
+
+* steuern: 操縦する
+* auftreten: passieren, 登場する
+* anfällig: 影響されやすい
+* 
+
 
 ###
 * sich beziehen auf + Akkusativ: ～に関連する、～を指す、～に言及する

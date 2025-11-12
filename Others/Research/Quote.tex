@@ -1,0 +1,245 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath}
+\usepackage{cite}      % 基本的な引用
+\usepackage{natbib}    % 著者名-年形式の引用
+\usepackage{hyperref}  % リンク機能
+
+\title{LaTeX Citation Methods}
+\author{Guide}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Method 1: Manual Bibliography (基本)}
+
+% 本文中での引用
+According to Smith~\cite{smith2020}, the method is effective.
+Multiple citations can be grouped~\cite{jones2019,brown2021}.
+A specific page reference~\cite[p.~25]{smith2020}.
+
+% 文末に参考文献リスト
+\subsection*{References (Manual)}
+\begin{thebibliography}{99}
+
+\bibitem{smith2020}
+J. Smith, 
+``An Important Paper,''
+\textit{Journal of Research}, 
+vol.~15, no.~3, pp.~123--145, 2020.
+
+\bibitem{jones2019}
+A. Jones and B. Lee,
+\textit{Book Title},
+Publisher Name, 2019.
+
+\bibitem{brown2021}
+M. Brown,
+``Web Article,''
+\url{https://example.com},
+Accessed: Jan. 2021.
+
+\end{thebibliography}
+
+\newpage
+\section{Method 2: BibTeX (推奨)}
+
+% プリアンブルに追加:
+% \bibliographystyle{plain}  % スタイルを選択
+
+% 本文中での引用（Method 1と同じ）
+According to the study~\cite{doe2020}, we can see that...
+Recent work~\cite{doe2020,smith2021} shows...
+
+% 文末に（手動の代わりに）:
+% \bibliography{references}  % references.bib ファイルを参照
+
+% references.bib ファイルの例:
+\begin{verbatim}
+@article{doe2020,
+  author = {John Doe},
+  title = {Research Title},
+  journal = {Journal Name},
+  year = {2020},
+  volume = {10},
+  number = {2},
+  pages = {100--120}
+}
+
+@book{smith2021,
+  author = {Jane Smith},
+  title = {Book Title},
+  publisher = {Publisher},
+  year = {2021},
+  address = {City}
+}
+
+@inproceedings{wang2019,
+  author = {L. Wang and M. Chen},
+  title = {Conference Paper},
+  booktitle = {Proc. Int. Conf.},
+  year = {2019},
+  pages = {50--55}
+}
+
+@misc{web2021,
+  author = {A. Author},
+  title = {Web Page Title},
+  howpublished = {\url{https://example.com}},
+  year = {2021},
+  note = {Accessed: Jan. 2021}
+}
+\end{verbatim}
+
+\newpage
+\section{Method 3: natbib (著者名-年形式)}
+
+% プリアンブルに追加:
+% \usepackage{natbib}
+% \bibliographystyle{plainnat}  % or: abbrvnat, apalike
+
+% 引用の例
+\subsection{Citation Styles with natbib}
+
+\begin{itemize}
+\item \verb|\citet{key}| → Author (Year) 形式
+  
+  Example: \verb|\citet{smith2020}| produces: Smith (2020)
+
+\item \verb|\citep{key}| → (Author, Year) 形式
+  
+  Example: \verb|\citep{smith2020}| produces: (Smith, 2020)
+
+\item \verb|\citet*{key}| → 全著者名を表示
+  
+  Example: \verb|\citet*{smith2020}| produces: Smith, Jones, and Lee (2020)
+
+\item \verb|\citep[p.~25]{key}| → ページ番号付き
+  
+  Example: \verb|\citep[p.~25]{smith2020}| produces: (Smith, 2020, p. 25)
+
+\item \verb|\citep[see][]{key}| → 前置詞付き
+  
+  Example: \verb|\citep[see][]{smith2020}| produces: (see Smith, 2020)
+\end{itemize}
+
+\newpage
+\section{Method 4: biblatex (最新・高機能)}
+
+% プリアンブルに追加:
+% \usepackage[style=authoryear,backend=biber]{biblatex}
+% \addbibresource{references.bib}
+
+% 引用コマンド
+\subsection{biblatex Citation Commands}
+
+\begin{verbatim}
+\cite{key}           % 基本引用
+\parencite{key}      % 括弧付き引用
+\textcite{key}       % テキスト内引用（著者名）
+\footcite{key}       % 脚注引用
+\autocite{key}       % 自動選択
+\citeauthor{key}     % 著者名のみ
+\citeyear{key}       % 年のみ
+\citetitle{key}      % タイトルのみ
+\end{verbatim}
+
+% 文末に:
+% \printbibliography
+
+\newpage
+\section{主要な BibTeX エントリタイプ}
+
+\begin{verbatim}
+@article{...}        % 学術論文
+@book{...}           % 書籍
+@inbook{...}         % 書籍の章
+@incollection{...}   % 論文集の中の章
+@inproceedings{...}  % 会議論文
+@conference{...}     % 会議（inproceedingsと同じ）
+@proceedings{...}    % 会議論文集全体
+@phdthesis{...}      % 博士論文
+@mastersthesis{...}  % 修士論文
+@techreport{...}     % 技術レポート
+@manual{...}         % マニュアル
+@misc{...}           % その他（Webページなど）
+@unpublished{...}    % 未公刊
+\end{verbatim}
+
+\newpage
+\section{主要な bibliographystyle オプション}
+
+\subsection{標準スタイル}
+\begin{itemize}
+\item \texttt{plain} - 著者名のアルファベット順、番号付き
+\item \texttt{alpha} - 著者名+年の略号（[Smi20]）
+\item \texttt{unsrt} - 引用順、番号付き
+\item \texttt{abbrv} - plain の短縮版
+\end{itemize}
+
+\subsection{natbib 用スタイル}
+\begin{itemize}
+\item \texttt{plainnat} - 著者名-年形式
+\item \texttt{abbrvnat} - 短縮版
+\item \texttt{apalike} - APA スタイル
+\end{itemize}
+
+\subsection{学会別スタイル}
+\begin{itemize}
+\item \texttt{ieeetr} - IEEE Transactions
+\item \texttt{acm} - ACM
+\item \texttt{apalike} - APA (心理学)
+\item \texttt{chicago} - Chicago Manual
+\end{itemize}
+
+\newpage
+\section{引用の実例}
+
+\subsection{Example 1: 基本的な引用}
+\begin{verbatim}
+Deep learning has shown remarkable results~\cite{lecun2015}.
+\end{verbatim}
+
+\subsection{Example 2: 複数の引用}
+\begin{verbatim}
+Several studies~\cite{smith2020,jones2019,brown2021} have shown...
+\end{verbatim}
+
+\subsection{Example 3: ページ番号付き引用}
+\begin{verbatim}
+As stated in~\cite[p.~42]{smith2020}, the algorithm is efficient.
+\end{verbatim}
+
+\subsection{Example 4: 著者名を含む引用 (natbib)}
+\begin{verbatim}
+\citet{smith2020} proposed a novel method.
+According to \citet{smith2020}, the approach is effective.
+This was demonstrated by previous work~\citep{jones2019,brown2021}.
+\end{verbatim}
+
+\subsection{Example 5: 脚注引用 (biblatex)}
+\begin{verbatim}
+The theory was first proposed in 1950.\footcite{original1950}
+\end{verbatim}
+
+\section*{コンパイル手順}
+
+\subsection*{BibTeX を使う場合}
+\begin{verbatim}
+pdflatex document.tex
+bibtex document
+pdflatex document.tex
+pdflatex document.tex
+\end{verbatim}
+
+\subsection*{biblatex (biber) を使う場合}
+\begin{verbatim}
+pdflatex document.tex
+biber document
+pdflatex document.tex
+pdflatex document.tex
+\end{verbatim}
+
+\end{document}
