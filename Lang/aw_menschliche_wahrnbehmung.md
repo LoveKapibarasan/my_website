@@ -86,3 +86,14 @@
 
 * **die Fahr/tüchtigkeit**: 運転能力
 * **Blut/alkohol/spiegel** 血液中のアルコール濃度
+
+
+
+###
+* sich beziehen auf + Akkusativ: ～に関連する、～を指す、～に言及する
+
+* sich auseinandersetzen mit der Thematik: テーマを掘り下げた
+
+* gelingen: 成功した
+
+* Gedanken: 考え、
