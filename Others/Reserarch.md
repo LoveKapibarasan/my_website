@@ -32,3 +32,16 @@ Supervisor
 1. Chronological
 2. Advancement
 3. Geographical
+
+### Referencing
+* Quote Style
+* **Direct quotation**
+
+1. APA Style（American Psychological Association）
+   According to Smith (2020), “Academic integrity is the foundation of learning and research” (p. 15).
+2. Harvard Style
+According to Smith (2020), academic integrity is essential for learning.
+* In-Text Citation
+* Reference List
+
+* Academic Integrity: 学問上の誠実さ
