@@ -43,6 +43,13 @@ adb push file.txt /sdcard/   # Copy file to phone
 
 ### Android Application
 * `.apk` extension (actually a ZIP file)
+
+
+**Google Play**
+**F-Droid**
+* Open source application store.
+
+
 ```
 app.apk 
 ├── AndroidManifest.xml     (compiled, binary XML)

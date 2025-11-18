@@ -76,3 +76,10 @@ import { User } from '../../../model/interfaces/User'
 // alias
 import { User } from '@interfaces/User'
 ```
+
+
+### Environment Variable
+
+```js
+const apiKey = import.meta.env.VITE_TMDB_API_KEY;
+```

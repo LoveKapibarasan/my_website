@@ -12,8 +12,12 @@ sudo systemctl disable "$service_name
 sudo systemctl mask "$service_name
 systemctl is-active --quiet "$service_name
 # --quiet = only output exit code
-sudo journalctl -u "$service_name -f 
+sudo journalctl -u "$service_name" -f 
 # -f = real time
+
+# List running services
+sudo systemctl list-units --type=service --state=running
+
 ```
 
 

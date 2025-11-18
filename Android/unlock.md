@@ -1,12 +1,18 @@
 ### Unlock Bootloader
-0. Device Information > developer options > enable developer options.(7 clicks)
+0. Device Information, About phone, tablet > developer options > enable developer options, build number(7 clicks)
 1. Get unlock key from the maker.
 
-```bash
-# Enable Developer Options (tap Build Number 7 times)
-# Enable OEM Unlocking
-# Enable USB Debugging
 
+1. Enable Developer Options (tap Build Number 7 times)
+2. Developers Option
+    * Enable OEM(Original Equipment Manufacturer) Unlocking
+    * Enable USB Debugging
+3. USB mode
+    * File Transfer/MTP or (PTP)
+    * ☓: USB tethering
+
+
+```bash
 # From computer:
 adb reboot bootloader
 fastboot oem unlock

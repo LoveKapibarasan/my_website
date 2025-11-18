@@ -35,4 +35,8 @@
 
 ### Notation
 **No trailing slash**
-A trailing slash is the forward slash (`/`) at the end of a URL. 
+A trailing slash is the forward slash (`/`) at the end of a URL.
+
+
+### canonical
+* 重複するコンテンツがある際に検索エンジン側に正規となるURLを伝えるHTMLタグ
