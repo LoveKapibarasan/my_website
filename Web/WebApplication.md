@@ -1,3 +1,9 @@
+## Application Interface
+* via https request.
+
+
+## API key
+
 
 ## Alias $\sim$ Rephrase
 - an alternative name or label used to refer to the same thing, allowing you to use a shorter or more convenient identifier instead of the original.

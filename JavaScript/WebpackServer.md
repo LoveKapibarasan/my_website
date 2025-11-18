@@ -1,5 +1,7 @@
 # Webpack Dev Server
 
+
+
 ```json
 {
   "name": "example-app",
@@ -19,17 +21,23 @@
 Module bandler
 
 
-```
+`webpack.config.js`
+
+```js
 module.exports = {
   mode: 'development',
   entry: `${__dirname}/src/main.js`,
   output: {
-    path: `${__dirname}/public`,
+    path: `${__dirname}/public`, // use absolute path
     filename: 'bundle.js'
   },
 
   devServer: {
-    // change here
+    // document root
+    contentBase: path.join(__dirname, 'dist'), 
+    host: "xxx.xxx.xxx.xxx",
   }
 }
 ```
+
+* `npx webpack-dev-server --open`: open web browser

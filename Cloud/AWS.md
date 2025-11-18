@@ -35,7 +35,7 @@
 * WAF (Web Application Firewall): Protect web applications
 * Cognito: User authentication and authorization
 
-### Firewall
+### Firewall(Security Groups)
 
 *  Firewall setting can be done outside of the container.
 
@@ -59,11 +59,30 @@ curl -4 ifconfig.me # IPV6
 curl icanhazip.com
 curl checkip.amazonaws.com
 ```
-**Check opening port**
-```bash
-sudo ss -tlnp | grep LISTEN
-sudo netstat -tlnp | grep LISTEN
-```
+
+
+### VPC(Virtual Private Cloud)
+
+* Virtual private network
+* 
+
+**Subnet**
+* public or private
+* Specific IP address
+
+CIDR(Classless Inter-Domain Routing)
+* originated from A, B, C
+e.g. 10.0.0.0/16: 
+    * (10.0.0.0 ~ 10.0.255.255, 65536 bits)
+    * The first 16 bits is network(fixed.), others are hosts.
+    * host = 0, 1, 2, 3. 2^n -1(111.., broadcast) are reserved
+
+### Auto-assign public IP
+* On you want to access from outside of VPN
+
+### Availability Zone (AZ)
+* Data center location.
+
 
 ### 
 * Root User

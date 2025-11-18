@@ -4,6 +4,14 @@
 ```ts
 const x
 
+type xxx = {
+  a: boolean,
+  b: number[], // array
+  c: string | null
+  d: custom_type,
+}
+
+
 // explicitly declare type (Type Anotation)
 // Often ommited if Typescript does
 const x:type = "foo";

@@ -2,16 +2,25 @@
 
 ## tsconfig.json in the root directly
 
+**Node.js cannot directly execute .ts**
+
 ```json
 {
   "compilerOptions": {
-    "target": "ES2020",            // JavaScript version to output
+    "target": "ES2020",            // JavaScript version to output(ESNext, CommonJS, ES6)
     "module": "commonjs",          // Module system
     "strict": true,                // Enable strict type checking
     "esModuleInterop": true,       // Compatibility between import and require
     "noEmit": true,                 // Do not ourput JS. Only do type check
     "outDir": "./dist",            // Output folder for compiled files
-    "rootDir": "./src"             // Root folder of source files
+    "rootDir": "./src",             // Root folder of source files
+    "forceConsistentCasingInFileNames": true, // Case-sensitive(Windows does not care capital case!!)
+    "moduleResolution": "node", // module resolution algorithm
+    "jsx": "react-jsx",
+    "skipLibCheck": true, // akip d.ts check partially
+    "allowJs": true, // check also JS file
+    "resolveJsonModule": true, // import data from './data.json' 
+    "allowSyntheticDefaultImports": true // for js, allow  without default export
   },
   "include": ["src/**/*"],         // Files to compile
   "references": [

@@ -40,6 +40,7 @@ INSERT INTO "<table_name>"(column_1,column_2,..) VALUES (value_1, value_2,...);
 > Use single quote
 
 ## Delete
+☓ `DELETE *`
 
 ```sql
 DELETE FROM "<table_name>" WHERE condition;
