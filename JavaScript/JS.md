@@ -54,10 +54,20 @@ On the other hand, there are systems like Node.js, where JavaScript runs on the 
 `module.exports = {}`
 
 **Import**
+
+1. CommonJS(Node)
 ```js
 // JavaScript
 const { xxx } = require('./yyy(.js)');
 ```
+
+2. ESM
+```js
+import { helloWorld } from './module'
+```
+
+> Webpack can read and bundle every type of import.
+
 **Spread Syntax**
 ```ts
 const obj = { a: 1, b: 2, c: 3 };

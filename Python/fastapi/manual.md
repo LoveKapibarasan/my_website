@@ -28,7 +28,7 @@ myapp/
 
 ---
 
-## 🔹 Example Code
+## Example Code
 
 ### `app/main.py` (Entry Point)
 
@@ -76,7 +76,8 @@ class User(BaseModel):
 
 ---
 
-### `app/api/v1/routes_items.py`
+### API behavior
+`app/api/v1/routes_items.py`
 
 ```python
 from fastapi import APIRouter
@@ -132,7 +133,7 @@ settings = Settings()
 
 ---
 
-## 📌 Key Points
+## Key Points
 
 * **`main.py`** → Entry point, registers routers.
 * **`api/`** → Organized routes (`items`, `users`, etc.).

@@ -1,0 +1,160 @@
+\documentclass[12pt,a4paper]{article}
+
+% Package imports
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{graphicx}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{cite}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{hyperref}
+
+% Title information
+\title{Paper Title}
+\author{Author Name\\
+        Affiliation\\
+        \texttt{email@example.com}}
+\date{\today}
+
+% Theorem environments
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Write your abstract here. Summarize the purpose, methods, main results, and conclusions of your research concisely. Typically 150-250 words.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introduction}
+\label{sec:introduction}
+
+Present the background, motivation, and purpose of your research.
+
+\subsection{Background}
+Review existing research and related work.
+
+\subsection{Research Objectives}
+Clearly state the objectives and contributions of this research.
+
+\section{Preliminaries}
+\label{sec:preliminaries}
+
+Present necessary definitions and known results.
+
+\begin{definition}
+Example definition: A function $f: X \to \mathbb{R}$ on a set $X$ is said to be continuous if...
+\end{definition}
+
+\begin{theorem}
+\label{thm:main}
+Statement of the main theorem.
+\end{theorem}
+
+\begin{proof}
+Write the proof here.
+\end{proof}
+
+\section{Main Results}
+\label{sec:main}
+
+Present the main results of your research.
+
+\subsection{Result 1}
+
+Example of mathematical equations:
+\begin{equation}
+\label{eq:example}
+E = mc^2
+\end{equation}
+
+Equation~\eqref{eq:example} is the famous formula from the theory of relativity.
+
+\subsection{Result 2}
+
+Example of figure insertion:
+\begin{figure}[htbp]
+\centering
+% \includegraphics[width=0.6\textwidth]{figure1.pdf}
+\caption{Figure caption}
+\label{fig:example}
+\end{figure}
+
+As shown in Figure~\ref{fig:example}...
+
+\section{Experiments and Numerical Examples}
+\label{sec:experiments}
+
+Present experimental results and numerical examples.
+
+\begin{table}[htbp]
+\centering
+\caption{Example of experimental results}
+\label{tab:results}
+\begin{tabular}{|c|c|c|}
+\hline
+Item 1 & Item 2 & Item 3 \\
+\hline
+Data 1 & Data 2 & Data 3 \\
+Data 4 & Data 5 & Data 6 \\
+\hline
+\end{tabular}
+\end{table}
+
+As can be seen from Table~\ref{tab:results}...
+
+\section{Discussion}
+\label{sec:discussion}
+
+Discuss the implications of your results.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+Summarize the research and describe future work.
+
+\subsection{Summary}
+In this research, we have...
+
+\subsection{Future Work}
+Future research directions include...
+
+\section*{Acknowledgments}
+This research was supported by...
+
+\begin{thebibliography}{99}
+
+\bibitem{author2020}
+Author Name,
+``Paper Title,''
+\textit{Journal Name},
+vol.~XX, no.~Y, pp.~ZZ--WW, 2020.
+
+\bibitem{book2019}
+Author Name,
+\textit{Book Title},
+Publisher, 2019.
+
+\bibitem{web2021}
+Author Name,
+``Web Page Title,''
+\url{https://example.com},
+Accessed: January 1, 2021.
+
+\end{thebibliography}
+
+\end{document}

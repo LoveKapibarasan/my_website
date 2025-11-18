@@ -45,3 +45,7 @@ According to Smith (2020), academic integrity is essential for learning.
 * Reference List
 
 * Academic Integrity: 学問上の誠実さ
+
+
+`"`, `「 」`: Quote
+`''`, `『 』`: Quote in Quote

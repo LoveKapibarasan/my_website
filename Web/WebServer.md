@@ -7,6 +7,7 @@ e.g. Serve, Nginx, Apache
 * Dynamic Server
 `/usr/share/nginx/html/`     ← Place HTML file
 `/etc/nginx/nginx.conf`      ← How to distribute
+`/etc/nginx/sites-available/"$name".conf`
 ```nginx
 # Main Context
 user nginx; # user to execute
@@ -27,7 +28,10 @@ http {
     server {
         # Server Context
         listen 80;
+
+        # Your domain here
         server_name $domain.name;
+        
         root /usr/share/nginx/html; # directory
         index index.html; # default file to show
         
@@ -39,6 +43,13 @@ http {
         location /name/ { # url start with /api/
             proxy_pass http://backend:3000/;
         }
+        listen $port_number;  # IPV4
+        listen [::] $port_number; # IPV6
+        ssl_certificate $path;
+        # private key
+        ssl_certificate_key $path;
+        include $setting_path;
+
     }
     # send compressed content
     gzip on;
