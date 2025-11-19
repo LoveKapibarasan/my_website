@@ -1,0 +1,4206 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025/Debian) (preloaded format=pdflatex 2025.11.2)  12 NOV 2025 11:37
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**/home/user/my_website/Others/Research/Quote.tex
+(/home/user/my_website/Others/Research/Quote.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2024/06/29 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count196
+\c@section=\count197
+\c@subsection=\count198
+\c@subsubsection=\count199
+\c@paragraph=\count266
+\c@subparagraph=\count267
+\c@figure=\count268
+\c@table=\count269
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2024/02/08 v1.3d Input encoding file
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaTeX and XeLaTeX
+\babel@savecnt=\count270
+\U@D=\dimen142
+\l@unhyphenated=\language90
+ (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@readstream=\read2
+\bbl@dirlevel=\count271
+ (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language48). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language48). Reported on input line 108.
+)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 11.
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2024/11/05 v2.17t AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen143
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count272
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count273
+\leftroot@=\count274
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count275
+\DOTSCASE@=\count276
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count277
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count278
+\dotsspace@=\muskip17
+\c@parentequation=\count279
+\dspbrk@lvl=\count280
+\tag@help=\toks20
+\row@=\count281
+\column@=\count282
+\maxfields@=\count283
+\andhelp@=\toks21
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks22
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texlive/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+
+
+Package natbib Warning: The `cite' package should not be used
+(natbib)                with natbib. Use option `sort' instead.
+
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+LaTeX Info: Redefining \citenum on input line 708.
+\c@NAT@ctr=\count284
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
+ (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+) (/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)) (/usr/share/texlive/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+) (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+ (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+) (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count285
+) (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count286
+) (/usr/share/texlive/texmf-dist/tex/generic/stringenc/stringenc.sty
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+\@linkdim=\dimen152
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2024-11-05 v7.01l Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+) (/usr/share/texlive/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count289
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4157.
+Package hyperref Info: Link nesting OFF on input line 4162.
+Package hyperref Info: Hyper index ON on input line 4165.
+Package hyperref Info: Plain pages OFF on input line 4172.
+Package hyperref Info: Backreferencing OFF on input line 4177.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4424.
+\c@Hy@tempcnt=\count290
+ (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip18
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen153
+ (/usr/share/texlive/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+))
+\Fld@menulength=\count291
+\Field@Width=\dimen154
+\Fld@charsize=\dimen155
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2024-11-05 v7.01l Hyperref driver for pdfTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend package
+with kernel methods
+)
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+ (/usr/share/texlive/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+ (/usr/share/texlive/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
+)
+\Hy@SectionHShift=\skip56
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count297
+\l__pdf_internal_box=\box54
+) (./Quote.aux)
+\openout1 = `Quote.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+Package hyperref Info: Link coloring OFF on input line 13.
+\@outlinefile=\write3
+\openout3 = `Quote.out'.
+
+
+
+/home/user/my_website/Others/Research/Quote.tex:16: LaTeX Error: Unicode character 基 (U+57FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...on{Method 1: Manual Bibliography (基本)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:16: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.16 ...on{Method 1: Manual Bibliography (基本)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `smith2020' on page 1 undefined on input line 19.
+
+
+Package natbib Warning: Citation `jones2019' on page 1 undefined on input line 20.
+
+
+Package natbib Warning: Citation `brown2021' on page 1 undefined on input line 20.
+
+
+Package natbib Warning: Citation `smith2020' on page 1 undefined on input line 21.
+
+
+
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+
+/home/user/my_website/Others/Research/Quote.tex:47: LaTeX Error: Unicode character 推 (U+63A8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \section{Method 2: BibTeX (推奨)}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:47: LaTeX Error: Unicode character 奨 (U+5968)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.47 \section{Method 2: BibTeX (推奨)}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: Citation `doe2020' on page 2 undefined on input line 53.
+
+
+Package natbib Warning: Citation `doe2020' on page 2 undefined on input line 54.
+
+
+Package natbib Warning: Citation `smith2021' on page 2 undefined on input line 54.
+
+
+
+[2]
+
+/home/user/my_website/Others/Research/Quote.tex:97: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...on{Method 3: natbib (著者名-年形式)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:97: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...on{Method 3: natbib (著者名-年形式)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:97: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...on{Method 3: natbib (著者名-年形式)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:97: LaTeX Error: Unicode character 年 (U+5E74)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...on{Method 3: natbib (著者名-年形式)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:97: LaTeX Error: Unicode character 形 (U+5F62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...on{Method 3: natbib (著者名-年形式)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:97: LaTeX Error: Unicode character 式 (U+5F0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.97 ...on{Method 3: natbib (著者名-年形式)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:107: LaTeX Error: Unicode character 形 (U+5F62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ... \verb|\citet{key}| → Author (Year) 形
+                                                  式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:107: LaTeX Error: Unicode character 式 (U+5F0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.107 ...erb|\citet{key}| → Author (Year) 形式
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:111: LaTeX Error: Unicode character 形 (U+5F62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...\verb|\citep{key}| → (Author, Year) 形
+                                                  式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:111: LaTeX Error: Unicode character 式 (U+5F0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.111 ...rb|\citep{key}| → (Author, Year) 形式
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character 全 (U+5168)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \item \verb|\citet*{key}| → 全
+                                       著者名を表示
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \item \verb|\citet*{key}| → 全著
+                                          者名を表示
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \item \verb|\citet*{key}| → 全著者
+                                             名を表示
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 \item \verb|\citet*{key}| → 全著者名
+                                                を表示
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...m \verb|\citet*{key}| → 全著者名を
+                                                  表示
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character 表 (U+8868)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...verb|\citet*{key}| → 全著者名を表
+                                                  示
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:115: LaTeX Error: Unicode character 示 (U+793A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.115 ...b|\citet*{key}| → 全著者名を表示
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (4.93602pt too wide) in paragraph at lines 117--118
+[]\OT1/cmr/m/n/12 Example: [][]\OT1/cmtt/m/n/12 \citet*{smith2020} []\OT1/cmr/m/n/12 pro-duces: Smith, Jones, and Lee (2020) 
+ []
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character ペ (U+30DA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \item \verb|\citep[p.~25]{key}| → ペ
+                                             ージ番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 \item \verb|\citep[p.~25]{key}| → ペー
+                                                ジ番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character ジ (U+30B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ...m \verb|\citep[p.~25]{key}| → ページ
+                                                  番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character 番 (U+756A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ...verb|\citep[p.~25]{key}| → ページ番
+                                                  号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character 号 (U+53F7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ...b|\citep[p.~25]{key}| → ページ番号
+                                                  付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character 付 (U+4ED8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ...citep[p.~25]{key}| → ページ番号付
+                                                  き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:119: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 ...ep[p.~25]{key}| → ページ番号付き
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:123: LaTeX Error: Unicode character 前 (U+524D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \item \verb|\citep[see][]{key}| → 前
+                                             置詞付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:123: LaTeX Error: Unicode character 置 (U+7F6E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 \item \verb|\citep[see][]{key}| → 前置
+                                                詞付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:123: LaTeX Error: Unicode character 詞 (U+8A5E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...m \verb|\citep[see][]{key}| → 前置詞
+                                                  付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:123: LaTeX Error: Unicode character 付 (U+4ED8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...verb|\citep[see][]{key}| → 前置詞付
+                                                  き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:123: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.123 ...b|\citep[see][]{key}| → 前置詞付き
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[3{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+
+/home/user/my_website/Others/Research/Quote.tex:129: LaTeX Error: Unicode character 最 (U+6700)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...{Method 4: biblatex (最新・高機能)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:129: LaTeX Error: Unicode character 新 (U+65B0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...{Method 4: biblatex (最新・高機能)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:129: LaTeX Error: Unicode character ・ (U+30FB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...{Method 4: biblatex (最新・高機能)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:129: LaTeX Error: Unicode character 高 (U+9AD8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...{Method 4: biblatex (最新・高機能)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:129: LaTeX Error: Unicode character 機 (U+6A5F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...{Method 4: biblatex (最新・高機能)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:129: LaTeX Error: Unicode character 能 (U+80FD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.129 ...{Method 4: biblatex (最新・高機能)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 基 (U+57FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 括 (U+62EC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 弧 (U+5F27)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 付 (U+4ED8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character テ (U+30C6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character キ (U+30AD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 内 (U+5185)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 脚 (U+811A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 注 (U+6CE8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 自 (U+81EA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 動 (U+52D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 選 (U+9078)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 択 (U+629E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character み (U+307F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character 年 (U+5E74)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character み (U+307F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:147: LaTeX Error: Unicode character み (U+307F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.147 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[4]
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character 主 (U+4E3B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character 要 (U+8981)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character エ (U+30A8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character リ (U+30EA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:153: LaTeX Error: Unicode character プ (U+30D7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.153 ...n{主要な BibTeX エントリタイプ}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 術 (U+8853)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 論 (U+8AD6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 書 (U+66F8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 籍 (U+7C4D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 書 (U+66F8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 籍 (U+7C4D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 章 (U+7AE0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 論 (U+8AD6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 集 (U+96C6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 中 (U+4E2D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 章 (U+7AE0)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 議 (U+8B70)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 論 (U+8AD6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 議 (U+8B70)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character と (U+3068)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 同 (U+540C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character じ (U+3058)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 議 (U+8B70)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 論 (U+8AD6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 集 (U+96C6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 全 (U+5168)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 体 (U+4F53)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 博 (U+535A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 士 (U+58EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 論 (U+8AD6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 修 (U+4FEE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 士 (U+58EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 論 (U+8AD6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 文 (U+6587)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 技 (U+6280)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 術 (U+8853)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character レ (U+30EC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ポ (U+30DD)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character マ (U+30DE)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ニ (U+30CB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ュ (U+30E5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character そ (U+305D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 他 (U+4ED6)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ペ (U+30DA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ジ (U+30B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ど (U+3069)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 未 (U+672A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 公 (U+516C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:169: LaTeX Error: Unicode character 刊 (U+520A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.169 \end{verbatim}
+                    
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[5]
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character 主 (U+4E3B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character 要 (U+8981)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character オ (U+30AA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character プ (U+30D7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character シ (U+30B7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character ョ (U+30E7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:172: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.172 ...要な bibliographystyle オプション}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:174: LaTeX Error: Unicode character 標 (U+6A19)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \subsection{標準スタイル}
+                                     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:174: LaTeX Error: Unicode character 準 (U+6E96)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \subsection{標準スタイル}
+                                     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:174: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \subsection{標準スタイル}
+                                     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:174: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \subsection{標準スタイル}
+                                     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:174: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \subsection{標準スタイル}
+                                     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:174: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \subsection{標準スタイル}
+                                     
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著
+                                者名のアルファベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著者
+                                   名のアルファベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著者名
+                                      のアルファベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著者名の
+                                         アルファベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character ア (U+30A2)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著者名のア
+                                            ルファベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著者名のアル
+                                               ファベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character フ (U+30D5)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 \item \texttt{plain} - 著者名のアルフ
+                                                  ァベット順、番号�...
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character ァ (U+30A1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...\texttt{plain} - 著者名のアルファ
+                                                  ベット順、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character ベ (U+30D9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...xttt{plain} - 著者名のアルファベ
+                                                  ット順、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character ッ (U+30C3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...t{plain} - 著者名のアルファベッ
+                                                  ト順、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character ト (U+30C8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...lain} - 著者名のアルファベット
+                                                  順、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 順 (U+9806)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...n} - 著者名のアルファベット順
+                                                  、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 、 (U+3001)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...- 著者名のアルファベット順、
+                                                  番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 番 (U+756A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...��者名のアルファベット順、番
+                                                  号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 号 (U+53F7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...��名のアルファベット順、番号
+                                                  付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character 付 (U+4ED8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...��のアルファベット順、番号付
+                                                  き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:176: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.176 ...��アルファベット順、番号付き
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \item \texttt{alpha} - 著
+                                者名+年の略号（[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \item \texttt{alpha} - 著者
+                                   名+年の略号（[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \item \texttt{alpha} - 著者名
+                                      +年の略号（[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character 年 (U+5E74)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \item \texttt{alpha} - 著者名+年
+                                          の略号（[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \item \texttt{alpha} - 著者名+年の
+                                             略号（[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character 略 (U+7565)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 \item \texttt{alpha} - 著者名+年の略
+                                                号（[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character 号 (U+53F7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...m \texttt{alpha} - 著者名+年の略号
+                                                  （[Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character （ (U+FF08)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...texttt{alpha} - 著者名+年の略号（
+                                                  [Smi20]）
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:177: LaTeX Error: Unicode character ） (U+FF09)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...ha} - 著者名+年の略号（[Smi20]）
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引
+                                用順、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引用
+                                   順、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 順 (U+9806)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引用順
+                                      、番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 、 (U+3001)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引用順、
+                                         番号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 番 (U+756A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引用順、番
+                                            号付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 号 (U+53F7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引用順、番号
+                                               付き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character 付 (U+4ED8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 \item \texttt{unsrt} - 引用順、番号付
+                                                  き
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:178: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.178 ...\texttt{unsrt} - 引用順、番号付き
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:179: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \item \texttt{abbrv} - plain の
+                                      短縮版
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:179: LaTeX Error: Unicode character 短 (U+77ED)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \item \texttt{abbrv} - plain の短
+                                         縮版
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:179: LaTeX Error: Unicode character 縮 (U+7E2E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \item \texttt{abbrv} - plain の短縮
+                                            版
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:179: LaTeX Error: Unicode character 版 (U+7248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.179 \item \texttt{abbrv} - plain の短縮版
+                                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:182: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \subsection{natbib 用スタイル}
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:182: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \subsection{natbib 用スタイル}
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:182: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \subsection{natbib 用スタイル}
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:182: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \subsection{natbib 用スタイル}
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:182: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.182 \subsection{natbib 用スタイル}
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:184: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \item \texttt{plainnat} - 著
+                                   者名-年形式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:184: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \item \texttt{plainnat} - 著者
+                                      名-年形式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:184: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \item \texttt{plainnat} - 著者名
+                                         -年形式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:184: LaTeX Error: Unicode character 年 (U+5E74)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \item \texttt{plainnat} - 著者名-年
+                                             形式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:184: LaTeX Error: Unicode character 形 (U+5F62)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 \item \texttt{plainnat} - 著者名-年形
+                                                式
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:184: LaTeX Error: Unicode character 式 (U+5F0F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.184 ...m \texttt{plainnat} - 著者名-年形式
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:185: LaTeX Error: Unicode character 短 (U+77ED)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \item \texttt{abbrvnat} - 短
+                                   縮版
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:185: LaTeX Error: Unicode character 縮 (U+7E2E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \item \texttt{abbrvnat} - 短縮
+                                      版
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:185: LaTeX Error: Unicode character 版 (U+7248)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.185 \item \texttt{abbrvnat} - 短縮版
+                                         
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:186: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \item \texttt{apalike} - APA ス
+                                      タイル
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:186: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \item \texttt{apalike} - APA スタ
+                                         イル
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:186: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \item \texttt{apalike} - APA スタイ
+                                            ル
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:186: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.186 \item \texttt{apalike} - APA スタイル
+                                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character 会 (U+4F1A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character 別 (U+5225)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character ス (U+30B9)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character タ (U+30BF)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:189: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.189 \subsection{学会別スタイル}
+                                        
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:193: LaTeX Error: Unicode character 心 (U+5FC3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \item \texttt{apalike} - APA (心
+                                       理学)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:193: LaTeX Error: Unicode character 理 (U+7406)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \item \texttt{apalike} - APA (心理
+                                          学)
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:193: LaTeX Error: Unicode character 学 (U+5B66)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.193 \item \texttt{apalike} - APA (心理学
+                                             )
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+
+[6]
+
+/home/user/my_website/Others/Research/Quote.tex:198: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \section{引用の実例}
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:198: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \section{引用の実例}
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:198: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \section{引用の実例}
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:198: LaTeX Error: Unicode character 実 (U+5B9F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \section{引用の実例}
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:198: LaTeX Error: Unicode character 例 (U+4F8B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.198 \section{引用の実例}
+                               
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:200: LaTeX Error: Unicode character 基 (U+57FA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \subsection{Example 1: 基本的な引用}
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:200: LaTeX Error: Unicode character 本 (U+672C)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \subsection{Example 1: 基本的な引用}
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:200: LaTeX Error: Unicode character 的 (U+7684)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \subsection{Example 1: 基本的な引用}
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:200: LaTeX Error: Unicode character な (U+306A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \subsection{Example 1: 基本的な引用}
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:200: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \subsection{Example 1: 基本的な引用}
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:200: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.200 \subsection{Example 1: 基本的な引用}
+                                                
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:205: LaTeX Error: Unicode character 複 (U+8907)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \subsection{Example 2: 複数の引用}
+                                             
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:205: LaTeX Error: Unicode character 数 (U+6570)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \subsection{Example 2: 複数の引用}
+                                             
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:205: LaTeX Error: Unicode character の (U+306E)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \subsection{Example 2: 複数の引用}
+                                             
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:205: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \subsection{Example 2: 複数の引用}
+                                             
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:205: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.205 \subsection{Example 2: 複数の引用}
+                                             
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (17.5502pt too wide) in paragraph at lines 208--208
+[]\OT1/cmtt/m/n/12 Several studies~\cite{smith2020,jones2019,brown2021} have shown...[] 
+ []
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character ペ (U+30DA)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character ー (U+30FC)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character ジ (U+30B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character 番 (U+756A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character 号 (U+53F7)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character 付 (U+4ED8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character き (U+304D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:210: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.210 ...n{Example 3: ページ番号付き引用}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (11.3752pt too wide) in paragraph at lines 213--213
+[]\OT1/cmtt/m/n/12 As stated in~\cite[p.~42]{smith2020}, the algorithm is efficient.[] 
+ []
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character 著 (U+8457)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character 者 (U+8005)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character 名 (U+540D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character 含 (U+542B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character む (U+3080)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:215: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 ...ple 4: 著者名を含む引用 (natbib)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Overfull \hbox (23.7252pt too wide) in paragraph at lines 220--220
+[]\OT1/cmtt/m/n/12 This was demonstrated by previous work~\citep{jones2019,brown2021}.[] 
+ []
+
+
+/home/user/my_website/Others/Research/Quote.tex:222: LaTeX Error: Unicode character 脚 (U+811A)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...ction{Example 5: 脚注引用 (biblatex)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:222: LaTeX Error: Unicode character 注 (U+6CE8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...ction{Example 5: 脚注引用 (biblatex)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:222: LaTeX Error: Unicode character 引 (U+5F15)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...ction{Example 5: 脚注引用 (biblatex)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:222: LaTeX Error: Unicode character 用 (U+7528)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.222 ...ction{Example 5: 脚注引用 (biblatex)}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character コ (U+30B3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character ン (U+30F3)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character パ (U+30D1)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character イ (U+30A4)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character ル (U+30EB)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character 手 (U+624B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:227: LaTeX Error: Unicode character 順 (U+9806)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.227 \section*{コンパイル手順}
+                                      
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:229: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \subsection*{BibTeX を使う場合}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:229: LaTeX Error: Unicode character 使 (U+4F7F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \subsection*{BibTeX を使う場合}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:229: LaTeX Error: Unicode character う (U+3046)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \subsection*{BibTeX を使う場合}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:229: LaTeX Error: Unicode character 場 (U+5834)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \subsection*{BibTeX を使う場合}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:229: LaTeX Error: Unicode character 合 (U+5408)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.229 \subsection*{BibTeX を使う場合}
+                                          
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:237: LaTeX Error: Unicode character を (U+3092)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...ection*{biblatex (biber) を使う場合}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:237: LaTeX Error: Unicode character 使 (U+4F7F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...ection*{biblatex (biber) を使う場合}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:237: LaTeX Error: Unicode character う (U+3046)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...ection*{biblatex (biber) を使う場合}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:237: LaTeX Error: Unicode character 場 (U+5834)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...ection*{biblatex (biber) を使う場合}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+/home/user/my_website/Others/Research/Quote.tex:237: LaTeX Error: Unicode character 合 (U+5408)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.237 ...ection*{biblatex (biber) を使う場合}
+                                                  
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+Package natbib Warning: There were undefined citations.
+
+
+
+[7] (./Quote.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+
+./Quote.aux:27: Package natbib Error: Bibliography not compatible with author-year citations.
+(natbib)                Press <return> to continue in numerical citation style.
+
+See the natbib package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.27 ...mand\NAT@force@numbers{}\NAT@force@numbers
+                                                  
+Check the bibliography entries for non-compliant syntax,
+or select author-year BibTeX style, e.g. plainnat
+
+)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+ ***********
+
+
+Package rerunfilecheck Warning: File `Quote.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Quote.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  56EB877AD9D86328E0E8C38AACCDF72C;3002.
+ ) 
+Here is how much of TeX's memory you used:
+ 9972 strings out of 473190
+ 154578 string characters out of 5718449
+ 566989 words of memory out of 5000000
+ 33111 multiletter control sequences out of 15000+600000
+ 565983 words of font info for 61 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,6n,79p,282b,453s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb>
+Output written on Quote.pdf (7 pages, 82235 bytes).
+PDF statistics:
+ 102 PDF objects out of 1000 (max. 8388607)
+ 80 compressed objects within 1 object stream
+ 33 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

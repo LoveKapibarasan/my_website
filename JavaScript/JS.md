@@ -78,3 +78,34 @@ console.log(...obj);  // a: 1, b: 2, c: 3 （split）
 ```
 
 
+**map** == for
+
+```jsx
+    <div>
+      {defaultMovieList.map((movie) => (
+        <div key={movie.id}>
+          <h2>{movie.name}</h2>
+          <img src={movie.image} alt={movie.name} />
+          <p>{movie.overview}</p>
+        </div>
+      ))}
+    </div>
+  )
+```
+
+**filter**
+
+```js
+.filter((xxx) => xxx.attr.includes(keyword)
+```
+
+
+**if else**
+
+```js
+    if (condition) {
+      // a ;
+    } else {
+      // b;
+    }
+```

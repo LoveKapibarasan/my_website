@@ -55,6 +55,15 @@ npm run script
 * `npm i` = `npm install`
   * Install all dependencies and create `node_modules` folder.
   * `--verbose`
+  * * `-D` = `--save-dev` = saves it under devDependencies
+  * `-g` = global install. `~/.npm-global/lib/node_modules`
+  * `--prefix` = cd  
+    * "xxx": "npm run xxx --prefix ./Dir" -- recursively run child package.json
+
+**cache clean**
+```bash
+npm cache clean --force
+```
 
 ```txt
  my-project
@@ -64,16 +73,12 @@ npm run script
  |       @name
 
 ```
-
-* `--prefix` = cd  
-    * "xxx": "npm run xxx --prefix ./Dir" -- recursively run child package.json
-
-* `-D` = `--save-dev` = saves it under
-
 * `@` = scope indicator
 > The package belongs to the scope (organization or namespace) e.g.@directus.
 
-* `-g` = global install. `~/.npm-global/lib/node_modules`
+
+
+
 
 ## Version
 
@@ -83,8 +88,26 @@ npm info "$name" # dependencies
 npm ci #（Continuous Integration ）Strictly follow package-lock.json
 ```
 
-* **~1.4.0** = >=1.4.0 <1.5.0
+* **^1.4.0** = >=1.4.0 <1.5.0
 > It does not match git hub version(Tags).
+
+**ERESOLVE error**
+* dependency conflict.
+* `--save --legacy-peer-deps`: force install
+```json
+"overrides": {
+
+```
+* !!Dangerous: supress warning
+
+
+### Audit fix
+
+```bash
+npm audit fix --force
+```
+
+
 
 ## npx
 * a command that comes with npm (since npm v5.2.0) and is used to run Node.js packages **without installing them globally.**

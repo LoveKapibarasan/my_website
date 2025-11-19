@@ -140,5 +140,19 @@ Example:
 ```bash
 sudo tail -n 50 /var/log/rabbitmq/rabbit@$(hostname).log
 ```
+## Python
+
+* `aiormq` library
 
 
+
+## Node.js example
+
+* Use ampqlib to connect from node.js.
+* Ampqlib uses `Buffer`.(Temporal storage to store data)
+  * Memo: buffer=cushion,  padding
+
+**URL**
+```txt
+ampq://<username>:<password>@<hostname>:<port>/<vhost?>
+```

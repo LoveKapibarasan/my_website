@@ -2,6 +2,8 @@
 
 * Open source
 
+* requires pipewire
+
 * [Github](https://github.com/obsproject/obs-studio)
 
 
@@ -30,3 +32,14 @@
 3. **Audio Mixier**
 
 * Adjust audio.
+
+
+### Config
+
+```bash
+obs # open obs-studio
+~/.config/obs-studio/logs | head -n 1 # get recent log file name
+
+# Restart pipewire
+systemctl --user start pipewire
+```
