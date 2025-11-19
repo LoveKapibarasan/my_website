@@ -9,6 +9,10 @@
 
 **Empty Line**: Paragraph line
 
+**New Page**
+`\newpage`
+`\clearpage`: Including Charts
+
 **answer**
 ```latex
 Answer: $\underline{\underline{x = 4}}$
