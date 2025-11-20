@@ -186,6 +186,8 @@ vorbestraft: 前科のある
 * **raten, das Rat geben**
 * **erraten**
 
+* erhöhen: 
+
 * **damals**, **in dem Moment**
 
 * **die Kamera**, **Photo machen**
