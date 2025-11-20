@@ -93,8 +93,9 @@
 * steuern: 操縦する
 * auftreten: passieren, 登場する
 * anfällig: 影響されやすい
-* 
-
+* werten, beurteiligen
+* Gedächtnisleistung: 記憶力
+* Selbstvertrauen: 自信
 
 ###
 * sich beziehen auf + Akkusativ: ～に関連する、～を指す、～に言及する

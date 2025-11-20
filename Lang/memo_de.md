@@ -235,11 +235,33 @@ vorbestraft: 前科のある
 * n-Stunden-lang
 * anstrengend
 
+* sogar = even = 限定や強調
+
+* **meist**: mainly
+
+* **In Gegenteil**, **Umgekehrt**, **Anderseits**, **Hingegen**
+
+* **Weiterhin**, **Außerdem** = さらに、さらにまた 
+
+* **freisetzen**:  解放する
+
+* **beinhalten**: include, 含む
+
+* **aufschlussreich**: 啓発的・有益
+
+* **verstörend**: 不安定
+
+
 ### Konj
 **Haupt**
 * Deshalb
 * Dennoch
 * ,woduruch = それによって
+
+**Adv**
+* Aufgrund 2, wegen 2
+* mithilfe von 3
+
 ### Fachwörter
 
 * Reinforcement Lerning = Stärkungsverhalten
