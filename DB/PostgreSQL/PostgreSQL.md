@@ -55,7 +55,7 @@ DROP ROLE <user_name>;
 **DB list**
 ```sql
 \list
-SELECT datname FROM pg_database;
+SELECT datebasename FROM pg_database;
 ```
 * template0, 1, postgres are default.
 * Whatever you create database, it is copied from `template1`.
