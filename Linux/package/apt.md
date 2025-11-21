@@ -73,10 +73,17 @@ sudo apt remove "$package"
 sudo apt dist-upgrade
 sudo do-release-upgrade # OS distribution will be updated 
 apt --fix-broken install
-apt search
+apt search "$package"
 apt list
 apt list --installed
 ```
+
+**Special Commands**
+```bash
+apt modernize-sources
+# This command updates your package source configuration files from the old format to a new, more secure format.
+```
+
 **dpkg**
 ```bash
 dpkg -l
