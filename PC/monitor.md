@@ -44,6 +44,10 @@ HDMI, 1.4, 4K, 30Hz
 HDMI, 2.0, 4K, 60Hz
 HDMI, 2.1, 8K, 120Hz
 
+* HDMI(Type A)
+* Mini HDMI(type C)
+* Micro HDMI (type D)
+
 3. DP(Display Port)
 * PC向けの高性能映像伝送規格 = High-performance video transmission standard for PCs = Hochleistungs-Videoübertragungsstandard für PCs
 * Hard to disconnect = Schwer zu lösen 

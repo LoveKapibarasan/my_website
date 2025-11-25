@@ -252,6 +252,8 @@ vorbestraft: 前科のある
 * **verstörend**: 不安定
 
 
+* **sich verlaufen**: 道に迷う
+
 ### Konj
 **Haupt**
 * Deshalb

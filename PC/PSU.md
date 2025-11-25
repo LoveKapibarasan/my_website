@@ -7,6 +7,10 @@ TFX: 85mm  x 64mm  x 175mm
 * +12V、+5V、+3.3V、-12V
 * 24(main), 4 pin..
 
+**GPU**
+* 6 or 8 pin
+* × 1 ~ 2
+
 **AC Adapter**
 Standard AC（IEC C13)
 

@@ -145,3 +145,6 @@ This structure keeps the app maintainable as it grows.
 
 ---
 
+### Notes
+
+* **Uvicorn** = Python ASGI server（Web server）
