@@ -21,14 +21,25 @@ COPY . /app # cp
 RUN pip install -r requirements.txt # python
 RUN apt-get update && apt-get install -y curl # ubuntu
 
+# Expose is just for a documentation purpose. It does not publish the port.
+# https://shinkufencer.hateblo.jp/entry/2019/01/31/233000
+EXPOSE $xxx
 
 ARG WEBSERVER_PORT=9010
 ARG WEBSERVER_HOST=0.0.0.0
 
+# Environment variable from docker-compose.yml
+ARG APP_ENV
+ENV APP_ENV=${APP_ENV}
+
 # 5. Assign the command
+## Command executed when container starts.
+ENTRYPOINT ["echo", "Hello"]
 ## It is excuted when container becomes up.
 CMD ["python", "app.py"]
 CMD ["node", "server.js"]
+
+# If ENTRYPOINT and CMD are both specified, ENTRYPOINT is executed first, and CMD is passed as an argument to ENTRYPOINT.
 ```
 
 

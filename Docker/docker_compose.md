@@ -1,4 +1,6 @@
 ```yaml
+# This version is outdated
+version
 # Comment
 services:
   name1:
