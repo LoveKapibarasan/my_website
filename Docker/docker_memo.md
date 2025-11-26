@@ -67,9 +67,10 @@ docker compose [global option] [sub command] [sub command option]
         * Starts the containers in the background(with no logs).
     * `-f`
         * Assign docker file path.
-    *  `--env-file`
+    *  `--env-file $file_path`
     * `--build`
         * Forces a rebuild of images before starting containers, even if the image already exists locally.
+        * No `--no-cache` option
 
 * `docker compose down`
     * Default `docker-compose.yml`. `-f` to change
@@ -111,6 +112,9 @@ services:
 CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 ```
 
+* `docker image list` = `docker images` : 
+    * `REPOSITORY`: image name
+
 ### Stop commands
 
 * `docker stop $(docker ps -q)`
@@ -121,14 +125,23 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
     * delete container
 
 
+* `docker image rm $imageID_or_name1 $imageID_or_name2`
+
 * `docker container prune`
     * Delete all stopped containers
 
 * `docker builder prune -af`
     * Delete build cache
 
+
+* `docker system prune -a --volumes`
+    * `-a`: all
+    * `--volumes`: All data, including network
+
 * `docker system df`
     * Check docker disk size.
+
+
 
 ### Health Check
 

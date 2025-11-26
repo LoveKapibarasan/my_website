@@ -120,5 +120,5 @@ SELECT * FROM hr.employees;
 
 * `LIKE '%xxx%'`
 
-* `"`: Care capital letter
-* `'`: Literal 
+* `"`: Care capital letter. Used for column.
+* `'`: Literal. Used for values.

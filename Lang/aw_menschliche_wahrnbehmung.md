@@ -93,6 +93,9 @@
 * steuern: 操縦する
 * auftreten: passieren, 登場する
 * anfällig: 影響されやすい
+* werten, beurteiligen
+* Gedächtnisleistung: 記憶力
+* Selbstvertrauen: 自信
 *  im Budget vorgesehen ist: 予算にある
 * Rational betrachtet: 理性的に、合理的に
 * wirken: 見える、印象を与える

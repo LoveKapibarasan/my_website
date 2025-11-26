@@ -37,6 +37,14 @@ code --install-extension "$extension" # extensions = id
 }
 ```
 
+**Log**
+```bash
+killall -9 code
+ps aux | grep code
+code --verbose
+# -v: version
+```
+
 **Entry　Point**
 * `extension.js` / `extension.ts`
     * export `activate()` and `deactivate()`

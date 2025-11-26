@@ -9,6 +9,10 @@
 
 **Empty Line**: Paragraph line
 
+**New Page**
+`\newpage`
+`\clearpage`: Including Charts
+
 **answer**
 ```latex
 Answer: $\underline{\underline{x = 4}}$
@@ -21,7 +25,19 @@ Answer: $\underline{\underline{x = 4}}$
 \left( \frac{a}{b} \right)
 ```
 
+**Paragraph**
+* blankline or `\par`
+
+**Indent**
+* `\indent`
+
+**Indent First**
+* `\usepackage{indentfirst}`
+* Indent all first paragraph
+
 * Escape `_` inside a `\text{}`
+
+
 
 ### R
 ```latex

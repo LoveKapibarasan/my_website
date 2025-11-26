@@ -136,16 +136,14 @@ Example:
 * Connection is established using TCP
 * Multi **channel** can be created on this.
 
-## setup
+### Logs
 ```bash
-npm install amqplib
-sudo rabbitmq-server # foreground
-sudo systemctl start rabbitmq-server
-sudo systemctl enable rabbitmq-server # systemmd
+sudo tail -n 50 /var/log/rabbitmq/rabbit@$(hostname).log
 ```
 ## Python
 
 * `aiormq` library
+
 
 
 ## Node.js example

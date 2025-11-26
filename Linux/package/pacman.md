@@ -19,9 +19,12 @@ pacman <operation> [option] [target]
 #--noconfirm
 #--needed Do not reeinstall
 
+# search package
+pacman -Ss "$package"
 
 sudo pacman -Syyu  # Force refresh all package databases Normally -Syu is enough.
 sudo pacman -Sc  # Remove uninstalled packages from cache
+
 sudo pacman -Qtdq  # List orphans
 sudo pacman -Rns $(pacman -Qtdq)
 ```

@@ -8,4 +8,7 @@ sudo tcpdump -i wlan0 port 53 or port 443 -n
 
 # DNS Query log
 sudo tcpdump -i wlan0 -n -vv port 53
+
+# Interface Log
+sudo tcpdump -i "$interface" -vv
 ```
