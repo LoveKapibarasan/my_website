@@ -8,12 +8,17 @@ services:
     image: name/name:latest
     platform: linux/amd64/…
     container_name: "${name}"
+    # run as root
+    user: "0" 
     ports:
         - "${port_of_host}:${port_of_container}/${protcol}"
     # Linux capabilities
     cap_add:
     
-    restart: always
+    restart: always # unless-stopped
+    # Order
+    depends_on:
+      - service_name
     healthcheck:
       test: "$command"
       interval: "$n"s
@@ -21,6 +26,16 @@ services:
       retries: "$n"
     networks:
       - shared-network
+    # Log Rotation
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m" # 10 MB
+        max-file: "3" # 3 generations
+    volumes:
+      # ro: read only(protect overwritting of host-file)
+      # sock: read and write
+      - $host_path:${container_path}:ro
   name2:
     build:
       context: "$path" # like ../ used with COPY . . 

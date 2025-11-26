@@ -3,7 +3,7 @@ It receieves HTTP request and returns JS, CSS, HTML.
 e.g. Serve, Nginx, Apache
 
 
-### Nginx
+### Nginx = "engine x"
 * Dynamic Server
 `/usr/share/nginx/html/`     ← Place HTML file
 `/etc/nginx/nginx.conf`      ← How to distribute

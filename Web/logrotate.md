@@ -2,7 +2,7 @@
 
 # logrotate 
 
-* Log management.
+* Log management to avoid overflow.
 
 
 **Config**: `/etc/logrotate.d/name`

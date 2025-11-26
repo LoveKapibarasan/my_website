@@ -251,6 +251,7 @@ vorbestraft: 前科のある
 
 * **verstörend**: 不安定
 
+* **Bemerkeng**: remark
 
 * **sich verlaufen**: 道に迷う
 
@@ -259,7 +260,7 @@ vorbestraft: 前科のある
 * Deshalb
 * Dennoch
 * ,woduruch = それによって
-
+* sobald= 条件
 **Adv**
 * Aufgrund 2, wegen 2
 * mithilfe von 3

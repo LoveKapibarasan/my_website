@@ -161,6 +161,12 @@ container_name: "$my-custom-name"
 
 ### Docker Version
 
+**Image version**
+```bash
+# Do not include versions
+ docker search "$name"
+```
+* Go to [URL](https://hub.docker.com)
 
 ### V1 (~ 2023.10)(Python)
 ``ỳaml
@@ -175,3 +181,16 @@ version: '3.8' # this is deprecated.
 
 
 
+### Socket
+
+* `/var/run/docker.sock`(can not see this file.)
+
+```
+Program（like Alloy）
+    ↓ (Unix socket)
+/var/run/docker.sock
+    ↓
+Docker daemon
+    ↓
+Docker container management
+```

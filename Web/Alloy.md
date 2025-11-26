@@ -1,10 +1,17 @@
 # Alloy
 
-* observability agent.
+* Originated from `Grafana Agent Flow`
+
+* observability agent, Log Aggregator = ログ集約機
 
 * collect log or metrics and send to Loki.
 
-Config: `/etc/alloy/config.river`
+1. docker: 
+  * [Offitial URL](https://grafana.com/docs/alloy/latest/set-up/install/docker/)
+  * [Reference 1](https://tech.quickguard.jp/posts/grafana-alloy/)
+2. Service
+
+**Config**: `/etc/alloy/config.river`
 
 
 ```ini
@@ -21,16 +28,6 @@ loki.source.file "remote_logs" {
       job      = "pays-dev-nginx-error",
       log_type = "error",
     },
-    {
-      __path__ = "/var/log/aic-pay/pays_stderr.log",
-      job      = "pays-dev-pay-stderr",
-      log_type = "error",
-     },
-    {
-      __path__ = "/var/log/aic-pay/pays_stdout.log",
-      job      = "pays-dev-pay-stdout",
-      log_type = "access",
-     },
   ]
   forward_to = [loki.write.default.receiver]
 }
@@ -51,6 +48,3 @@ loki.write "default" {
 ```
 
 
-# Loki
-
-* Log storage and search engine.
