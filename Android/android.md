@@ -16,6 +16,7 @@
         - `databases/` - SQLite database
 * `/cache`
 * `/vendor`
+* `/storage` - internal storage
 * `/boot`
 * `/recovery`
 * `/sdcard`
@@ -100,4 +101,39 @@ Original APK location:
 
 * `React Native（Meta/Facebook）`
 
+### GSI (Generic System Image)
+* with su
+* [List](https://github.com/TrebleDroid/treble_experimentations/wiki/Generic-System-Image-%28GSI%29-list)
 
+
+### DSI(Dynamic System Updates)
+* LiveUSB
+* RAM boot
+
+### A/B partitions
+* ~ Android 9
+* toggle two partitions
+```bash
+# Check
+fastboot getvar current-slot
+```
+
+###
+```powershell
+Bootloader
+└── boot.img        ←  Non stock（純正）boot.img when device-specific build LineageOS
+└── dtbo.img        ← Device Tree
+└── vendor.img      ← 
+└── system.img      ← Android common part (Treble)
+└── vbmeta.img      ← AVB（Android Verified Boot）, Signiture
+```
+
+### VNDK
+* Vendor Native Development Kit
+* Part of Treble
+
+
+### Words
+* GAPPS: google apps
+* AOSP: android open source project
+* Vanilla: No Google Apps

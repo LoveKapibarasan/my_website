@@ -93,8 +93,14 @@
 * steuern: 操縦する
 * auftreten: passieren, 登場する
 * anfällig: 影響されやすい
-* 
-
+*  im Budget vorgesehen ist: 予算にある
+* Rational betrachtet: 理性的に、合理的に
+* wirken: 見える、印象を与える
+* absurb: ばかげている
+* wagen zu :思い切って～する
+* Demut: 謙虚さ
+* hinterfragen
+* die Prämissen: 前提
 
 ###
 * sich beziehen auf + Akkusativ: ～に関連する、～を指す、～に言及する

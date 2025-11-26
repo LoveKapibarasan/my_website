@@ -4,6 +4,9 @@
 * `.idea/`, `*.xml`
 
 
+### Community vs Ultimate
+* Ultimate: SpringBoot, Frontend..
+
 ### Shortcuts
 * `Shift` + `F6`: Rename
 
