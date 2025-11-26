@@ -23,6 +23,9 @@ PCIe 3.0: 3,500MB/s
 PCIe 4.0: 7,000MB/s
 PCIe 5.0: 10,000MB/s
 
+**Allen(Hex) Key**
+* 1.5mm
+
 3. M.2 Key E
 for Wifi or Bluetooth slot.
 

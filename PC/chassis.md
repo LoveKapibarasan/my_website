@@ -20,6 +20,9 @@ Now considered legacy hardware in modern PCs.
 * φ0.64mm
 
 
+**fan**
+50, 80, 92, 120, 140, 200 mm
+
 [Reference](https://www.pc-master.jp/jisaku/pc-case.html)
 
 * **PCLe Slot cover**

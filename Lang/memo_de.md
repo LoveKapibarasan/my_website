@@ -221,6 +221,8 @@ vorbestraft: 前科のある
 * Dichtung = 1. 詩・詩歌 2. 接着剤
 
 * anpassen = 適応させる
+* beheben-behoben = エラーを直す
+
 
 * das Bett
 * Schlafsack = 寝袋
@@ -254,6 +256,10 @@ vorbestraft: 前科のある
 * **Bemerkeng**: remark
 
 * **sich verlaufen**: 道に迷う
+
+###
+vorübergehend = temporaly
+
 
 ### Konj
 **Haupt**
