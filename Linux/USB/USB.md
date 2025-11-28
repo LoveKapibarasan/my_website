@@ -32,6 +32,12 @@ can build file system.
 **Loopback Device**
 Regard file as a block device.
 
+**cpu**
+```bash
+lscpu
+```
+
+
 
 ### Memo
 `Trash-1000` -- Trash box of user id 1000. 

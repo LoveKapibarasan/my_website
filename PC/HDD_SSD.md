@@ -18,6 +18,8 @@
 * 2280 (22×80mm) is the most common
 * 2242, 2260, 2210 also exist.
 
+* M2 is not equal to M2 screw.(socket shape is M) Size is a little bit different.
+
 **Speed**
 PCIe 3.0: 3,500MB/s 
 PCIe 4.0: 7,000MB/s
