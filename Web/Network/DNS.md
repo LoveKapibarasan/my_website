@@ -83,3 +83,6 @@ dhcp-option=6,8.8.8.8,1.1.1.1
 ### Sub Domain
 `xxx.original_domain.com`
 -> Can assign different server IP address.
+
+### Send DNS
+* From some higher port to 53(Server) 
