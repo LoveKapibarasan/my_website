@@ -51,3 +51,10 @@ df <- read_excel("file.xlsx", sheet = "sheet_name")
 write_xlsx(df, "output.xlsx")
 write_xlsx(list(sheet1 = df1, sheet2 = df2), "output.xlsx")
 ```
+
+**CRAN = Comprehensive R Archive Network**
+* mirror server
+```R
+options(repos = c(CRAN = "https://cran.rstudio.com/"))
+install.packages("gridExtra")
+```
