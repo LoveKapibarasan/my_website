@@ -20,6 +20,7 @@ Ctrl+D  # EOF(End of File)
 **with echo**(no redirect problem)
 ```bash
 echo "str" | sudo tee -a "$file_path"
+# Do not need EOF in this case
 ```
 ### Redirect Problem when using sudo
 
