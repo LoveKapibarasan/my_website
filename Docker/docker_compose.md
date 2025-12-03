@@ -1,6 +1,6 @@
 ```yaml
 # This version is outdated
-version
+version 'x'
 # Comment
 services:
   name1:
