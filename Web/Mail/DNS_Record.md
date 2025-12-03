@@ -5,7 +5,7 @@
 
 ### A, AAAA
 * IPv4, IPv6
-
+* Do not touch `localhost（127.0.0.1）, autoconfig, autodiscover`
 ### CNAME Record (Canonical Name = Alias)
 * Points one name to another name
 * www ->
