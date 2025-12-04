@@ -5,6 +5,16 @@
 
 ### A, AAAA
 * IPv4, IPv6
+* Do not touch `localhost（127.0.0.1）, autoconfig, autodiscover`
+```
+Type: A
+Name: subdomain
+Value: xx.xxx.xxx.xx
+```
+```powershell
+# Check
+nslookup subdomain.domain
+```
 
 ### CNAME Record (Canonical Name = Alias)
 * Points one name to another name

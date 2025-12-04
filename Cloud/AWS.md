@@ -64,11 +64,23 @@ curl checkip.amazonaws.com
 ### VPC(Virtual Private Cloud)
 
 * Virtual private network
-* 
+* Isolate resources
 
 **Subnet**
+* マンションと部屋
 * public or private
 * Specific IP address
+
+
+```
+VPC: 172.31.0.0/16
+  └─ Range: 172.31.0.0 ～ 172.31.255.255
+
+Subnet example
+172.31.0.0/24   → 172.31.0.0 ～ 172.31.0.255   (256)
+172.31.1.0/24   → 172.31.1.0 ～ 172.31.1.255   (256)
+172.31.2.0/24   → 172.31.2.0 ～ 172.31.2.255   (256)
+```
 
 CIDR(Classless Inter-Domain Routing)
 * originated from A, B, C
@@ -77,11 +89,20 @@ e.g. 10.0.0.0/16:
     * The first 16 bits is network(fixed.), others are hosts.
     * host = 0, 1, 2, 3. 2^n -1(111.., broadcast) are reserved
 
+
+### IGW(Internet Gateway)
+* Set in root table
+
 ### Auto-assign public IP
-* On you want to access from outside of VPN
+* Turn on you want to access from outside of VPN = public
+
+
 
 ### Availability Zone (AZ)
 * Data center location.
+* 冗長化
+
+### Billing and Cost Management
 
 
 ### 
@@ -91,4 +112,6 @@ e.g. 10.0.0.0/16:
 
 ### Notes
 
+* Select the correct region
 > EC2 does not open 25(e mail) by default.
+

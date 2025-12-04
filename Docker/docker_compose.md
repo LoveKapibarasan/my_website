@@ -1,6 +1,6 @@
 ```yaml
 # This version is outdated
-version
+version 'x'
 # Comment
 services:
   name1:
@@ -27,6 +27,8 @@ services:
       interval: "$n"s
       timeout: "$n"s
       retries: "$n"
+    # Container Port = Host Port
+    network_mode: host
     networks:
       - shared-network
     # Log Rotation
@@ -45,9 +47,13 @@ services:
       context: "$path" # like ../ used with COPY . . 
       dockerfile: ./Dockerfile
 
+      
+# bridge or host or none 
 networks:
   network_name:
     external: true
+  frontend:
+    driver: bridge
 ```
 
 ### Search Image Name

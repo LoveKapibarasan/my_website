@@ -1,4 +1,6 @@
 
+* stores local time and BIOS settings
+* Standard: CR2232
 
 CRnnNN
 * 3V

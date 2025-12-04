@@ -27,7 +27,12 @@ IPv4 is older and still used the most for example in a local network.
 IPv6 is newer and solves the problem of running out of IPv4 addresses.
 
 
+### DNAT (Destination NAT)
 
+* PREROUTING: when packet is receieved. Interface is determined.DNAT <-> POSTROUTING. SNAT
+
+### SNAT (Source NAT)
+* `-j MASQUERADE`: Rewrite source IP as exit IP
 
 **TUN/TAP**
 `/dev/net/tun`: Virtual Network Interface
