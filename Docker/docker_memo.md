@@ -105,6 +105,13 @@ services:
     * Run commands inside a container.
     * `-it`   run this command inside the container interactively as if I were in a terminal.
 
+**Enter Docker Shell**
+```bash
+docker exec -it $container_name_or_id /bin/bash
+### Edit Something
+# apt update && apt install vim -y 
+```
+
 * `docker ps`
     * `-q` → lists only the IDs of all running containers.
     * `-a` → lists also stopped containers.

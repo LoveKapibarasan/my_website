@@ -14,7 +14,10 @@ services:
         - "${port_of_host}:${port_of_container}/${protcol}"
     # Linux capabilities
     cap_add:
-    
+    environment:
+        TZ: Europe/Berlin
+        # - TZ=Europe/Berlin  # List Style
+
     restart: always # unless-stopped
     # Order
     depends_on:
@@ -32,6 +35,7 @@ services:
       options:
         max-size: "10m" # 10 MB
         max-file: "3" # 3 generations
+    # Synced with host
     volumes:
       # ro: read only(protect overwritting of host-file)
       # sock: read and write
