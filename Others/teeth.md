@@ -25,6 +25,7 @@ der Nerv　＝　神経
 * エナメル質、その内側にある象牙質、そして最内部にある歯髄という3つの層で構成
 * エナメル質は人体の中でもっとも硬い組織
 
+**Rezept**: 処方箋
 
 [URL 1](https://hatogaoka-dc.jp/diary-blog/40)
 
@@ -59,9 +60,15 @@ Apikale Granulome = 根尖性歯周炎
     2. Operationsmikroskop
 Fistel = 瘻孔, 排膿路
 
+Entzündung: 炎症
 
 * **dumpfe Schmerzen** 
 * **Backenzahn**
 * **mit der Silberfüllung**
-* **die Karies - **
+* **die Karies -**
 * **ein Röntgenbild** 
+
+### Medizin, Tablet
+* **Amoxicillin, Clavulansäure**: ペニシリン系抗生物質,  β-ラクタム環を持つ抗生物質, 細菌の細胞壁を壊して細菌を殺す, カビ（Penicillium菌）
+* **Novalgin**:メタミゾール
+* **Ibuprofen**: 鎮痛剤・消炎剤, イブプロフェン
