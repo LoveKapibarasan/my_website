@@ -39,3 +39,29 @@ Points to specific services with port numbers
 ### PTR
 * Pointer
 * IP -> Domain
+
+
+
+### DKIM (DomainKeys Identified Mail)
+```
+TXT mail._domainkey.example.com v=DKIM1; h=sha256; k=rsa; p=MIIBIjANBg...
+```
+* selector 'mail' is free to choose
+
+### SPF (Sender Policy Framework)
+```
+example.com. IN TXT "v=spf1 ip4:192.0.2.10 ip4:192.0.2.20 -all"
+```
+* v = version
+* `~all`: Warning(Soft fail)
+* `-all`: Deny(Hard fail)
+* `+all`: Allow All
+
+### DMARC (Domain-based Message Authentication, Reporting and Conformance)
+```
+_dmarc.example.com. IN TXT "v=DMARC1; p=none; rua=mailto:dmarc-reports@example.com"
+```
+* `p=none`: only report
+* `p=quarantine`: spam
+* `p=reject`: deny
+* `sp`: subdomain
