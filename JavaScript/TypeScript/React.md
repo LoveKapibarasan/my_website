@@ -14,6 +14,13 @@ import { useState } from "react";
        <input type="text" onChange={(e) => setXxx(e.target.value)} />
 ```
 
+**useCallBack**
+* Keep function when reloading
+```ts
+const Result = useCallback(() => {
+}, [useXXX]); 
+
+```
 
 **useEffect**
 
@@ -23,6 +30,12 @@ useEffect(() => {
 }, [/* dependent array */]);
 ```
 
+**useRef**
+```ts
+// keep the value
+const xxxRef = useRef(null);
+xxxRef.current.clear();
+```
 
 **routing**
 
