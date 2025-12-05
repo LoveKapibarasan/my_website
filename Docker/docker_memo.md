@@ -87,6 +87,7 @@ docker compose [global option] [sub command] [sub command option]
     * `--tail n`
 
 * `docker compose build`
+
 ```yaml
 services:
   xxx:
@@ -121,6 +122,8 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 
 * `docker image list` = `docker images` : 
     * `REPOSITORY`: image name
+
+* `docker inspect $container_id_or_name`: show image information as JSON
 
 ### Stop commands
 
