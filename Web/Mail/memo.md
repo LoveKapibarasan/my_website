@@ -28,13 +28,9 @@ Sincelely, Best Regards
 * Port 110, 995.
 
 
-**IMAP (Internet Message Access Protocol)**
-* Mails are managed on a server
-* Multiple device can access.
-* Port 143, 993
 
-### MTA（Mail Transfer Agent）
-* e.g. Postfix
+
+
 
 ## Elements
 1. Mail Server
