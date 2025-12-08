@@ -1,0 +1,3 @@
+-h -help
+-v -version
+-verbose

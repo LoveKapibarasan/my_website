@@ -1,0 +1,48 @@
+
+.cal-grid {
+  position: relative;
+  display: grid;
+  grid-template-columns: 60px repeat(7, 1fr);
+  border: 1px solid #dee2e6;
+  background: #fff;
+  font-family: sans-serif;
+}
+
+.cal-day-header {
+  padding: 0.5rem;
+  text-align: center;
+  font-weight: 600;
+  background: #f8f9fa;
+  border-bottom: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+}
+
+.cal-cell.time {
+  font-size: 0.8rem;
+  color: #6c757d;
+  padding: 2px 4px;
+  text-align: right;
+  border-right: 1px solid #dee2e6;
+  border-top: 1px solid #dee2e6;
+}
+
+.cal-cell {
+  border-top: 1px solid #dee2e6;
+  border-left: 1px solid #dee2e6;
+}
+
+.cal-hour-row {
+  height: 40px; /* 1 hour = 40px tall */
+}
+
+.cal-event {
+  position: absolute;
+  left: 3%;
+  width: 94%;
+  background: #0d6efd;
+  color: #fff;
+  padding: 2px 4px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  overflow: hidden;
+}

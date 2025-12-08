@@ -1,0 +1,70 @@
+ATX: 150mm  x 86mm  x 140mm 
+SFX: 125mm  x 63.5mm  x 100mm 
+TFX: 85mm  x 64mm  x 175mm 
+
+* 400W～1200W
+* Backup power for GPU, CPU.
+* +12V、+5V、+3.3V、-12V
+* 24(main), 4 pin..
+
+**GPU**
+* 6 or 8 pin
+* × 1 ~ 2
+
+**AC Adapter**
+Standard AC（IEC C13)
+
+## Power Consumption Guide by Component
+
+### CPU
+
+    * Entry-level (i3, Ryzen 3): 35–65W
+
+    * Mid-range (i5, Ryzen 5): 65–105W
+
+    * High-end (i7/i9, Ryzen 7/9): 105–150W
+
+    * OC / HEDT (Threadripper, Xeon, etc.): 200–300W+
+
+### GPU (Graphics Card) !!Main!!
+
+    * Entry-level (GTX 1650, RX 6400, etc.): 75–120W
+
+    * Mid-range (RTX 3060, RX 6600–6700): 170–250W
+
+    * High-end (RTX 3080/4080, RX 6800XT, etc.): 300–400W
+
+    * Flagship (RTX 4090, etc.): 450–600W
+
+### Memory (RAM)
+
+    * DDR4/DDR5 module per stick: 3–5W
+
+
+### Storage
+
+    * SSD (SATA/NVMe): 2–5W
+
+    * HDD (3.5"): 6–10W
+
+
+### Motherboard
+
+    * Chipset + VRM: 30–60W
+
+### Cooling
+
+    * Case fan (per fan): 1–3W
+
+    * Water pump (AIO/Custom loop): 10–20W
+
+
+
+### 80 Plus
+
+
+**Screw**
+**M4:(Diameter 4mm)**
+* Flathead
+* 10 ~ 12 mm
+* 0.7mm pitch

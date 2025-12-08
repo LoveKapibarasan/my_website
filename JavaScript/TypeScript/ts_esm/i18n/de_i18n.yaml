@@ -1,0 +1,5 @@
+: "
+| Format   | Eigenschaft (Beschreibung)                    | In Node.js (Import-Methode) |
+| -------- | --------------------------------------------- | --------------------------- |
+| CommonJS | Alter Standard, traditionelles Node.js-System | `require()`                 |
+| ESM      | Neuer Standard mit `import/export` Syntax     | `import`                    |" 
