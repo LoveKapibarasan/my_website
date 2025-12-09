@@ -85,6 +85,7 @@ docker compose [global option] [sub command] [sub command option]
     * `-f` = real time log
     * `--since 10m`
     * `--tail n`
+    * `docker logs $id 2>&1 | grep 'xxx'`: Sometimes logs are on stderr.
 
 * `docker compose build`
 ```yaml
