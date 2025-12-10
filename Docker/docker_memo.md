@@ -132,6 +132,8 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
     * Pulled or built images are not deleted
     * delete container
 
+* `docker rmi -f $(docker images -q)`
+    * delete image
 
 * `docker image rm $imageID_or_name1 $imageID_or_name2`
 

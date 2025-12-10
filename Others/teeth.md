@@ -65,3 +65,8 @@ Fistel = 瘻孔, 排膿路
 * **mit der Silberfüllung**
 * **die Karies - **
 * **ein Röntgenbild** 
+
+
+垂直感染
+
+虫歯のなりやすさ, 極めて大きな個人差
