@@ -151,7 +151,9 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 * `docker system df`
     * Check docker disk size.
 
-
+**Vomumes**:
+    *  `docker volume ls`
+    *  `docker volume rm volume_name`
 
 ### Health Check
 
