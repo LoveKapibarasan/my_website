@@ -8,6 +8,10 @@ from comedy England (BBC) 「Monty Python’s Flying Circus」
 
 * (URL)[https://www.python.org/]
 
+### Install
+* `~ 3.14`: `.msix`
+* `%LocalAppData%\Python\bin`: Fixed Install Path
+
 ### Style
 [CPython](https://github.com/python/cpython)
 [RustPython](https://github.com/RustPython/RustPython.git)

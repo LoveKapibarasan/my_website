@@ -25,6 +25,14 @@ clang++ program.cpp -o program
 ```bash
 ./program
 ```
+
+## Preprocessor directive
+```cpp
+// Windows
+#ifdef _WIN32 // If defined
+```
+
+
 ## Comment
 * `//`, `/**/`
 ## Print
@@ -36,5 +44,17 @@ cout << "Hello," << "World " << var << " !" << endl;
 // <<  = insert
 // endl = \n + buffer flush
 // \\n = \n
+```
+
+### Debug
+```cpp
+#include <spdlog/spdlog.h>
+
+int main() {
+    spdlog::info("Debug: x = {}", 42);
+    spdlog::warn("This is a warning message.");
+    spdlog::error("An error occurred!");
+    return 0;
+}
 ```
 

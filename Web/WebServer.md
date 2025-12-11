@@ -82,3 +82,7 @@ http {
 serve -s
 # -s or --single: SPA mode. All HTTP requests will be redirect to 3000
 ```
+
+## Web Socket
+* Bidirectional
+* Browser <-> Server

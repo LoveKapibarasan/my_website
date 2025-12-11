@@ -33,3 +33,7 @@ macOS Sequoia 15（2024~）
 1. Red: Close
 2. Green: Full screen
 3. Yellow: Minimize
+
+### Keys
+* `Command + R`: Recovery Mode
+* `Option`: Boot Manager

@@ -7,4 +7,5 @@ logging.basicConfig(level=logging.DEBUG,
 debug(f'x is {x}')
 # name space
 logger = logging.getLogger("myapp.module1")
+
 ```

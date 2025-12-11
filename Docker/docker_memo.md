@@ -88,6 +88,9 @@ docker compose [global option] [sub command] [sub command option]
     * `docker logs $id 2>&1 | grep 'xxx'`: Sometimes logs are on stderr.
 
 * `docker compose build`
+
+* `docker compose build`
+
 ```yaml
 services:
   xxx:
@@ -123,6 +126,8 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 * `docker image list` = `docker images` : 
     * `REPOSITORY`: image name
 
+* `docker inspect $container_id_or_name`: show image information as JSON
+
 ### Stop commands
 
 * `docker stop $(docker ps -q)`
@@ -151,7 +156,9 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
 * `docker system df`
     * Check docker disk size.
 
-
+**Vomumes**:
+    *  `docker volume ls`
+    *  `docker volume rm volume_name`
 
 ### Health Check
 

@@ -1,9 +1,14 @@
 
 ## Bot
 
-dependabot:
+* `dependabot`:
     * dependency package update.
-stale bot:
+* `Renovate` 
+* `stale bot`:
     * close pld PR or Issue.
-gpt-commit-bot：
+* `gpt-commit-bot`：
     * generate commit message.
+
+
+###
+`Settings` -> `Collaborators and teams` -> `Add People`

@@ -48,3 +48,7 @@
     * Arbeitszeit: in der Regel unter 30-35 Stunden pro Woche
 
 
+### Steuer
+
+* Nummer
+* Steuerklasse: heiratet?

@@ -22,6 +22,13 @@ die Betäubung =麻酔
 die Karies = 虫歯
 der Nerv　＝　神経
 
+**Wurzelzyste**
+**Zahnersatz**:　入れ歯
+
+**die Betäubung**: 麻酔
+**die Karies**: 虫歯
+**der Nerv**: 　神経
+
 * エナメル質、その内側にある象牙質、そして最内部にある歯髄という3つの層で構成
 * エナメル質は人体の中でもっとも硬い組織
 
@@ -32,6 +39,30 @@ der Nerv　＝　神経
 28本
 
 **抜歯**
+**Rezept**: 処方箋
+
+
+
+###**ein Röntgenbild**
+* 0.01〜0.03mSv
+* CT：0.1mSv
+* 2.1mSv / per year
+
+
+
+### 本数
+* 28本
+
+### 虫歯
+* C0 ~ 4
+
+### 治療
+
+**根冠治療**
+    * 
+
+**抜歯**
+ * 麻酔 -> 靭帯切断　-> 鉗子
  * 血餅 <-> dry socket
 
 **再植**
@@ -51,22 +82,26 @@ Retrograde Wurzelkanalfüllung = 逆根管治療
 
 Methylenblue: 感染した部分や治療漏れを視認
 
-Apikale Granulome = 根尖性歯周炎
+Apikale Granulome = 根尖性歯周炎, 根尖病変
     * 歯根膜
     * うずくような痛み
     * **歯根端切除**: Wurzelspitzenresektion
     1. MTA（Mineral Trioxide Aggregate）
     2. Operationsmikroskop
+    3.　ラバーダム
+    4. CT
+    * 保険の成功率: 30％, 自費: 80%
+
 Fistel = 瘻孔, 排膿路
 
+Entzündung: 炎症
 
 * **dumpfe Schmerzen** 
 * **Backenzahn**
 * **mit der Silberfüllung**
-* **die Karies - **
-* **ein Röntgenbild** 
+* **die Karies -**
 
-
-垂直感染
-
-虫歯のなりやすさ, 極めて大きな個人差
+### Medizin, Tablet
+* **Amoxicillin, Clavulansäure**: ペニシリン系抗生物質,  β-ラクタム環を持つ抗生物質, 細菌の細胞壁を壊して細菌を殺す, カビ（Penicillium菌）
+* **Novalgin**:メタミゾール
+* **Ibuprofen**: 鎮痛剤・消炎剤, イブプロフェン

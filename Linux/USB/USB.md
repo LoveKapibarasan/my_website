@@ -75,7 +75,6 @@ udisksctl unmount -b $partition
 
 
 * `Boot on GRUB2 menu`
-* Boot via GRUB2
 
 **Without LiveUSB**
 

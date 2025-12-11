@@ -61,6 +61,7 @@
 
 % Ordered list
 \begin{enumerate}
+% \begin{enumerate}[label=\alph*)] a,b,c..
   \item First item
   \item Second item
 \end{enumerate}
