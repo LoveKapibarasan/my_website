@@ -47,6 +47,11 @@
 
 * **erholen**: 回復する
 
+* **überfüllt**: 混んでいる
+
+
+* **die Anschrift**: 住所
+
 ### Verb
 
 * **fragen nach 3**
@@ -157,6 +162,13 @@ vorbestraft: 前科のある
 
 * beginnen- begonnen
 * fahren - fuhr - gefahren
+
+
+* sorgfältig: 丁寧な、慎重な、念入りな、注意深い
+* betreffen: 関係する・影響する
+* Insizion: 切開
+* versetzen: 移す／異動させる, （気分・状態に）させる
+  * Die Nachricht versetzte sie in Erstaunen.
 
 ### Da + Prä
 

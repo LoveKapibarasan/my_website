@@ -16,6 +16,8 @@ Value: xx.xxx.xxx.xx
 nslookup subdomain.domain
 ```
 
+* ssh, server, whm(rental server), ftp, autoconfig, autodiscover
+
 ### CNAME Record (Canonical Name = Alias)
 * Points one name to another name
 * www ->
