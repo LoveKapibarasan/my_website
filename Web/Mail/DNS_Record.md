@@ -23,6 +23,9 @@ nslookup subdomain.domain
 * www ->
 
 ### MX Record (Mail Exchange)
+* Priority
+* Tells where email should be delivered
+
 * Smaller number, higher priority
 * Hostname should be domain
 * Tells where email should be delivered

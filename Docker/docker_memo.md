@@ -85,6 +85,9 @@ docker compose [global option] [sub command] [sub command option]
     * `-f` = real time log
     * `--since 10m`
     * `--tail n`
+    * `docker logs $id 2>&1 | grep 'xxx'`: Sometimes logs are on stderr.
+
+* `docker compose build`
 
 * `docker compose build`
 
@@ -134,6 +137,8 @@ CONTAINER_ID IMAGE COMMAND CREATED STATUS PORTS NAMES
     * Pulled or built images are not deleted
     * delete container
 
+* `docker rmi -f $(docker images -q)`
+    * delete image
 
 * `docker image rm $imageID_or_name1 $imageID_or_name2`
 

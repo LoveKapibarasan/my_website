@@ -73,6 +73,9 @@ udisksctl unmount -b $partition
 ```
 > You can not change partition layout.
 
+
+* `Boot on GRUB2 menu`
+
 **Without LiveUSB**
 
 ```bash

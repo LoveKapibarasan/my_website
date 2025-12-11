@@ -8,6 +8,7 @@
 
 * **Data validation**
   → Automatically checks if incoming data has the correct type and format.
+  * like typescript
 
 * **Data parsing**
   → Automatically converts types (e.g., string `"123"` to integer `123`).
