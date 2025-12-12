@@ -108,6 +108,35 @@ e.g. 10.0.0.0/16:
 ### Route 53
 
 
+### SES(Simple Email Service)
+
+* DKIM, SPF, MAIL FROM, DMARC, MX records
+> Use subdomain for MAIL FROM domain.
+> MX records depend on region.
+
+SPF(TXT)
+```
+v=spf1 include:amazonses.com -all
+```
+
+```
+v=DMARC1; p=none; rua=mailto:MyEmailAddress
+```
+
+**Recipients**
+
+**Actions**
+| Action        | Detail               |
+| ------------- | -------------------- |
+| **S3**        | Save（.eml）to S3     |
+| **SNS**       | Notify               |
+| **Lambda**    | Parse                 |
+| **WorkMail**  | WorkMail mailbox      |
+| **Stop rule** |                       |
+
+**Send Test Email**
+* Custom recipient address
+
 ### 
 * Root User
 * IAM（Identity and Access Management）
