@@ -67,6 +67,14 @@ sudo iptables -t nat POSTROUTING -o $interface -j MASQUERADE
 3. Packet mangling
 → Performs advanced processing such as modifying communication headers.
 
+
+**commands**
+```bash
+iptables -t nat -L PREROUTING -n --line-numbers
+iptables -t nat -D PREROUTING $line_number
+```
+
+
 ### Modify Interface
 ```bash
 interface $interface
