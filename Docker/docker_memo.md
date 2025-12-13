@@ -77,6 +77,7 @@ docker compose [global option] [sub command] [sub command option]
     * `--rmi all`: remove image
     * `--rmi local`: Only built image
     > `Down` stores cache. Some files might not be upgraded.
+    * `-v`: delete volumes
 
 * `docker compose build`
     * `--no-cache`
